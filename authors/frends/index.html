@@ -15,15 +15,17 @@
     <![endif]-->
 
     <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루 프랜즈" type="application/rss+xml">
-    <link href='http://fonts.googleapis.com/css?family=Magra:700' rel='stylesheet' type='text/css'>
 
     <!-- Le styles -->
     <link rel="canonical" href="http://frends.github.com">
+    <link href='http://fonts.googleapis.com/css?family=Magra:700' rel='stylesheet' type='text/css'>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="/css/prettify.css" rel="stylesheet">
     <link href="/css/haroo.css" rel="stylesheet">
+    <link href="/css/haroo-wood.css" rel="stylesheet">
+    <link href="/css/prettify.css" rel="stylesheet">
+    <link href="/css/archives.css" rel="stylesheet">
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -44,7 +46,9 @@
 
   <body data-spy="scroll" data-target=".subnav" data-offset="50">
 
-        <div class="navbar navbar-fixed-top">
+    
+<div class="container">
+    <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -53,8 +57,14 @@
             <span class="icon-bar"></span>
           </a>
 
-          <a class="pull-right" href="/rss.xml"><img src="/img/buttons/rss.png" /></a>
+          <a class="pull-right" style="margin-top: 5px;" href="/rss.xml"><img src="/img/social/rss_dark.png" /></a>
           
+          
+
+          <form class="navbar-search pull-right" style="margin-right: 2px;" method="get" action="http://www.google.com/search">
+              <input type="hidden" name="q" value="site:frends.github.com" />
+              <input type="text" name="q" value="" results="0"class="search-query span2" placeholder="Search" />
+          </form>
 
           <div class="nav-collapse">
             <ul class="nav">
@@ -70,8 +80,11 @@
         </div>
       </div>
     </div>
+</div>
 
-    <header class="overview">
+    <!-- Masthead (blueprinty thing)
+================================================== -->
+<header class="jumbotron masthead" id="overview">
     <div class="inner">
     </div>
 </header>
@@ -91,7 +104,7 @@
             <a class="pull-left" href="/authors/frends" title=""><img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
             <p>
                 <strong>frends</strong><br/>
-                <span>@frends_kr</span>
+                <span><a href="http://twitter.com/frends_kr" target="_blank">@frends_kr</a></span>
             </p>
         </div>
         <hr>
@@ -142,11 +155,13 @@
 </div><!-- /container -->
 
 
-        <footer class="footer">
+    
+
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="span12 ">
-                    <div class="well">
+                    <div class="well transbox">
                         <p class="pull-right"><a href="#">Back to top</a></p>
                             <strong>haroopress</strong> developed by <a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a>,<a href="http://twitter.com/haroopress" target="_blank">@haroopress</a> and source in <a href="https://github.com/rhiokim/haroopress" target="_blank">github</a><br/>
                             Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.<br />
