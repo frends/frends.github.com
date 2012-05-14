@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루 프랜즈]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://frends.github.com</link><generator>NodeJS RSS Module</generator><lastBuildDate>Mon, 14 May 2012 03:30:46 GMT</lastBuildDate><atom:link href="http://frends.github.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[frends.kr]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>FRENDS 가 무엇인가요?</h2>
+
+<p>FRENDS 는 개발자 커뮤니티가 아닌 하나의 문화입니다.
+사전적으로는 FRENDS 는 Front-end Developers 에서 출발하였습니다. 
+그리고 프론트 앤드 개발자들의 공간입니다.</p>
+
+<p>발음상으로 친구라는 의미도 될 수도 있습니다.  </p>
+
+<p>하지만 FRENDS 에 담고 싶은 의미는 '프론트 앤드 기술과 개발을 좋아하는 사람들이 만나서 공유하고 즐거워하는 문화' 입니다.  </p>
+
+<p>단순히 어떤 하나의 기술에 집중하여 스터디를 하거나 발표를 하는 모임이 아닌 개발자의 길을 걸어가며 오랫동안 서로 자신의 이야기를 들려주고 나의 이야기를 들어주는 이야기의 벗이 되어주는 그러한 모임입니다.</p>
+
+<h2>FRENDS 가 걸어온 길</h2>
+
+<p>시작 : 2010년 5월 10일 8명의 얼굴도 모르는 사람들과 시작
+2011년 10월 20일까지 10명 그리고 4번의 공식 모임
+frends.kr 을 통한 기술 공유, 자바스크립트 문서 번역 활동
+@boxersb 의 주도하에 JSAF 스터디
+@andrwj 자바스크립트 핵심. 강의</p>
+]]></description><link>http://frends.github.com/post/frends-dot-k-r</link><guid isPermaLink="false">frends-dot-k-r</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item></channel></rss>
