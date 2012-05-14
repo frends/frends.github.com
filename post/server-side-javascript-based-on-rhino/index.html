@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Open Class - Be the JavaScript Ninja |  프론트앤드 개발자들의 모루! 프랜즈(frends)</title>
+    <title>Server Side javaScript based on Rhino |  프론트앤드 개발자들의 모루! 프랜즈(frends)</title>
     <meta name="description" content="프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.">
     <meta name="author" content="frends">
     <meta name="keywords" content="javascript,html5,css3,node.js,jQuery" />
@@ -123,7 +123,7 @@
                     <h3>About this Article</h3>
                     <p>
                         <h5>Date Released:</h5>
-                        <span>Monday, May 14 2012 1:33 PM</span>
+                        <span>Monday, May 14 2012 4:42 PM</span>
                     </p>
                 </div>
             </div>
@@ -235,7 +235,7 @@
                     <div class="well bg">
                         
                         <div class="page-header">
-                            <h1>Open Class - Be the JavaScript Ninja</h1>
+                            <h1>Server Side javaScript based on Rhino</h1>
                         </div>
 
                         
@@ -278,27 +278,196 @@
 
 
                         <div class="markdown">
-                            <p>금요일 오후 8시에 #FRENDS 팀이 모여서 여러가지를 의논했고, 리더인 <a href="http://twitter.com/rhiokim">@Rhiokim</a>님이 곧 <a href="http://frends.kr">http://frends.kr</a> 에 공개 강좌관련 알림을 올릴 것입니다.</p>
+                            <p>먼저 ContextFactory Class에서 제공하는 observeInstructionCount(Context, int) Method를 Overriding 하는 것으로 시작한다.</p>
 
-<p>그동안 #FRENDS 모임이 개발자들과 소통하기 위한 환경을 구축하느라 닫혀진 블로그 페이지만 보여왔으나 몇가진 서비스 사이트를 오픈함으로써 최소한의 대화의 창은 열리게 되었구요, 저만 공개강좌를 하는 것이 아니라 @firejune 님의 “디자이너를 위한 자바스크립트” 라든가 @Rhiokim 님의 “ExtJS 활용”, @Outsider__ 님의 “Javascript 기본” 등과 같이 모든 회원이 자신의 지식을 같이 나눌려고 노력할 것이며, 프론트 개발의 워킹그룹으로써의 활동도 할 예정입니다. (물론 비공식적이며 자체적인 활동일 뿐입니다 )</p>
+<p>이 Method는 본래 실행할 Javascript 코드의 Instruction 개수를 제한을 두어, 실행 제한을 두기 위해 사용하는데, 이를 재정의하면 Timeout 기능 구현이 가능하겠다.</p>
 
-<p>커리큘럼은 곧 <a href="http://docs.ajaxian.kr/">http://docs.ajaxian.kr/</a> 에 일차적으로 올려지게 될 것이구요, “객체,배열,함수,클래스” 에 대한 내용이 주가 될것입니다.
-자바스크립트로 본격적인 프로그래밍을 시작하려는 분들은 반드시 숙지해야하는 내용을 다루게 되므로 초보자 대상은 아닙니다. (#FRENDS내 다른 분이 저보다 훨씬 더 잘 설명해주실 것입니다)
-중고급자로 가기위한 관문이라고 보시면 되겠네요. 따라서, 어느정도 자바스크립트를 코딩하며 고민해본 사람에게 적절할 것입니다.</p>
+<p>observeInstructionCount의 기본 구현은 실행 코드의 Instruction의 갯수에 제한을 둘 경우에만 작동하는데, 이는 Context Class의 setInstructionObserverThreshold(int count)로 실행 코드 갯수에 제한을 둘 수 있다.</p>
 
-<p>댓글을 달아주신 분만 생각한다면 20명까지만 참석인원을 제한할 수 밖에 없을 것 같아요. 날짜와 시간은 2010년 7월 24일 (토) 오후 2시~5시 입니다. @firejune의 “디자이너를 위한 자바스크립트” 가 같은 날에 진행될지는 아직 일정이 잡히지 않았기에 추후 @firejune이 직접 알려줄 것이라 생각합니다.</p>
+<p>친절하게도, ContextFactory의 API 문서를 보면 아래와 같은 코드가 첫장에 소개되어있다. 아래의 코드는 실행 코드가 10초가 넘을 경우 Error를 발생하게 하는 예제이다. (<a href="http://www.mozilla.org/rhino/apidocs/org/mozilla/javascript/ContextFactory.html">http://www.mozilla.org/rhino/apidocs/org/mozilla/javascript/ContextFactory.html</a>)</p>
 
-<p>장소가 여의치 않아 토즈에서 진행한다면 서울시내의 토즈 중 한군데서 하게될 것이라 생각되고 참가비는 1만원 ~ 1만 5천원 사이가 될 것입니다.</p>
+<pre><code class="java">import org.mozilla.javascript.*;
 
-<p>다시 한번 더 말씀드리고 싶은 것은, 커리큘럼이 아직 완전히 정해지지 않았으나 자바스크립트 입문자가 듣기에는 분명히 부적절한 내용이 있을 것이므로 이점을 생각하셔서 참가 신청을 바랍니다.</p>
+ class MyFactory extends ContextFactory
+ {
 
-<h3>참가신청</h3>
+     // Custom Context to store execution time.
+     private static class MyContext extends Context
+     {
+         long startTime;
+     }
 
-<p><a href="http://frends.kr/">http://frends.kr/</a> 사이트에서 공지내용이 올라오면 댓글로 신청할 수 있고 선착순입니다.</p>
+     static {
+         // Initialize GlobalFactory with custom factory
+         ContextFactory.initGlobal(new MyFactory());
+     }
 
-<p>공개강좌에 대한 의문사항은 여기 댓글로 달아주시고, 공개강좌의 Javascript 관련 질문은<a href="http://qa.frends.kr/">http://qa.frends.kr/</a> (셋업은 완료되었으나 잠시 보이지 않습니다)에서 할 수 있을 거예요.</p>
+     // Override makeContext()
+     protected Context makeContext()
+     {
+         MyContext cx = new MyContext();
+         // Make Rhino runtime to call observeInstructionCount
+         // each 10000 bytecode instructions
+         cx.setInstructionObserverThreshold(10000);
+         return cx;
+     }
 
-<p>더 자세한 사항이나 다른 건의 사항은 ‘Contact’ 메뉴를 통해서 제게 메일 보내주시면 됩니다.</p>
+     // Override hasFeature(Context, int)
+     public boolean hasFeature(Context cx, int featureIndex)
+     {
+         // Turn on maximum compatibility with MSIE scripts
+         switch (featureIndex) {
+             case Context.FEATURE_NON_ECMA_GET_YEAR:
+                 return true;
+
+             case Context.FEATURE_MEMBER_EXPR_AS_FUNCTION_NAME:
+                 return true;
+
+             case Context.FEATURE_RESERVED_KEYWORD_AS_IDENTIFIER:
+                 return true;
+
+             case Context.FEATURE_PARENT_PROTO_PROPERTIES:
+                 return false;
+         }
+         return super.hasFeature(cx, featureIndex);
+     }
+
+     // Override observeInstructionCount(Context, int)
+     protected void observeInstructionCount(Context cx, int instructionCount)
+     {
+         MyContext mcx = (MyContext)cx;
+         long currentTime = System.currentTimeMillis();
+         if (currentTime - mcx.startTime &gt; 10*1000) {
+             // Context가 생성되고 스크립트가 실행될때, 10초가 넘을 경우 Script를 중단한다.
+             // 이 경우에는 실행 코드 자체가 중단된다.
+             throw new Error();
+         }
+     }
+
+     // Override doTopCall(Callable,
+                               Context, Scriptable,
+                               Scriptable, Object[])
+     // doTopCall의 경우, 실제 스크립트를 evaluateString 등으로 실행 시킬 때 실행 시점 전에 호출되는 Method이다.
+     // 그렇기 때문에 실행 전에 시작 시간을 저장해놓았다.
+     protected Object doTopCall(Callable callable,
+                                Context cx, Scriptable scope,
+                                Scriptable thisObj, Object[] args)
+     {
+         MyContext mcx = (MyContext)cx;
+         mcx.startTime = System.currentTimeMillis();
+
+         return super.doTopCall(callable, cx, scope, thisObj, args);
+     }
+
+ }
+</code></pre>
+
+<p>그런데 만약, 실행해야할 Script가 하나가 아니고 여러개일 경우라면 어떨까?</p>
+
+<p>Script를 실행 시켜주는 Shell이 있고, 여러 Script를 받아서 제한 시간내에 실행시키고 결과를 출력해야 하는 경우라면, 위의 코드를 그대로 쓰기에는 좀 부족하다.</p>
+
+<p>단순히 Error를 Throw 하기 보다 일종의 Runtime Exception을 던지는게 훨신 깔끔해 보일듯 하다.</p>
+
+<p>그래서 위 코드의 observeInstructionCount를 Context.throwAsScriptRuntimeEx를 사용하여 아래처럼 바꿔보았다.</p>
+
+<pre><code class="java">...
+protected void observeInstructionCount(Context cx, int instructionCount)
+    {
+      MyContext mcx = (MyContext)cx;
+        mcx.endTime = System.currentTimeMillis() - mcx.startTime;
+        if ( mcx.endTime &gt; limitedTime*1000 ) {
+             // Context에 throwAsScriptRuntimeEx라는 Exception이 있다.
+             // 이를 활용하면 프로그램 자체가 Error로 중단되는 일은 없겠다.
+             throw Context.throwAsScriptRuntimeEx(new Exception(&quot;Timeout&quot;));
+        }
+    }
+...
+</code></pre>
+
+<p>여기까지 일단 10초 내로 Timeout을 거는건 해결되었다. 그런데, 스크립트 별로 제한 시간을 달리 둘 수도 있을 것이다.</p>
+
+<p>이런 경우는 프로그램을 작성하기 나름이라 어느것이 효율적이라고 잘라 말하기는 어렵다.</p>
+
+<p>여기서는 Rhino의 Context Class의 Method를 활용하는 쪽으로 예를 들어본다.</p>
+
+<p>아래의 코드는 다른 Class에서 위의 코드를 사용해 Javascript를 실행하는 예제이다.</p>
+
+<pre><code class="java">import org.mozilla.javascript.*;
+
+public class TestScript {
+    // ContextFactory를 앞에서 정의한 MyFactory Class의 Instance로 대체한다.
+    // 아래의 Static Block은 앞에서 작성한 MyFactory 에서도 정의되어 있는데,
+    // 이는 실제 Context에 진입해 코드를 실행할때 필요하기 때문에 여기에 두었다.(즉, 위에서는 삭제해도 되겠다.)
+    static {
+        ContextFactory.initGlobal(new MyFactory());
+    }
+
+    public static void main(String[] args)
+    {
+        Context cx = Context.enter();
+        Long runningTime = 0;
+        try {
+            Scriptable scope = cx.initStandardObjects();
+
+            // 실행하기 전에 해당 Thread 영역에 제한시간을 설정한다.
+            // Context Class의 putThreadLocal과 getThreadLocal을 사용하여 값을 전달한다.
+            cx.putThreadLocal(&quot;limitedTime&quot;, 5);
+
+            cx.evaluateString(scope, &quot;while(1){};&quot;, &quot;MySource&quot;, 1, null);
+
+        } finally {
+            runningTime = (Long)cx.getThreadLocal(&quot;executionTime&quot;);
+            Context.exit();
+        }
+        System.out.println(&quot;Running time : &quot;+runningTime+&quot;s&quot;);
+    }
+}
+</code></pre>
+
+<p>위의 코드에서 Context에 &quot;limitedTime&quot; 이라는 Key로 5란 값을 Value로 설정했고, &quot;executionTime&quot; 이라는 Key로 최종 실행 시간을 가져오도록 설정했다.  이에 맞춰서 기존의 MyContextFactory에도 일부 코드가 수정되어야 한다. 수정 코드는 아래와 같다.</p>
+
+<pre><code class="java">...
+   // Override observeInstructionCount(Context, int)
+    protected void observeInstructionCount(Context cx, int instructionCount)
+    {
+      MyContext mcx = (MyContext)cx;
+
+        // 현재 시점에서의 실행 시간을 의미한다.
+        long currentRunningTime = System.currentTimeMillis() - mcx.startTime;
+
+        // 이 부분에서 앞에서 설정한 값을 Thread 영역에서 가져온다.
+        long limitedTime = (Long)(cx.getThreadLocal(&quot;limitedTime&quot;));
+
+        // 이 부분에서 실행시간이 'limitedTime' 초를 넘어설 경우를 검사한다.
+        if ( currentRunningTime &gt; limitedTime*1000 ) {
+
+             // 중단된 지점까지의 실행 시간을 executionTime으로 값을 저장한다.
+             cx.putThreadLocal(&quot;executionTime&quot;, currentRunningTime);
+
+             throw Context.throwAsScriptRuntimeEx(new Exception(&quot;Timeout&quot;));
+        }
+    }
+
+    // 정상적으로 종료되었을 경우를 고려해 이 부분에 추가로 종료시간을 Context에 저장한다.
+    protected Object doTopCall(Callable callable,
+                               Context cx, Scriptable scope,
+                               Scriptable thisObj, Object[] args)
+    {
+      MyContext mcx = (MyContext)cx;
+      mcx.startTime = System.currentTimeMillis();
+
+      Object retObj = super.doTopCall(callable, cx, scope, thisObj, args);
+
+      // 최종 실행 시간을 executionTime으로 값을 저장한다.
+      long finalRunningTime = System.currentTimeMillis() - mcx.startTime;
+
+        cx.putThreadLocal(&quot;executionTime&quot;, finalRunningTime);
+        return retObj;
+    }
+...
+</code></pre>
+
+<p>위의 코드는 <a href="http://jsonlinejudge.appspot.com"><a href="http://jsonlinejudge.appspot.com">http://jsonlinejudge.appspot.com</a></a> 에서 코드의 실행시간을 측정하기 위한 방법으로 사용되었다.</p>
 
                         </div>
                         <hr />
@@ -306,13 +475,13 @@
                         <div class="row-fluid">
                             
                             <div class="pull-right">
-                                <a href="/post/server-side-javascript-based-on-rhino" class="btn btn-info">Server Side javaScript based on Rhino <i class="icon-white icon-chevron-right"></i></a>
+                                <a href="/post/simple-data-transmission-in-javascript" class="btn btn-info">Simple Data Transmission in JavaScript <i class="icon-white icon-chevron-right"></i></a>
                             </div>
                             
 
                             
                             <div class="pull-left">
-                                <a href="/post/managing-scope-in-javascript" class="btn btn-info"><i class="icon-white icon-chevron-left"></i> Managing Scope in JavaScript</a>
+                                <a href="/post/open-class---be-the-javascript-ninja" class="btn btn-info"><i class="icon-white icon-chevron-left"></i> Open Class - Be the JavaScript Ninja</a>
                             </div>
                             
                         </div>

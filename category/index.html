@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title> 프론트앤드 개발자들의 모루 프랜즈</title>
+    <title> 프론트앤드 개발자들의 모루! 프랜즈(frends)</title>
     <meta name="description" content="프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.">
     <meta name="author" content="frends">
-    <meta name="keywords" content="JavaScript, CSS, HTML, Node.js, Front-end" />
+    <meta name="keywords" content="javascript,html5,css3,node.js,jQuery" />
     <meta name="generator" content="haroopress v0.8.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -14,7 +14,7 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루 프랜즈" type="application/rss+xml">
+    <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루! 프랜즈(frends)" type="application/rss+xml">
 
     <!-- Le styles -->
     <link rel="canonical" href="http://frends.github.com">
@@ -59,6 +59,8 @@
 
           <a class="pull-right" style="margin-top: 5px;" href="/rss.xml"><img src="/img/social/rss_dark.png" /></a>
           
+            <a class="pull-right" style="margin-top: 5px;" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/social/twitter_dark.png" /></a>
+          
           
 
           <form class="navbar-search pull-right" style="margin-right: 2px;" method="get" action="http://www.google.com/search">
@@ -98,9 +100,21 @@
                     <li class="nav-header">Categories</li>
                     <li class="active"><a href="/category"><i class="icon-white icon-home"></i> Home</a></li>
                     
-                    <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
+                    <li><a href="/category/CouchDB"><i class="icon-book"></i> CouchDB</a></li>
                     
                     <li><a href="/category/JavaScript Core"><i class="icon-book"></i> JavaScript Core</a></li>
+                    
+                    <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
+                    
+                    <li><a href="/category/JavaScript"><i class="icon-book"></i> JavaScript</a></li>
+                    
+                    <li><a href="/category/jQuery"><i class="icon-book"></i> jQuery</a></li>
+                    
+                    <li><a href="/category/Java"><i class="icon-book"></i> Java</a></li>
+                    
+                    <li><a href="/category/rhino"><i class="icon-book"></i> rhino</a></li>
+                    
+                    <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
                     
                 </ul>
             </div>
@@ -123,6 +137,24 @@
     </div>
     
                 
+        <div class="well _github_repo">
+            <div class="pull-right">
+                <a href="/github"><i class="icon-info-sign"></i></a>
+            </div>
+            <h6>github.com repositories</h6>
+            <div class="progress progress-info progress-striped active">
+                <div class="bar" style="width: 10%;"></div>
+            </div>
+        </div>
+        <script>
+            github({
+                user: 'frends',
+                count: 10,
+                skipForks: true,
+                target: '._github_repo'
+            });
+        </script>
+    
 
             
 <div class="well">
@@ -153,6 +185,64 @@
             
                 <div class="row">
                     <div class="span9">
+                        <h2>CouchDB</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/couchdb-sijaghagi">CouchDB 시작하기</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:55 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
+                        <h2>JavaScript Core</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/flyweight-pattern-in-javascript">Flyweight Pattern in JavaScript</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:53 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/managing-scope-in-javascript">Managing Scope in JavaScript</a></h3>
+                        <small>by frends / Monday, May 14 2012 3:46 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/open-class---be-the-javascript-ninja">Open Class - Be the JavaScript Ninja</a></h3>
+                        <small>by frends / Monday, May 14 2012 1:33 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
                         <h2>notice</h2>
                     </div>
                 </div>
@@ -171,7 +261,7 @@
             
                 <div class="row">
                     <div class="span9">
-                        <h2>JavaScript Core</h2>
+                        <h2>JavaScript</h2>
                     </div>
                 </div>
                 
@@ -180,8 +270,113 @@
                         <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
                     </div>
                     <div class="span7">
-                        <h3><a href="/post/open-class---be-the-javascript-ninja">Open Class - Be the JavaScript Ninja</a></h3>
-                        <small>by frends / Monday, May 14 2012 1:33 PM</small>
+                        <h3><a href="/post/javascript-mentors">JavaScript Mentors</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:57 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/json-query-engine-top5">JSON Query Engine Top5</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:12 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/jsr-223---scripting-for-the-java-platform">JSR 223 - Scripting for the Java Platform</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:21 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/simple-data-transmission-in-javascript">Simple Data Transmission in JavaScript</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:54 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
+                        <h2>jQuery</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/jquery-cdn-hwalyong">jQuery CDN 활용</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:08 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
+                        <h2>Java</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/jsr-223---scripting-for-the-java-platform">JSR 223 - Scripting for the Java Platform</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:21 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
+                        <h2>rhino</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/server-side-javascript-based-on-rhino">Server Side javaScript based on Rhino</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:42 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
+                        <h2>node.js</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/writing-native-extension-for-node-dot-j-s">Writing Native Extension for Node.js</a></h3>
+                        <small>by frends / Monday, May 14 2012 4:46 PM</small>
                     </div>
                 </div>
                 <hr/>
@@ -215,6 +410,18 @@
         prettyPrint();
     </script>
     
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-17041304-1']);
+            _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
 
     </body>
 </html>
