@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://frends.github.com</link><generator>NodeJS RSS Module</generator><lastBuildDate>Mon, 14 May 2012 08:00:37 GMT</lastBuildDate><atom:link href="http://frends.github.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[CouchDB 시작하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>CouchDB가 뭔지 아주 간단한 형태의 소개 PPT입니다.</p>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://frends.github.com</link><generator>NodeJS RSS Module</generator><lastBuildDate>Thu, 17 May 2012 09:43:46 GMT</lastBuildDate><atom:link href="http://frends.github.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Andrw.J's JavaScript Lecture]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/andrw-dot-j-s-javascript-lecture/@img/bethejavascriptninja.gif" alt="">
+</p>
+
+<p>작년에 계획했다가 사정으로 지연되었던 A.J의 자바스크립트 교육을 진행하게 되었습니다.</p>
+
+<p>이번 교육은 자바스크립트 조금은 알지만 뭔가 기초가 탄탄하지 않다고 느끼는 분들을 대상으로 합니다.
+특히 자바스크립트로 프로그래밍을 하다보면 가장 애매하게 다가왔던 아래 네가지 개념들에 대해서 
+심도 있는 내용을 다루게 됩니다.</p>
+
+<ol>
+<li>context</li>
+<li>closure</li>
+<li>this</li>
+<li>inheritance</li>
+</ol>
+
+<p>이번 자바스크립트 교육에 참가하기 위해서는 Ajaxian.kr 에 몇 가지 간단한 확인이 있습니다.
+이것은 유료 교육이기 때문에 교육의 난이도에 적합한 분들을 조정하기 위한 것이니 양해를 부탁드립니다.</p>
+
+<p>자세한 교육 정보는 <a href="http://ajaxian.kr/2011/02/25/js-ninja-blue-level-1st-seminar/"><a href="http://ajaxian.kr/2011/02/25/js-ninja-blue-level-1st-seminar/">http://ajaxian.kr/2011/02/25/js-ninja-blue-level-1st-seminar/</a></a> 를 통해서 확인할 수 있습니다.</p>
+]]></description><link>http://frends.github.com/post/andrw-dot-j-s-javascript-lecture</link><guid isPermaLink="false">andrw-dot-j-s-javascript-lecture</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Cappuccino 프레임워크 시작하기1]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>카푸치노는 어떠한 OS 나 Browser 상에서라도 개발할 수 있습니다.
+여러분에게 가장 편리한 에디터를 사용해서 개발하실 수 있습니다.
+그러나, Max OSX 혹은 Ubuntu 와 같은 리눅스계열 OS에 설치하면, 좀 더 다양한 툴을 제공해 줍니다.
+Cappuccino 프레임워크를 시작하기 위한 준비로, 설치방법 및 디버깅툴, 개발툴 등을 알아보겠습니다.</p>
+
+<p><img src="/post/cappuccino-peureimweokeu-sijaghagi-1/@img/download1.jpeg" alt="">
+</p>
+
+<h2>Mac OSX 에 설치하기</h2>
+
+<p>Cappuccino 는 Mac OSX 와 최적의 궁합을 보여줍니다.
+초보자를 위한 Starter Package 를 직접제공하고 있어 단 한줄의 커멘드 만으로도 설치가 가능합니다.</p>
+
+<p><a href="http://cappuccino.org/starter">Starter Package 다운로드하기</a></p>
+
+<p>터미널에서 Starter Package를 압축해제한 디렉토리로 이동후 아래 커멘드를 입력하고 묻는 질문에 적절히 대답해주면 설치가 완료됩니다.</p>
+]]></description><link>http://frends.github.com/post/cappuccino-peureimweokeu-sijaghagi-1</link><guid isPermaLink="false">cappuccino-peureimweokeu-sijaghagi-1</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[CouchDB 시작하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>CouchDB가 뭔지 아주 간단한 형태의 소개 PPT입니다.</p>
 
 <p><a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View CouchDB on Scribd" href="http://www.scribd.com/doc/43705467/CouchDB">CouchDB</a> <object id="doc_990660446048915" style="outline: none;" width="100%" height="600" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="document_id=43705467&amp;access_key=key-2a7j8ekdd637pm5ww9xe&amp;page=1&amp;viewMode=slideshow" /><param name="src" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><embed id="doc_990660446048915" style="outline: none;" width="100%" height="600" type="application/x-shockwave-flash" src="http://d1.scribdassets.com/ScribdViewer.swf" wmode="opaque" allowFullScreen="true" allowScriptAccess="always" FlashVars="document_id=43705467&amp;access_key=key-2a7j8ekdd637pm5ww9xe&amp;page=1&amp;viewMode=slideshow" allowscriptaccess="always" allowfullscreen="true" /> </object></p>
 ]]></description><link>http://frends.github.com/post/couchdb-sijaghagi</link><guid isPermaLink="false">couchdb-sijaghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Flyweight Pattern in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>&quot;하나의 객체에 많은 정보를 담기 보다, 나눠서 담고 추가적인 정보는 Manager에서 관리하자&quot; 라는 의도의 Pattern입니다. 어려운 내용은 하나도 없으니 한번 쓰윽 보시면 될 것 같습니다.</p>
@@ -17,7 +53,35 @@
 
 <p>그동안 방향과 운영방식이 명확하지 않았고 언제 어디서나 활동하거나 공유할 수 있는 시스템이 없는 상태에서 구글 그룹스를 통해서 의견을 나누고 있었습니다.
 그렇기 때문에 회원이라는 명분이 필요했습니다.</p>
-]]></description><link>http://frends.github.com/post/frends-dot-k-r</link><guid isPermaLink="false">frends-dot-k-r</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript Mentors]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>메일링리스트가 국내에서는 그리 활발한 문화는 아니지만 잘 활용하면 꽤 유용하다고 생각하고 있는데 JavaScript를 주제로 한 메일링 리스트가 있어서 소개합니다.</p>
+]]></description><link>http://frends.github.com/post/frends-dot-k-r</link><guid isPermaLink="false">frends-dot-k-r</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Google App Engine SDK 1.4.0 Release]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>크리스마스 선물과도 같은 릴리즈인것 같습니다.
+Channel API가 오픈되서 Server-Side Push를 해볼 수 있네요.
+기념으로 간단하게 채팅방 포팅해봤습니다.</p>
+
+<ul>
+<li>데모 : <a href="http://gae-simple-chat.appspot.com/"><a href="http://gae-simple-chat.appspot.com/">http://gae-simple-chat.appspot.com/</a></a></li>
+<li>소스 : <a href="https://github.com/kyungw00k/gae_simple_chat"><a href="https://github.com/kyungw00k/gae_simple_chat">https://github.com/kyungw00k/gae_simple_chat</a></a></li>
+</ul>
+
+<p>어디서 많이 보던 모양이죠? ㅋㅋ</p>
+
+<p>SDK Detail 정보는 아래 링크에서 확인하세요 :D
+<a href="http://googleappengine.blogspot.com/2010/12/happy-holidays-from-app-engine-team-140.html"><a href="http://googleappengine.blogspot.com/2010/12/happy-holidays-from-app-engine-team-140.html">http://googleappengine.blogspot.com/2010/12/happy-holidays-from-app-engine-team-140.html</a></a></p>
+]]></description><link>http://frends.github.com/post/google-app-engine-sdk-1-dot-4-0-release</link><guid isPermaLink="false">google-app-engine-sdk-1-dot-4-0-release</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Introduce Cappuccino Framework]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/introduce-cappuccino-framework/@img/cappuccino-icon.jpeg" alt="">
+</p>
+<blockquote>
+<p>Cappuccino is an open source framework that makes it easy to build desktop-caliber applications that run in a web browser.</p>
+</blockquote>
+<h2>카푸치노는 무엇인가?</h2>
+
+<p>Cappuccino 는 280north 사에서 개발한 웹 어플리케이션 프레임워크로써 테스크탑 스타일의 Look &amp; Feel 을 가진 소프트웨어를 개발하기 위한  오픈소스 프로젝트 입니다.
+Cappuccino 를 사용하여 개발하게 되면, 개발자는 HTML, CSS, JS 의 스파게티 코드에 더이상 고민하지 않아도 됩니다.
+DOM의 구성이나, 브라우저의 버그에 대한 예외처리등에 신경쓰지 않아도 되고, Drag &amp; Drop, Copy &amp; Paste, Undo/Redo, 리치한 그래픽 처리등을 구현하는것을 걱정하는 대신에 어플리케이션의 고유기능에 좀 더 집중해서 개발할 수 있게 도와줍니다.</p>
+
+<p><img src="/post/introduce-cappuccino-framework/@img/280NorthLogoSmall.png" alt="">
+</p>
+
+<p>다른 프레임워크와 비교하면 무엇이 다른가?</p>
+]]></description><link>http://frends.github.com/post/introduce-cappuccino-framework</link><guid isPermaLink="false">introduce-cappuccino-framework</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript Mentors]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>메일링리스트가 국내에서는 그리 활발한 문화는 아니지만 잘 활용하면 꽤 유용하다고 생각하고 있는데 JavaScript를 주제로 한 메일링 리스트가 있어서 소개합니다.</p>
 
 <p><a href="http://jsmentors.com/">JSMentors</a> 라는 이 메일링은 Asen Bozhilov와 Rey Bango가 만들었으며 11명의 멘토들이 운영하고 있습니다. JSMentors는 아래의 주제들에 대해서 논의하는 메일링 리스트입니다.</p>
 
@@ -120,7 +184,33 @@ ScriptEngineFactory      </p>
 <p>장소가 여의치 않아 토즈에서 진행한다면 서울시내의 토즈 중 한군데서 하게될 것이라 생각되고 참가비는 1만원 ~ 1만 5천원 사이가 될 것입니다.</p>
 
 <p>다시 한번 더 말씀드리고 싶은 것은, 커리큘럼이 아직 완전히 정해지지 않았으나 자바스크립트 입문자가 듣기에는 분명히 부적절한 내용이 있을 것이므로 이점을 생각하셔서 참가 신청을 바랍니다.</p>
-]]></description><link>http://frends.github.com/post/open-class---be-the-javascript-ninja</link><guid isPermaLink="false">open-class---be-the-javascript-ninja</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Server Side javaScript based on Rhino]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>먼저 ContextFactory Class에서 제공하는 observeInstructionCount(Context, int) Method를 Overriding 하는 것으로 시작한다.</p>
+]]></description><link>http://frends.github.com/post/open-class---be-the-javascript-ninja</link><guid isPermaLink="false">open-class---be-the-javascript-ninja</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Release zepto.js 0.2]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>모바일 Webkit을 위한 저용량 프레임워크인 Zepto.js의 0.2버전이 릴리즈 되었습니다.</p>
+
+<p>이번 버전에서는 무거운 JavaScript 애플리케이션의 구조화를 위한 <a href="http://documentcloud.github.com/backbone/">backbone.js</a>에 대한 지원이 추가되었으며 이전버번에서 호환성이 없던 문제들이 해결되었고 JSON인코딩을 포함하여 Ajax호출이 더 적절하게 이뤄지도록 수정되었습니다. 0.2버전에서는 minified되고 gzip으로 압축하면 2.5k의 저용량을 유지하고 있습니다.</p>
+
+<p>자세한 내용은 Zepto.js를 만든 <a href="http://mir.aculo.us/2010/12/01/zepto-js-v0-2-%E2%80%94-backbone-js-compatibility-unbind-text-better-ajax/">Thomas Fuchs</a> 에 글에 나와있으며 API 사용법에 대해서는 Zepto.js의 저장소인 <a href="https://github.com/madrobby/zepto">Github</a>에 잘 나와 있습니다.</p>
+]]></description><link>http://frends.github.com/post/release-zepto-dot-j-s-0-dot-2</link><guid isPermaLink="false">release-zepto-dot-j-s-0-dot-2</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[RingoJS 시작하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>Introduction</h2>
+
+<p>NodeJS와 유사한 프로젝트로, RingoJS라는걸 소개하고자 한다. 이 역시 CommonJS 구현체이고, 구현된 스팩은 아래와 같다.</p>
+
+<ul>
+<li>Modules 1.1</li>
+<li>JSGI 0.3</li>
+<li>Binary/B</li>
+<li>I/O A</li>
+<li>Filesystem/A (minus globbing)</li>
+<li>Filesystem/A/0</li>
+<li>System 1.0</li>
+<li>Unit Testing 1.0</li>
+</ul>
+
+<p>RingoJS는 NodeJS와 달리 JVM위에서 동작하는 프로젝트이므로, 기존에 Java로 작성된 모듈을 재활용할 수 있고, 라이브러리 또한 재활용 할 수 있다. 필요한 부분만 Wrapper를 만들어서 쓰면 기존에 작성된 모듈과 자바스크립트로 연결이 가능하다.
+(물론 Wrapper를 만들어야한다는게 문제라면 문제다.)</p>
+
+<h2>Installation</h2>
+
+<p><a href="http://ringojs.org/getting_started">http://ringojs.org/getting_started</a> 에서는 간단하게 어떻게 설치하는지에 대한 설명이 나와 있는데, 요약하면 다음과 같다.</p>
+]]></description><link>http://frends.github.com/post/ringojs-sijaghagi</link><guid isPermaLink="false">ringojs-sijaghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Server Side javaScript based on Rhino]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>먼저 ContextFactory Class에서 제공하는 observeInstructionCount(Context, int) Method를 Overriding 하는 것으로 시작한다.</p>
 
 <p>이 Method는 본래 실행할 Javascript 코드의 Instruction 개수를 제한을 두어, 실행 제한을 두기 위해 사용하는데, 이를 재정의하면 Timeout 기능 구현이 가능하겠다.</p>
 
@@ -136,7 +226,118 @@ ScriptEngineFactory      </p>
 ]]></description><link>http://frends.github.com/post/server-side-javascript-based-on-rhino</link><guid isPermaLink="false">server-side-javascript-based-on-rhino</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Simple Data Transmission in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>Get 방식으로 통신하는 여러가지 방법 중, 제가 종종 쓰는 두가지 방법을 소개해봅니다.</p>
 
 <p><a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View Simple Data Transmission in Javascript on Scribd" href="http://www.scribd.com/doc/43704300/Simple-Data-Transmission-in-Javascript">Simple Data Transmission in Javascript</a> <object id="doc_420732268586646" style="outline: none;" width="100%" height="600" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="document_id=43704300&amp;access_key=key-jbwpg1ievtcz1es9jlb&amp;page=1&amp;viewMode=slideshow" /><param name="src" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><embed id="doc_420732268586646" style="outline: none;" width="100%" height="600" type="application/x-shockwave-flash" src="http://d1.scribdassets.com/ScribdViewer.swf" wmode="opaque" allowFullScreen="true" allowScriptAccess="always" FlashVars="document_id=43704300&amp;access_key=key-jbwpg1ievtcz1es9jlb&amp;page=1&amp;viewMode=slideshow" allowscriptaccess="always" allowfullscreen="true" /></object></p>
-]]></description><link>http://frends.github.com/post/simple-data-transmission-in-javascript</link><guid isPermaLink="false">simple-data-transmission-in-javascript</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Writing Native Extension for Node.js]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>이 자료는 2010. 10. 23 일 FRENDS 오프모임에서 발표한 내용입니다.</p>
+]]></description><link>http://frends.github.com/post/simple-data-transmission-in-javascript</link><guid isPermaLink="false">simple-data-transmission-in-javascript</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Webfont 사용하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>최근, 웹폰트를 사용해보고 싶어서 안달이 난 나머지 폰트를 분해해 재조립 해보기도 하고,
+어느정도 사이즈가 줄어들때로 줄어드니깐 이제 Cross-browsing에 안달이나 @font-face로 별짓 다 해봤다.
+(이 글도 자세히 쓰려다가 중간에 날라가서 다시 쓰는 삽질도 하고 있다. T_T)</p>
+
+<p>그래서 얻은 결론은?</p>
+
+<p>해볼만하다 였다.</p>
+
+<h2>@font-face 지원 브라우저 및 지원 포멧</h2>
+
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="155" valign="top">
+<p><strong><span style="font-size: small;"><span style="color: #993300;">Browser</span></span></strong></p>
+</td>
+<td width="130" valign="top">
+<p><strong><span style="font-size: small;"><span style="color: #993300;">Version</span></span></strong></p>
+</td>
+<td width="142" valign="top">
+<p><strong><span style="font-size: small;"><span style="color: #993300;">Font Type</span></span></strong></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="155" valign="top">
+<p><span style="font-size: small;">Internet Explorer</span></p>
+</td>
+<td width="130" valign="top">
+<p><span style="font-size: small;">6,7,8</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">EOT</span></p>
+</td>
+</tr>
+<tr>
+<td width="130" valign="top">
+<p><span style="font-size: small;">9</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">EOT, WOFF</span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="155" valign="top">
+<p><span style="font-size: small;">Firefox</span></p>
+</td>
+<td width="130" valign="top">
+<p><span style="font-size: small;">3.5</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF</span></p>
+</td>
+</tr>
+<tr>
+<td width="130" valign="top">
+<p><span style="font-size: small;">3.6+</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF, WOFF</span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="155" valign="top">
+<p><span style="font-size: small;">Chrome</span></p>
+</td>
+<td width="130" valign="top">
+<p><span style="font-size: small;">4+</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF, SVG</span></p>
+</td>
+</tr>
+<tr>
+<td width="130" valign="top">
+<p><span style="font-size: small;">5+</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF, SVG, WOFF</span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="155" valign="top">
+<p><span style="font-size: small;">Safari</span></p>
+</td>
+<td width="130" valign="top">
+<p><span style="font-size: small;">3.1+<br>
+</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF, SVG<br>
+</span></p>
+</td>
+</tr>
+<tr>
+<td width="130" valign="top">
+<p><span style="font-size: small;">Mobile(iPhone/iPad)</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">SVG</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h2>파일 크기 및 대역폭</h2>
+]]></description><link>http://frends.github.com/post/webfont-sayonghagi</link><guid isPermaLink="false">webfont-sayonghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[웹개발자를 위한 HTML5 스펙]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><a href="http://germanforblack.com/">Ben Schwarz</a>는 2010년에  W3C의 스펙문서를 더 읽기 편하게 만들기 위한 문서화 프로젝트를 시작하고 2011년 1월 WHATWG IRC채널에서 <a href="http://hixie.ch/">Ian Hickson</a>으로부터 웹개발자를 위한 스펙문서를 작업하는 것을 승인받아 <a href="http://developers.whatwg.org/">HTML5 a technical specification for Web developers</a>를 공개했습니다.</p>
+
+<p><img src="/post/webgaebaljareul-wihan-html5-seupeg/@img/html5_for_webdevelopers.gif" alt="">
+</p>
+
+<p>스펙을 읽는 것은 중요하지만 읽기가 지루한 편이고 HTML5 같은 경우는 웹개발자가 아닌 브라우저 벤더를 위한 스펙들이 상당부분 포함되어 있기 때문에 읽기가 쉽지 않은데 그런 부분에서 웹개발자만을 타겟팅해서 만든 이 문서는 HTML5를 이해하는데 많은 도움이 될 것으로 보입니다. 이 문서는 <a href="https://github.com/benschwarz/developers.whatwg.org/commits/master">Github</a>에서 관리되고 있습니다.</p>
+]]></description><link>http://frends.github.com/post/webgaebaljareul-wihan-html5-seupeg</link><guid isPermaLink="false">webgaebaljareul-wihan-html5-seupeg</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Writing Native Extension for Node.js]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>이 자료는 2010. 10. 23 일 FRENDS 오프모임에서 발표한 내용입니다.</p>
 
 <p>이번 내용은 Node.js 의 Native 확장 기능의 구조와 원리에 대해서 알아보고 간단한 실습을 통해서 직접 작성해보기도 하였습니다.</p>
 

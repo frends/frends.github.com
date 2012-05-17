@@ -5,7 +5,7 @@
     <title> 프론트앤드 개발자들의 모루! 프랜즈(frends)</title>
     <meta name="description" content="프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.">
     <meta name="author" content="frends">
-    <meta name="keywords" content="javascript,html5,css3,node.js,jQuery" />
+    <meta name="keywords" content="javascript,html5,css3,node.js,git,jQuery" />
     <meta name="generator" content="haroopress v0.8.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,15 +15,14 @@
     <![endif]-->
 
     <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루! 프랜즈(frends)" type="application/rss+xml">
+    <link href='http://fonts.googleapis.com/css?family=Magra:700' rel='stylesheet' type='text/css'>
 
     <!-- Le styles -->
     <link rel="canonical" href="http://frends.github.com">
-    <link href='http://fonts.googleapis.com/css?family=Magra:700' rel='stylesheet' type='text/css'>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/css/haroo.css" rel="stylesheet">
-    <link href="/css/haroo-wood.css" rel="stylesheet">
     <link href="/css/prettify.css" rel="stylesheet">
     <link href="/css/archives.css" rel="stylesheet">
 
@@ -47,8 +46,7 @@
   <body data-spy="scroll" data-target=".subnav" data-offset="50">
 
     
-<div class="container">
-    <div class="navbar">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -57,16 +55,10 @@
             <span class="icon-bar"></span>
           </a>
 
-          <a class="pull-right" style="margin-top: 5px;" href="/rss.xml"><img src="/img/social/rss_dark.png" /></a>
+          <a class="pull-right" href="/rss.xml"><img src="/img/buttons/rss.png" /></a>
           
-            <a class="pull-right" style="margin-top: 5px;" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/social/twitter_dark.png" /></a>
+            <a class="pull-right" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/buttons/twitter.png" /></a>
           
-          
-
-          <form class="navbar-search pull-right" style="margin-right: 2px;" method="get" action="http://www.google.com/search">
-              <input type="hidden" name="q" value="site:frends.github.com" />
-              <input type="text" name="q" value="" results="0"class="search-query span2" placeholder="Search" />
-          </form>
 
           <div class="nav-collapse">
             <ul class="nav">
@@ -82,7 +74,6 @@
         </div>
       </div>
     </div>
-</div>
 
     <!-- Masthead (blueprinty thing)
 ================================================== -->
@@ -109,11 +100,15 @@
                     <li class="nav-header">Categories</li>
                     <li class="active"><a href="/category"><i class="icon-white icon-home"></i> Home</a></li>
                     
+                    <li><a href="/category/javascript"><i class="icon-book"></i> javascript</a></li>
+                    
                     <li><a href="/category/CouchDB"><i class="icon-book"></i> CouchDB</a></li>
                     
                     <li><a href="/category/JavaScript Core"><i class="icon-book"></i> JavaScript Core</a></li>
                     
                     <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
+                    
+                    <li><a href="/category/google"><i class="icon-book"></i> google</a></li>
                     
                     <li><a href="/category/JavaScript"><i class="icon-book"></i> JavaScript</a></li>
                     
@@ -122,6 +117,8 @@
                     <li><a href="/category/Java"><i class="icon-book"></i> Java</a></li>
                     
                     <li><a href="/category/rhino"><i class="icon-book"></i> rhino</a></li>
+                    
+                    <li><a href="/category/html5"><i class="icon-book"></i> html5</a></li>
                     
                     <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
                     
@@ -138,7 +135,7 @@
             <a class="pull-left" href="/authors/frends" title=""><img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
             <p>
                 <strong>frends</strong><br/>
-                <span><a href="http://twitter.com/frends_kr" target="_blank">@frends_kr</a></span>
+                <span>@frends_kr</span>
             </p>
         </div>
         <hr>
@@ -146,72 +143,6 @@
     </div>
     
                 
-        <div class="well _github_repo">
-            <div class="pull-right">
-                <a href="/github"><i class="icon-info-sign"></i></a>
-            </div>
-            <h6>github.com repositories</h6>
-            <div class="progress progress-info progress-striped active">
-                <div class="bar" style="width: 10%;"></div>
-            </div>
-        </div>
-        <script>
-            github({
-                user: 'frends',
-                count: 10,
-                skipForks: true,
-                target: '._github_repo'
-            });
-        </script>
-    
-
-            
-<div class="well">
-    <ul class="nav nav-list">
-        <li class="nav-header">Favorites</li>
-        
-        <li>
-            <a href="http://nodejs.kr" target="_blank">노드 한국 개발자 커뮤니티</a>
-        </li>
-        
-        <li>
-            <a href="http://frends.kr" target="_blank">프론트 앤드 개발자 커뮤니티</a>
-        </li>
-        
-        <li>
-            <a href="http://rhio.tistory.com" target="_blank">리오 블로그</a>
-        </li>
-        
-    </ul>
-</div>
-
-            
-    <div id="__weather" class="well">
-        <h6>weather in </h6>
-    </div>
-
-    <script src="/js/jquery.simpleWeather-2.0.1.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $.simpleWeather({
-                zipcode: 'KSXX0037',
-                unit: 'f',
-                success: function(weather) {
-                    $('<img src="'+ weather.image +'">').appendTo("#__weather");
-                    $('#__weather h6').html('Weather in ' + weather.city +' in '+ weather.country);
-                },
-                error: function(error) {
-                        $("<p>"+error+"</p>").appendTo("#__weather");
-                }
-            });
-
-            $('#__weather').stop().fadeIn();
-            if(0 != 0) {
-                $('#__weather').animate({ opacity: 0 }, 0);
-            }
-
-        });
-    </script>
 
         </div>
         <div class="span9">
@@ -221,10 +152,916 @@
                     <div class="well bg">
                         
                         <div class="page-header">
+                            <h1><a href="/post/cappuccino-peureimweokeu-sijaghagi-1">Cappuccino 프레임워크 시작하기1</a></h1>
+                            <span class="pull-right">Thursday, May 17 2012 6:35 PM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <p>카푸치노는 어떠한 OS 나 Browser 상에서라도 개발할 수 있습니다.
+여러분에게 가장 편리한 에디터를 사용해서 개발하실 수 있습니다.
+그러나, Max OSX 혹은 Ubuntu 와 같은 리눅스계열 OS에 설치하면, 좀 더 다양한 툴을 제공해 줍니다.
+Cappuccino 프레임워크를 시작하기 위한 준비로, 설치방법 및 디버깅툴, 개발툴 등을 알아보겠습니다.</p>
+
+<p><img src="./@img/download1.jpeg" alt="">
+</p>
+
+<h2>Mac OSX 에 설치하기</h2>
+
+<p>Cappuccino 는 Mac OSX 와 최적의 궁합을 보여줍니다.
+초보자를 위한 Starter Package 를 직접제공하고 있어 단 한줄의 커멘드 만으로도 설치가 가능합니다.</p>
+
+<p><a href="http://cappuccino.org/starter">Starter Package 다운로드하기</a></p>
+
+<p>터미널에서 Starter Package를 압축해제한 디렉토리로 이동후 아래 커멘드를 입력하고 묻는 질문에 적절히 대답해주면 설치가 완료됩니다.</p>
+
+<pre><code>~ $ ./bootstrap.sh
+</code></pre>
+
+<h2>Linux 및 사용자 설치하기</h2>
+
+<p>Mac이 없다면 리눅스 운영체제를 선택할 수도 있습니다. (Windows 에서 가상 Unix 환경을 만드는 방법은 편의상 생략했습니다.)
+여기서는 Ubuntu 10.4 를 예로들어 설치합니다.</p>
+
+<ul>
+<li>Github 소스저장소에서 최신버전의 Cappuccino 소스를 체크아웃 받습니다.</li>
+</ul>
+
+<pre><code>~ $ git clone git://github.com/280north/cappuccino.git
+</code></pre>
+
+<ul>
+<li>체크아웃받은 디렉토리에서 bootstrap.sh 를 실행합니다.</li>
+<li>때때로 현재 OS에 설치된 JVM 과 narwhal(Command line Javascript Interpreter) 이 충돌이 난다는 메세지를 보여줄 경우가 있습니다.</li>
+</ul>
+
+<pre><code>~/cappuccino $ ./bootstrap.sh
+Error: Narwhal is not compatible with your JVM. Please switch to the Sun (HotSpot) 
+</code></pre>
+
+<p>이럴경우 다음과 같이 조치합니다. </p>
+
+<pre><code>// 저장소 추가
+$ sudo add-apt-repository &quot;deb http://kr.archive.ubuntu.com/ubuntu/ jaunty multiverse&quot;
+$ sudo add-apt-repository &quot;deb http://kr.archive.ubuntu.com/ubuntu/ jaunty-updates multiverse&quot;
+
+// 저장소 목록 업데이트후 자바 설치
+$ sudo apt-get update
+$ sudo apt-get install sun-java5-jdk
+</code></pre>
+
+<p>HotSpot JVM 설치참조 - <a href="http://adsgear.tistory.com/76"><a href="http://adsgear.tistory.com/76">http://adsgear.tistory.com/76</a></a>
+다시 bootstrap.sh 를 실행하면 narwhal 및 필요한 패키지들을 설치합니다. 대부분 기본값으로 설치하면 문제가 없습니다.</p>
+
+<ul>
+<li>최종 설치 완료메세지</li>
+</ul>
+
+<pre><code>Added to &quot;/home/frends/.profile&quot;. Restart your shell or run &quot;source /home/frends/.profile&quot;.
+=========================================================================
+Before building Cappuccino we recommend you set the $CAPP_BUILD environment variable to a path where you wish to build Cappuccino.
+NOTE: If you have previously set $CAPP_BUILD and built Cappuccino you may want to delete the directory before rebuilding.
+=========================================================================
+Bootstrapping of Narwhal and other required tools is complete.
+NOTE: any changes made to the shell configuration files won't take place until you restart the shell.
+</code></pre>
+
+<ul>
+<li>설치가 완료되면 .profile 에 CAPP_BUILD 환경변수를 설정합니다. </li>
+</ul>
+
+<pre><code>export CAPP_BUILD=&quot;/home/frends/enviroment/cappuccino&quot;
+source /home/frends/.profile
+</code></pre>
+
+<p>bootstrap.sh 를 실행한 폴더에서 jake를 실행하면 필요한 파일들이 CAPP_BUILD 에 지정한 디렉토리에 빌드되고 설치가 완료됩니다.</p>
+
+<h2>바로 개발시작하기</h2>
+
+<p>Cappuccino 개발에 필요한 파일들을 구할수만 있다면 이런 설치과정이 없어도 개발을 시작할 수 있습니다.
+Starter 패키지의 NewApplication 폴더가 바로 Cappuccino 어플리케이션의 기본틀입니다. 다운로드
+Objective-J 구동에 필요한 기본 프레임워크와 AppKit 등의 필수 라이브러리들을 포함하고 있습니다.</p>
+
+<p><img src="./@img/appkit.png" alt="">
+</p>
+
+<p>웹 브라우저에서 접근하는 파일은 index.html 혹은 index-debug.html 이고 main.j 와 AppController.j 가 Objective-J 로 코딩된 소스코드 파일입니다.
+기본적인 코드가 들어있는데 그 유명한 &quot;Hello World&quot; 프로그램이 작성되어 있습니다.</p>
+
+<pre><code>@import /CPObject.j&gt;
+
+@implementation AppController : CPObject
+{
+}
+- (void)applicationDidFinishLaunching:(CPNotification)aNotification
+{
+    var theWindow = [[CPWindow alloc] initWithContentRect:CGRectMakeZero() styleMask:CPBorderlessBridgeWindowMask],
+        contentView = [theWindow contentView];
+
+    var label = [[CPTextField alloc] initWithFrame:CGRectMakeZero()];
+
+    [label setStringValue:@&quot;Hello World!&quot;];
+    [label setFont:[CPFont boldSystemFontOfSize:24.0]];
+
+    [label sizeToFit];
+
+    [label setAutoresizingMask:CPViewMinXMargin | CPViewMaxXMargin | CPViewMinYMargin | CPViewMaxYMargin];
+    [label setCenter:[contentView center]];
+
+    [contentView addSubview:label];
+
+    [theWindow orderFront:self];
+}
+@end&lt;/foundation&gt;
+</code></pre>
+
+<h2>웹 브라우저로 확인하기</h2>
+
+<p>&quot;Hello World&quot; 처럼 간단한 어플리케이션을 웹브라우저로 확인해봅시다.
+여러분의 프로젝트 디렉토리를 여러분이 가진 웹서버로 접근해보면 아래와 같은 심플한 화면을 보실 수 있습니다.</p>
+
+<p><img src="./@img/loading2.png" alt="">
+
+<img src="./@img/hello2.png" alt="">
+</p>
+
+<p>웹서버를 사용해서 띠워야 하는 이유는 Cappuccino 는 내부적으로 Class import 및 여러가지 작업에서 XMLHttpRequest 를 사용하기 때문입니다.</p>
+
+<p>Chrome 과 같이 로컬파일 XHR 통신이 제한되어 있는 브라우저의 경우에는 반드시 웹서버를 통해야 가능합니다.
+로컬파일 XHR 에 제한이 없는 브라우저라면(IE와 같은) 그냥 로컬파일을 실행해서 봐도 무방합니다.
+만약 카푸치노툴이 설치되어 있다면 Narwhal Cli 환경을 이용한 jackup 서버를 사용하여 현재 디렉토리를 홈으로 서버를 만들 수 있습니다.</p>
+
+<pre><code>jackup -e &quot;require('jack/file').File('.')&quot; -E deployment
+</code></pre>
+
+<p>자. Cappuccino Framework 설치가 완료되었습니다.
+다음 포스트에서는 Cappuccino 시작하기의 두번째로 개발시 알아두면 좋을 브라우저 및 디버깅도구 를 소개하도록 하겠습니다.</p>
+
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/cappuccino-peureimweokeu-sijaghagi-1#disqus_thread" data-disqus-identifier="0"></a>
+                        <p>
+                            <a href="/post/cappuccino-peureimweokeu-sijaghagi-1" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/webgaebaljareul-wihan-html5-seupeg">웹개발자를 위한 HTML5 스펙</a></h1>
+                            <span class="pull-right">Thursday, May 17 2012 6:32 PM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <p><a href="http://germanforblack.com/">Ben Schwarz</a>는 2010년에  W3C의 스펙문서를 더 읽기 편하게 만들기 위한 문서화 프로젝트를 시작하고 2011년 1월 WHATWG IRC채널에서 <a href="http://hixie.ch/">Ian Hickson</a>으로부터 웹개발자를 위한 스펙문서를 작업하는 것을 승인받아 <a href="http://developers.whatwg.org/">HTML5 a technical specification for Web developers</a>를 공개했습니다.</p>
+
+<p><img src="./@img/html5_for_webdevelopers.gif" alt="">
+</p>
+
+<p>스펙을 읽는 것은 중요하지만 읽기가 지루한 편이고 HTML5 같은 경우는 웹개발자가 아닌 브라우저 벤더를 위한 스펙들이 상당부분 포함되어 있기 때문에 읽기가 쉽지 않은데 그런 부분에서 웹개발자만을 타겟팅해서 만든 이 문서는 HTML5를 이해하는데 많은 도움이 될 것으로 보입니다. 이 문서는 <a href="https://github.com/benschwarz/developers.whatwg.org/commits/master">Github</a>에서 관리되고 있습니다.</p>
+
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/webgaebaljareul-wihan-html5-seupeg#disqus_thread" data-disqus-identifier="1"></a>
+                        <p>
+                            <a href="/post/webgaebaljareul-wihan-html5-seupeg" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/introduce-cappuccino-framework">Introduce Cappuccino Framework</a></h1>
+                            <span class="pull-right">Thursday, May 17 2012 6:23 PM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <p><img src="./@img/cappuccino-icon.jpeg" alt="">
+</p>
+<blockquote>
+<p>Cappuccino is an open source framework that makes it easy to build desktop-caliber applications that run in a web browser.</p>
+</blockquote>
+<h2>카푸치노는 무엇인가?</h2>
+
+<p>Cappuccino 는 280north 사에서 개발한 웹 어플리케이션 프레임워크로써 테스크탑 스타일의 Look &amp; Feel 을 가진 소프트웨어를 개발하기 위한  오픈소스 프로젝트 입니다.
+Cappuccino 를 사용하여 개발하게 되면, 개발자는 HTML, CSS, JS 의 스파게티 코드에 더이상 고민하지 않아도 됩니다.
+DOM의 구성이나, 브라우저의 버그에 대한 예외처리등에 신경쓰지 않아도 되고, Drag &amp; Drop, Copy &amp; Paste, Undo/Redo, 리치한 그래픽 처리등을 구현하는것을 걱정하는 대신에 어플리케이션의 고유기능에 좀 더 집중해서 개발할 수 있게 도와줍니다.</p>
+
+<p><img src="./@img/280NorthLogoSmall.png" alt="">
+</p>
+
+<p>다른 프레임워크와 비교하면 무엇이 다른가?</p>
+
+<p>Cappuccino 는 웹사이트를 만들거나 기존의 사이트를 좀 더 &quot;동적&quot; 으로 만들기 위해 디자인 된것이 아닙니다.
+이러한 작업  (동적인 웹사이트) 에는 이미 존재하는 prototype.js 나 jQuery 와 같은 훌륭한 프레임워크들로도 충분합니다.
+그러나 이들은 DOM 처리와 같은 렌더링분야에 주로 포커스가 맞추어져 있어 웹어플리케이션을 구조적으로 개발하는데 적합한 프레임워크는 아닙니다.</p>
+
+<p><img src="./@img/webapps1-300x102.png" alt="">
+</p>
+
+<p>Cappuccino 는 기존 프레임워크들과는 달리 웹 어플리케이션을 구조적으로 개발하는데 초점이 맞추어져 있습니다. 따라서, 일반적인 웹페이지를 만드는 용도로 사용하려면 적합하지 않습니다.
+HTML, CSS, 그리고 prototype.js 나 jQuery 를 사용한 전통적인 방식으로 Desktop 어플리케이션과 비슷한 경험을 웹에서 제공할 수 있도록 하기 위해서는 매우 방대한 양의 코드를 작성하여야 합니다.</p>
+
+<p>그러나, Cappuccino 를 사용하면 개발자는 HTML을 알 필요가 없고, CSS 를 작성할 일도 없으며, DOM 을 직접 작업할 일은 영영 없을 것입니다.</p>
+
+<p><img src="./@img/CappucinoApp.png" alt="">
+</p>
+
+<p>Cappuccino 는 오직 한가지의 기술만을 요구합니다. 바로 Objective-J 와 Cappuccino API 입니다.
+그리고 이런 기술들은 이미 존재하는 웹기술들의 깊은 이해를 바탕으로 구현되었습니다.
+차세대 웹 어플리케이션을 개발하기위한 기술들은 흔히들 Javascript 2.0 이나 HTML5 와 같은 새로운 표준일 것이라고 생각하지만, 문제는 이러한 표준들은 너무 느리게 수립되고 있습니다.</p>
+
+<p>Cappuccino 는 이런 이론적인 미래가 아니라 지금 당장 사용할 수 있는 기술입니다.</p>
+
+<h2>Objective-J 란 어떤 언어인가?</h2>
+
+<p><img src="./@img/skitched-20100401-0030591.png" alt="">
+</p>
+
+<p>Objective-J 는 Objective-C 에 기반을 둔 새로운 객체지향 언어입니다.
+Objective-J 는 자바스크립트의 상위집합(superset) 입니다.</p>
+
+<p>이 말은 어떤 유효한  Javascript 코드는 Objective-J 의 문법내에서도 유효하다는 의미 입니다.
+Objective-J 는 Javascript로 작성된 Objective-J.js 가 구문해석기 역할을 함으로써 동작합니다.
+즉, Objective-J 는 Javascript 를 사용하여 컴파일되는 언어입니다. 그리고, Javascript 와 달리 Objective-J 로 개발하면 크로스브라우징을 신경쓸 필요가 없습니다.</p>
+
+<h2>Cappuccino 를 사용해서 무엇을 할 수 있는가?</h2>
+
+<p>Objective-J 를 사용하여 클래스기반 상속 프로그래밍을 할 수 있습니다.
+Interface Builder 와 같이 Cappuccino 나 다른 써드파티에서 제공하는 IDE 들을 사용하면 View 를 완벽히 분리할 수 있습니다. 또한 View 의 세부코드도 Objective-J 로 조작 가능하므로 개발시 언어를 일원화 할 수 있습니다.
+SVG 나 Canvas 등을 활용한 리치한 그래픽 라이브러리를 손쉽게 구현할 수 있습니다.</p>
+
+<h2>Cappuccino 쇼케이스</h2>
+
+<p>Cappuccino 로 작성된 어플리케이션은 매우 수려한 UI 를 가지고 있습니다. 또한, 정말 웹이라고는 생각하기 힘들정도로 Desktop 어플리케이션에 버금가는 사용성을 가지고 있습니다. Cappuccino 로 작성하고 서비스되고 있는 몇가지 쇼케이스를 보신다면 당장 공부를 시작하고 싶으실 지도 모릅니다..</p>
+
+<p><a href="http://280slides.com/">280 Slides</a></p>
+
+<p>첫번째 Cappuccino 어플리케이션으로써 280 north 사에서 개발된 Keynote 스타일의 웹 슬라이드 어플리케이션</p>
+
+<p><img src="./@img/280slides.png" alt="">
+</p>
+
+<p><a href="http://gomockingbird.com/">Mockingbird</a></p>
+
+<p>웹사이트나 어플리케이션을 프로토타이핑할때 Mock-up 작업시 쉽게 스케치하고, 공동 작업자와 공유할 수 있는 온라인 Mock-Up 도구</p>
+
+<p><a href="http://picsengine.com/home/">PicsEngine</a></p>
+
+<p>언제 어디서나 개인의 사진을 저장하고 관리할 수 있는 온라인 사진 관리도구</p>
+
+<p><img src="./@img/screen4.png" alt="">
+</p>
+
+<p><a href="http://www.enstore.com/">Enstore</a></p>
+
+<p>Checkout 과 AccountEdge 사가 공동으로 제공하는 e-commerce 플랫폼</p>
+
+<p><img src="./@img/enstore.png" alt="">
+</p>
+
+<p><a href="http://githubissues.heroku.com/">GitHub Issues</a></p>
+
+<p>GitHub 이슈트래커를 Cappuccino 를 사용하여 front-end 를 구성한 버전</p>
+
+<p><img src="./@img/Screen-shot-2010-05-13-at-10.58.15-AM-copy.png" alt="">
+</p>
+
+<p><a href="http://timetableapp.com/">TimeTable</a></p>
+
+<p>프리랜서 혹은 기업용 온라인 시간관리 툴.. 업무시간, 비율, 프로젝트에 들어간 비용등을 관리해주는 툴</p>
+
+<p><img src="./@img/header_left.png" alt="">
+</p>
+
+<p><a href="http://almost.at/">Almost.at</a></p>
+
+<p>실제 특정 이벤트에 대한 데이터를 실시간으로 수집하고 정리하여 보여주는 사이트</p>
+
+<p><img src="./@img/almostatmed.jpeg" alt="">
+</p>
+
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/introduce-cappuccino-framework#disqus_thread" data-disqus-identifier="2"></a>
+                        <p>
+                            <a href="/post/introduce-cappuccino-framework" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/andrw-dot-j-s-javascript-lecture">Andrw.J's JavaScript Lecture</a></h1>
+                            <span class="pull-right">Thursday, May 17 2012 6:20 PM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <p><img src="./@img/bethejavascriptninja.gif" alt="">
+</p>
+
+<p>작년에 계획했다가 사정으로 지연되었던 A.J의 자바스크립트 교육을 진행하게 되었습니다.</p>
+
+<p>이번 교육은 자바스크립트 조금은 알지만 뭔가 기초가 탄탄하지 않다고 느끼는 분들을 대상으로 합니다.
+특히 자바스크립트로 프로그래밍을 하다보면 가장 애매하게 다가왔던 아래 네가지 개념들에 대해서 
+심도 있는 내용을 다루게 됩니다.</p>
+
+<ol>
+<li>context</li>
+<li>closure</li>
+<li>this</li>
+<li>inheritance</li>
+</ol>
+
+<p>이번 자바스크립트 교육에 참가하기 위해서는 Ajaxian.kr 에 몇 가지 간단한 확인이 있습니다.
+이것은 유료 교육이기 때문에 교육의 난이도에 적합한 분들을 조정하기 위한 것이니 양해를 부탁드립니다.</p>
+
+<p>자세한 교육 정보는 <a href="http://ajaxian.kr/2011/02/25/js-ninja-blue-level-1st-seminar/"><a href="http://ajaxian.kr/2011/02/25/js-ninja-blue-level-1st-seminar/">http://ajaxian.kr/2011/02/25/js-ninja-blue-level-1st-seminar/</a></a> 를 통해서 확인할 수 있습니다.</p>
+
+<p>교육과 더불어 JavaScript 와 관련된 다양한 이야기를 나누고 교류할 수 있는 시간도 함께 갖을 예정입니다.
+수 많은 혹은 아주 사소한 궁금증을 가지고 오셔도 좋을 것 같습니다.</p>
+
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/andrw-dot-j-s-javascript-lecture#disqus_thread" data-disqus-identifier="3"></a>
+                        <p>
+                            <a href="/post/andrw-dot-j-s-javascript-lecture" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/webfont-sayonghagi">Webfont 사용하기</a></h1>
+                            <span class="pull-right">Thursday, May 17 2012 6:13 PM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <p>최근, 웹폰트를 사용해보고 싶어서 안달이 난 나머지 폰트를 분해해 재조립 해보기도 하고,
+어느정도 사이즈가 줄어들때로 줄어드니깐 이제 Cross-browsing에 안달이나 @font-face로 별짓 다 해봤다.
+(이 글도 자세히 쓰려다가 중간에 날라가서 다시 쓰는 삽질도 하고 있다. T_T)</p>
+
+<p>그래서 얻은 결론은?</p>
+
+<p>해볼만하다 였다.</p>
+
+<h2>@font-face 지원 브라우저 및 지원 포멧</h2>
+
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="155" valign="top">
+<p><strong><span style="font-size: small;"><span style="color: #993300;">Browser</span></span></strong></p>
+</td>
+<td width="130" valign="top">
+<p><strong><span style="font-size: small;"><span style="color: #993300;">Version</span></span></strong></p>
+</td>
+<td width="142" valign="top">
+<p><strong><span style="font-size: small;"><span style="color: #993300;">Font Type</span></span></strong></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="155" valign="top">
+<p><span style="font-size: small;">Internet Explorer</span></p>
+</td>
+<td width="130" valign="top">
+<p><span style="font-size: small;">6,7,8</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">EOT</span></p>
+</td>
+</tr>
+<tr>
+<td width="130" valign="top">
+<p><span style="font-size: small;">9</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">EOT, WOFF</span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="155" valign="top">
+<p><span style="font-size: small;">Firefox</span></p>
+</td>
+<td width="130" valign="top">
+<p><span style="font-size: small;">3.5</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF</span></p>
+</td>
+</tr>
+<tr>
+<td width="130" valign="top">
+<p><span style="font-size: small;">3.6+</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF, WOFF</span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="155" valign="top">
+<p><span style="font-size: small;">Chrome</span></p>
+</td>
+<td width="130" valign="top">
+<p><span style="font-size: small;">4+</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF, SVG</span></p>
+</td>
+</tr>
+<tr>
+<td width="130" valign="top">
+<p><span style="font-size: small;">5+</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF, SVG, WOFF</span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="155" valign="top">
+<p><span style="font-size: small;">Safari</span></p>
+</td>
+<td width="130" valign="top">
+<p><span style="font-size: small;">3.1+<br>
+</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">TTF/OTF, SVG<br>
+</span></p>
+</td>
+</tr>
+<tr>
+<td width="130" valign="top">
+<p><span style="font-size: small;">Mobile(iPhone/iPad)</span></p>
+</td>
+<td width="142" valign="top">
+<p><span style="font-size: small;">SVG</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h2>파일 크기 및 대역폭</h2>
+
+<p>TTF를 subset 하지 않고 단순 사이즈를 비교해보자.
+아래는 Daum_Regular.ttf(12261 Glyph)를<a href="http://www.fontsquirrel.com/fontface/generator">http://www.fontsquirrel.com/fontface/generator</a> 통해서 변환한 크기다.</p>
+
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="213" valign="top">
+<p><strong><span style="font-size: small;"><span style="color: #993300;">Format</span></span></strong></p>
+</td>
+<td width="213" valign="top">
+<p><strong><span style="font-size: small;"><span style="color: #993300;">Size</span></span></strong></p>
+</td>
+</tr>
+<tr>
+<td width="213" valign="top">
+<p><span style="font-size: small;">TTF(Original)</span></p>
+</td>
+<td width="213" valign="top">
+<p><span style="font-size: small;">1.2M</span></p>
+</td>
+</tr>
+<tr>
+<td width="213" valign="top">
+<p><span style="font-size: small;">TTF/OTF</span></p>
+</td>
+<td width="213" valign="top">
+<p><span style="font-size: small;">807kb</span></p>
+</td>
+</tr>
+<tr>
+<td width="213" valign="top">
+<p><span style="font-size: small;">EOT</span></p>
+</td>
+<td width="213" valign="top">
+<p><span style="font-size: small;"><strong>336kb</strong></span></p>
+</td>
+</tr>
+<tr>
+<td width="213" valign="top">
+<p><span style="font-size: small;">WOFF</span></p>
+</td>
+<td width="213" valign="top">
+<p><span style="font-size: small;"><strong>368kb</strong></span></p>
+</td>
+</tr>
+<tr>
+<td width="213" valign="top">
+<p><span style="font-size: small;">SVG</span></p>
+</td>
+<td width="213" valign="top">
+<p><span style="font-size: small;">1.5M</span></p>
+</td>
+</tr>
+<tr>
+<td width="213" valign="top">
+<p><span style="font-size: small;">SVGZ(Gzipped version   of SVG)</span></p>
+</td>
+<td width="213" valign="top">
+<p><span style="font-size: small;"><strong>414kb</strong></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>여기서 원본 TTF를 Subset하면 훨신 더 작은 사이즈의 폰트를 얻을 수 있겠다.
+(구글링하다보니 정리 잘 된 Subset을 <a href="http://bystyx.com/blog/?p=165">http://bystyx.com/blog/?p=165</a> 에서 찾을 수 있었다.)</p>
+
+<h2>렌더링 차이</h2>
+
+<p>Plain Font에는 렌더링 차이가 많지 않은데, Anti-Aliased Font의 경우, Windows에서는 Clear Type 을 설정하지 않으면(솔직히 하나 안하나) 정말 보기 힘들정도다.
+이 문제는 Platform Dependent한 문제로, Mac용 브라우저에서는 모두 동일하게 보이는 폰트가 윈도우에서는 브라우저 별로 제각각이다.</p>
+
+<p>CSS 패치(text-shadow)를 한 Chrome이 싱크로율 100%로 깔끔하게 보여줬고, 그 외 브라우저(IE678,  FF, Safari, Opera)에서는 끔찍했다.
+이를 해결하기 위해 다양한 핵이 존재했지만, 이를 적용해도 100% 똑같이 일치하지는 않는다.</p>
+
+<p>아래는 Windows 7에서 Daum_Regular.ttf를 사용해 브라우저별로 비교를 해보았다.
+(시안에는 letter-spacing:-1px이 적용되어있지만, 브라우저 비교삿에는 이를 제외했다. 그리고 핵을 사용하지 않은 스크린샷이다.)</p>
+
+<p>인터넷에 떠도는 각종 핵(IE에서 zoom을 이용한 핵/PNG 이용 핵 등등)을 사용해서 싱크로율을 맞추려고 했지만,
+정말 맞추기 힘들고, 맞추는 시간에 비해 얻는 퀄리티가 적어서 실망스러웠었다. 그나마 영문자는 좀 나은데, 한글은 정말...T_T</p>
+
+<p>결론은, Windows에서 Browser로 아름다운 윤곽선 웹폰트 보는건 이미지나 플래시 폰트를 사용하지 않고서는 불가능이다!</p>
+
+<p><img src="./@img/browser.gif" alt="">
+</p>
+
+<h2>@font-face 대안은?</h2>
+
+<p>사실...정말 @font-face 대안은 찾기 싫었다.
+script를 쓰지 않고 CSS만 가지고 아름다운 웹폰트를 쓰고 싶었지만 아직은 역부족인것 같아서 별 수 없이 대안을 찾기로 결심했다.</p>
+
+<p>이러한 플랫폼 의존적인 렌더링 문제 때문에 여러 사이트에서 유/무료 @font-face 대안 솔루션을 제공하고 있다.
+Comparison of web fonts solutions(<a href="http://t.co/4sZBVFG)을">http://t.co/4sZBVFG)을</a> 보면, 현존하는 웹폰트 솔루션의 장단점이 잘 나와있다.(꼭 한번 보기 바란다.)</p>
+
+<p><strong>하지만…</strong></p>
+
+<p>구매한 폰트가 있다(또는 공개된 폰트 중 맘에 드는게 있다)
+Flash가 느려서 싫다
+지금까지 필자가 써본 것 중, 위의 두가지를 만족시키고 가장 만족스러웠던 품질을 얻은건 Cufón 이었다.
+Cufón의 단점이라고 한다면... 파일 사이즈인데, 텍스트파일이 원본 폰트 사이즈만큼 크다는것이다.</p>
+
+<p><strong>하지만!</strong></p>
+
+<p>이를 Subsetting하고, (mod_gzip 사용해서) gzip 압축하면 220kb대 까지 떨어진다.
+그리고 브라우저별로 거의 일치하는 싱크로율을 보여주었다. 물론 속도도 만족스러웠다.</p>
+
+<p>최근에는 text-selection까지 지원하고 있다고 하니 더더욱 만족스러워 보였다. 현재 IE9까지 지원하고 있다고 한다.(1.09i)</p>
+
+<h2>결론</h2>
+
+<p>정말 간단하게 요약하면...</p>
+
+<p>Windows에서는 Cufón을 쓰고, Mac/Linux에서는 @font-face를 쓰자.
+플랫폼을 나누기 귀찮으면 Cufón으로 통일하자.
+1, 2번이 영 맘에 안든다면 Flash 폰트를 사용하라. (참고로 Flash를 이용한 Font는 Dynamic Text 지원으로 text-selection도 된다.)
+마지막으로...</p>
+
+<h3>@font-face 사용과 관련해서 반드시 읽어보아야 할 URL</h3>
+
+<ul>
+<li><a href="http://paulirish.com/2009/fighting-the-font-face-fout/"><a href="http://paulirish.com/2009/fighting-the-font-face-fout/">http://paulirish.com/2009/fighting-the-font-face-fout/</a></a></li>
+<li><a href="http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/"><a href="http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/">http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/</a></a></li>
+<li><a href="http://paulirish.com/2010/font-face-gotchas/"><a href="http://paulirish.com/2010/font-face-gotchas/">http://paulirish.com/2010/font-face-gotchas/</a></a></li>
+</ul>
+
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/webfont-sayonghagi#disqus_thread" data-disqus-identifier="4"></a>
+                        <p>
+                            <a href="/post/webfont-sayonghagi" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/ringojs-sijaghagi">RingoJS 시작하기</a></h1>
+                            <span class="pull-right">Thursday, May 17 2012 6:00 PM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <h2>Introduction</h2>
+
+<p>NodeJS와 유사한 프로젝트로, RingoJS라는걸 소개하고자 한다. 이 역시 CommonJS 구현체이고, 구현된 스팩은 아래와 같다.</p>
+
+<ul>
+<li>Modules 1.1</li>
+<li>JSGI 0.3</li>
+<li>Binary/B</li>
+<li>I/O A</li>
+<li>Filesystem/A (minus globbing)</li>
+<li>Filesystem/A/0</li>
+<li>System 1.0</li>
+<li>Unit Testing 1.0</li>
+</ul>
+
+<p>RingoJS는 NodeJS와 달리 JVM위에서 동작하는 프로젝트이므로, 기존에 Java로 작성된 모듈을 재활용할 수 있고, 라이브러리 또한 재활용 할 수 있다. 필요한 부분만 Wrapper를 만들어서 쓰면 기존에 작성된 모듈과 자바스크립트로 연결이 가능하다.
+(물론 Wrapper를 만들어야한다는게 문제라면 문제다.)</p>
+
+<h2>Installation</h2>
+
+<p><a href="http://ringojs.org/getting_started">http://ringojs.org/getting_started</a> 에서는 간단하게 어떻게 설치하는지에 대한 설명이 나와 있는데, 요약하면 다음과 같다.</p>
+
+<p>JDK를 설치한다.
+Rhino 1.7R3-SNAPSHOT 버전이 필요하다.(JavaScript Version 1.8을 필요로 하기 때문)
+Git를 통해 소스를 내려받고, ant jar 로 빌드한다.
+여기서는 이클립스를 사용해 만드는것으로 가정하고, 이미 만들어진 프로젝트를 활용하여 시작하는것으로 하자.</p>
+
+<p>편리한 시작을 위해 <a href="https://github.com/kyungw00k/ringojs-eclipse-skeleton">https://github.com/kyungw00k/ringojs-eclipse-skeleton</a> 에 프로젝트 뼈대를 만들어 놨다.
+Maven Project이니 사용하는 이클립스에 maven project를 사용할 수 없으면 m2eclipse같은걸 설치한 후에 사용하면 되겠다.</p>
+
+<h2>Project Structure</h2>
+
+<p><img src="./@img/structure1.png" alt="">
+</p>
+
+<ul>
+<li>/src/main/webapp/WEB-INF/app - RingoJS App이 위치한 경로</li>
+<li>/src/main/webapp/WEB-INF/app/public - static files</li>
+<li>/src/main/webapp/WEB-INF/app/skins - template files</li>
+<li>/src/main/webapp/WEB-INF/packages - commonjs packages. 추가 패키지가 있으면 여기에 넣으면 된다.</li>
+<li>/src/main/webapp/WEB-INF/lib - 자바 라이브러리(JAR형태)가 필요하면 여기에 넣는다.</li>
+</ul>
+
+<p>동작 순서는, 일단 web.xml에 있는 정보대로 JSGI 서블릿을 하나 생성하게 되고, 이 서블릿에서 모든 URL path를 처리하게 되어있다.</p>
+
+<p>보통, nodeJS에서는 node server.js 와 같은 형태로 앱을 실행하지만,
+여기서는 jetty와 같이 기존 웹서버를 사용하는 형태로 진행하기에 따로 ringo main.js 와 같은 형태로 가지 않을것이다.
+(물론 RingoJS에서도 nodeJS와 마찬가지로 ringo main.js 와 같이 실행한다.)</p>
+
+<p>서버 띄우기 전에 config.js 를 먼저 살펴보자.</p>
+
+<pre><code>// URL routing. Using require() here to statically import modules will
+// improve performance, but may cause hard to debug cyclic module dependencies
+// in case any app module requires this module.
+// 아래의 경우는, / 를 actions.js에게 위임한다는 의미다.
+exports.urls = [
+    ['/', './actions'],
+];
+
+// Middleware stack as an array of middleware factories. These will be
+// wrapped around the app with the first item in the array becoming the
+// outermost layer in the resulting app.
+exports.middleware = [
+    require('ringo/middleware/gzip').middleware,
+    require('ringo/middleware/etag').middleware,
+    require('ringo/middleware/static').middleware(module.resolve('public')),
+    // require('ringo/middleware/responselog').middleware,
+    require('ringo/middleware/error').middleware('skins/error.html'),
+    require('ringo/middleware/notfound').middleware('skins/notfound.html'),
+];
+
+// The JSGI application. This is a function that takes a request object
+// as argument and returns a response object.
+exports.app = require('ringo/webapp').handleRequest;
+
+// Standard skin macros and filters
+exports.macros = [
+    require('ringo/skin/macros'),
+    require('ringo/skin/filters'),
+];
+
+// Default character encoding and MIME type for this app
+exports.charset = 'UTF-8';
+exports.contentType = 'text/html';
+아래는 actions.js 내용이다.
+
+var {Response} = require('ringo/webapp/response');
+
+exports.index = function (req) {
+    return Response.skin(module.resolve('skins/index.html'), {
+        title: &quot;It's working!&quot;
+    });
+};
+</code></pre>
+
+<p>위의 두 파일에서 보면, '/' 액션은 actions.js가 처리하게 했고, actions.js 에서는 index 라는 GET 액션을 처리하고 있다.
+(다시말해 /index 를 처리하고 있는 샘)</p>
+
+<p>Response.skin이 조금 어색하긴하지만, 일단 템플릿 엔진으로 생각하면 된다.
+여기서는  skins/index.html 을 템플릿으로 사용하고, Object 를 넘겨주는데 이때 title이란 값으로 스트링을 넘겨주고 있다. 
+(자세한 사항은 <a href="http://ringojs.org/wiki/Tutorial#skins_subskins">http://ringojs.org/wiki/Tutorial#skins_subskins</a> 부분을 참고하도록 하자.)</p>
+
+<p>그렇다면,  POST나 PUT, DELETE는 어떻게 처리할까?
+셈플에는 없어서 간단히 한번 만들어보았다.</p>
+
+<pre><code>var {Response} = require('ringo/webapp/response');
+
+exports.index = {}; // Object 로 선언한다.
+
+exports.index.GET = function (req) {
+    return Response.skin(module.resolve('skins/index.html'), {
+        title: &quot;It's working!&quot;
+    });
+};
+
+// 나머지 액션은 아래와 같이 처리한다.
+exports.index.POST = function (req) { ... };
+exports.index.PUT = function (req) { ... };
+exports.index.DELETE = function (req) { ... };
+</code></pre>
+
+<p>대충 어떻게 돌아가는지 (대충) 설명했다. 이제 서버를 한번 띄워보자.</p>
+
+<pre><code>mvn install
+
+mvn jetty:run
+</code></pre>
+
+<p>위의 두 행으로 서버가 뜨게 된다.</p>
+
+<p>이클립스에서는 일단...</p>
+
+<p><img src="./@img/maven_install.png" alt="">
+</p>
+
+<p>이렇게 maven install을 한 후에, Run As로 다시 가서 Run Configurations을 실행시킨다.</p>
+
+<p><img src="./@img/run_configuration.png" alt="">
+</p>
+
+<p>Goals에 jetty:run을 넣고 Run으로 실행을 한다.</p>
+
+<p>실행이 되면 서버가 뜰테고, 특별한 설정이 아니라면 8080 포트로 설정이 되어있을꺼다.</p>
+
+<p>아래는 서버 띄운 후 간단한 실행한 화면이다.</p>
+
+<p><img src="./@img/working.png" alt="working">
+</p>
+
+<p>RingoJS의 독특한점(?)이라고 한다면 Google App Engine에서 사용할 수 있다는 점이다.</p>
+
+<p>App Engine 위에서 RingoJS Project를 띄우려고 만든 셈플 프로젝트가 있다.
+<a href="http://ringo-chat.appspot.com">http://ringo-chat.appspot.com</a> 이고, NodeChat을 제가 그냥 RingoJS로 포팅해서 엡엔진에 배포한 프로토타입이다.</p>
+
+<p>소스는 <a href="https://github.com/kyungw00k/ringo-chat"><a href="https://github.com/kyungw00k/ringo-chat">https://github.com/kyungw00k/ringo-chat</a></a> 에 있고, 다음 Post에서는 이 소스를 기준으로 간단하게 살펴보도록 하겠다.</p>
+
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/ringojs-sijaghagi#disqus_thread" data-disqus-identifier="5"></a>
+                        <p>
+                            <a href="/post/ringojs-sijaghagi" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/google-app-engine-sdk-1-dot-4-0-release">Google App Engine SDK 1.4.0 Release</a></h1>
+                            <span class="pull-right">Thursday, May 17 2012 5:58 PM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <p>크리스마스 선물과도 같은 릴리즈인것 같습니다.
+Channel API가 오픈되서 Server-Side Push를 해볼 수 있네요.
+기념으로 간단하게 채팅방 포팅해봤습니다.</p>
+
+<ul>
+<li>데모 : <a href="http://gae-simple-chat.appspot.com/"><a href="http://gae-simple-chat.appspot.com/">http://gae-simple-chat.appspot.com/</a></a></li>
+<li>소스 : <a href="https://github.com/kyungw00k/gae_simple_chat"><a href="https://github.com/kyungw00k/gae_simple_chat">https://github.com/kyungw00k/gae_simple_chat</a></a></li>
+</ul>
+
+<p>어디서 많이 보던 모양이죠? ㅋㅋ</p>
+
+<p>SDK Detail 정보는 아래 링크에서 확인하세요 :D
+<a href="http://googleappengine.blogspot.com/2010/12/happy-holidays-from-app-engine-team-140.html"><a href="http://googleappengine.blogspot.com/2010/12/happy-holidays-from-app-engine-team-140.html">http://googleappengine.blogspot.com/2010/12/happy-holidays-from-app-engine-team-140.html</a></a></p>
+
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/google-app-engine-sdk-1-dot-4-0-release#disqus_thread" data-disqus-identifier="6"></a>
+                        <p>
+                            <a href="/post/google-app-engine-sdk-1-dot-4-0-release" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/release-zepto-dot-j-s-0-dot-2">Release zepto.js 0.2</a></h1>
+                            <span class="pull-right">Thursday, May 17 2012 5:27 PM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <p>모바일 Webkit을 위한 저용량 프레임워크인 Zepto.js의 0.2버전이 릴리즈 되었습니다.</p>
+
+<p>이번 버전에서는 무거운 JavaScript 애플리케이션의 구조화를 위한 <a href="http://documentcloud.github.com/backbone/">backbone.js</a>에 대한 지원이 추가되었으며 이전버번에서 호환성이 없던 문제들이 해결되었고 JSON인코딩을 포함하여 Ajax호출이 더 적절하게 이뤄지도록 수정되었습니다. 0.2버전에서는 minified되고 gzip으로 압축하면 2.5k의 저용량을 유지하고 있습니다.</p>
+
+<p>자세한 내용은 Zepto.js를 만든 <a href="http://mir.aculo.us/2010/12/01/zepto-js-v0-2-%E2%80%94-backbone-js-compatibility-unbind-text-better-ajax/">Thomas Fuchs</a> 에 글에 나와있으며 API 사용법에 대해서는 Zepto.js의 저장소인 <a href="https://github.com/madrobby/zepto">Github</a>에 잘 나와 있습니다.</p>
+
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/release-zepto-dot-j-s-0-dot-2#disqus_thread" data-disqus-identifier="7"></a>
+                        <p>
+                            <a href="/post/release-zepto-dot-j-s-0-dot-2" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
                             <h1><a href="/post/javascript-mentors">JavaScript Mentors</a></h1>
                             <span class="pull-right">Monday, May 14 2012 4:57 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -253,7 +1090,7 @@
 
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/javascript-mentors#disqus_thread" data-disqus-identifier="0"></a>
+                        <a class="pull-right" href="/post/javascript-mentors#disqus_thread" data-disqus-identifier="8"></a>
                         <p>
                             <a href="/post/javascript-mentors" class="btn btn-info">Read more...</a>
                         </p>
@@ -269,7 +1106,7 @@
                             <h1><a href="/post/couchdb-sijaghagi">CouchDB 시작하기</a></h1>
                             <span class="pull-right">Monday, May 14 2012 4:55 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -285,7 +1122,7 @@
 
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/couchdb-sijaghagi#disqus_thread" data-disqus-identifier="1"></a>
+                        <a class="pull-right" href="/post/couchdb-sijaghagi#disqus_thread" data-disqus-identifier="9"></a>
                         <p>
                             <a href="/post/couchdb-sijaghagi" class="btn btn-info">Read more...</a>
                         </p>
@@ -301,7 +1138,7 @@
                             <h1><a href="/post/simple-data-transmission-in-javascript">Simple Data Transmission in JavaScript</a></h1>
                             <span class="pull-right">Monday, May 14 2012 4:54 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -317,7 +1154,7 @@
 
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/simple-data-transmission-in-javascript#disqus_thread" data-disqus-identifier="2"></a>
+                        <a class="pull-right" href="/post/simple-data-transmission-in-javascript#disqus_thread" data-disqus-identifier="10"></a>
                         <p>
                             <a href="/post/simple-data-transmission-in-javascript" class="btn btn-info">Read more...</a>
                         </p>
@@ -333,7 +1170,7 @@
                             <h1><a href="/post/flyweight-pattern-in-javascript">Flyweight Pattern in JavaScript</a></h1>
                             <span class="pull-right">Monday, May 14 2012 4:53 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -349,7 +1186,7 @@
 
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/flyweight-pattern-in-javascript#disqus_thread" data-disqus-identifier="3"></a>
+                        <a class="pull-right" href="/post/flyweight-pattern-in-javascript#disqus_thread" data-disqus-identifier="11"></a>
                         <p>
                             <a href="/post/flyweight-pattern-in-javascript" class="btn btn-info">Read more...</a>
                         </p>
@@ -365,7 +1202,7 @@
                             <h1><a href="/post/writing-native-extension-for-node-dot-j-s">Writing Native Extension for Node.js</a></h1>
                             <span class="pull-right">Monday, May 14 2012 4:46 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -379,13 +1216,13 @@
 
 <p>이번 내용은 Node.js 의 Native 확장 기능의 구조와 원리에 대해서 알아보고 간단한 실습을 통해서 직접 작성해보기도 하였습니다.</p>
 
-<p>자세한 내용은 <a href="/post/writing-native-extension-for-node-dot-j-s/@img/CPP_addon_with_NodeJS.pdf">PDF</a> 를 참고해주세요.</p>
+<p>자세한 내용은 <a href="./@img/CPP_addon_with_NodeJS.pdf">PDF</a> 를 참고해주세요.</p>
 
 <p><object id="doc_60606" style="outline: none;" width="660" height="580" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="data" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="document_id=39860807&amp;access_key=key-1mpv3rj59whv4sdutmc&amp;page=1&amp;viewMode=slideshow" /><param name="src" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="allowfullscreen" value="true" /><param name="flashvars" value="document_id=39860807&amp;access_key=key-1mpv3rj59whv4sdutmc&amp;page=1&amp;viewMode=slideshow" /><param name="allowscriptaccess" value="always" /><embed id="doc_60606" style="outline: none;" width="660" height="580" type="application/x-shockwave-flash" src="http://d1.scribdassets.com/ScribdViewer.swf" data="http://d1.scribdassets.com/ScribdViewer.swf" wmode="opaque" allowFullScreen="true" allowScriptAccess="always" FlashVars="document_id=39860807&amp;access_key=key-1mpv3rj59whv4sdutmc&amp;page=1&amp;viewMode=slideshow" allowfullscreen="true" flashvars="document_id=39860807&amp;access_key=key-1mpv3rj59whv4sdutmc&amp;page=1&amp;viewMode=slideshow" allowscriptaccess="always" /></object></p>
 
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/writing-native-extension-for-node-dot-j-s#disqus_thread" data-disqus-identifier="4"></a>
+                        <a class="pull-right" href="/post/writing-native-extension-for-node-dot-j-s#disqus_thread" data-disqus-identifier="12"></a>
                         <p>
                             <a href="/post/writing-native-extension-for-node-dot-j-s" class="btn btn-info">Read more...</a>
                         </p>
@@ -401,7 +1238,7 @@
                             <h1><a href="/post/server-side-javascript-based-on-rhino">Server Side javaScript based on Rhino</a></h1>
                             <span class="pull-right">Monday, May 14 2012 4:42 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -423,11 +1260,188 @@
 
  class MyFactory extends ContextFactory
  {
+
+     // Custom Context to store execution time.
+     private static class MyContext extends Context
+     {
+         long startTime;
+     }
+
+     static {
+         // Initialize GlobalFactory with custom factory
+         ContextFactory.initGlobal(new MyFactory());
+     }
+
+     // Override makeContext()
+     protected Context makeContext()
+     {
+         MyContext cx = new MyContext();
+         // Make Rhino runtime to call observeInstructionCount
+         // each 10000 bytecode instructions
+         cx.setInstructionObserverThreshold(10000);
+         return cx;
+     }
+
+     // Override hasFeature(Context, int)
+     public boolean hasFeature(Context cx, int featureIndex)
+     {
+         // Turn on maximum compatibility with MSIE scripts
+         switch (featureIndex) {
+             case Context.FEATURE_NON_ECMA_GET_YEAR:
+                 return true;
+
+             case Context.FEATURE_MEMBER_EXPR_AS_FUNCTION_NAME:
+                 return true;
+
+             case Context.FEATURE_RESERVED_KEYWORD_AS_IDENTIFIER:
+                 return true;
+
+             case Context.FEATURE_PARENT_PROTO_PROPERTIES:
+                 return false;
+         }
+         return super.hasFeature(cx, featureIndex);
+     }
+
+     // Override observeInstructionCount(Context, int)
+     protected void observeInstructionCount(Context cx, int instructionCount)
+     {
+         MyContext mcx = (MyContext)cx;
+         long currentTime = System.currentTimeMillis();
+         if (currentTime - mcx.startTime &gt; 10*1000) {
+             // Context가 생성되고 스크립트가 실행될때, 10초가 넘을 경우 Script를 중단한다.
+             // 이 경우에는 실행 코드 자체가 중단된다.
+             throw new Error();
+         }
+     }
+
+     // Override doTopCall(Callable,
+                               Context, Scriptable,
+                               Scriptable, Object[])
+     // doTopCall의 경우, 실제 스크립트를 evaluateString 등으로 실행 시킬 때 실행 시점 전에 호출되는 Method이다.
+     // 그렇기 때문에 실행 전에 시작 시간을 저장해놓았다.
+     protected Object doTopCall(Callable callable,
+                                Context cx, Scriptable scope,
+                                Scriptable thisObj, Object[] args)
+     {
+         MyContext mcx = (MyContext)cx;
+         mcx.startTime = System.currentTimeMillis();
+
+         return super.doTopCall(callable, cx, scope, thisObj, args);
+     }
+
+ }
 </code></pre>
+
+<p>그런데 만약, 실행해야할 Script가 하나가 아니고 여러개일 경우라면 어떨까?</p>
+
+<p>Script를 실행 시켜주는 Shell이 있고, 여러 Script를 받아서 제한 시간내에 실행시키고 결과를 출력해야 하는 경우라면, 위의 코드를 그대로 쓰기에는 좀 부족하다.</p>
+
+<p>단순히 Error를 Throw 하기 보다 일종의 Runtime Exception을 던지는게 훨신 깔끔해 보일듯 하다.</p>
+
+<p>그래서 위 코드의 observeInstructionCount를 Context.throwAsScriptRuntimeEx를 사용하여 아래처럼 바꿔보았다.</p>
+
+<pre><code class="java">...
+protected void observeInstructionCount(Context cx, int instructionCount)
+    {
+      MyContext mcx = (MyContext)cx;
+        mcx.endTime = System.currentTimeMillis() - mcx.startTime;
+        if ( mcx.endTime &gt; limitedTime*1000 ) {
+             // Context에 throwAsScriptRuntimeEx라는 Exception이 있다.
+             // 이를 활용하면 프로그램 자체가 Error로 중단되는 일은 없겠다.
+             throw Context.throwAsScriptRuntimeEx(new Exception(&quot;Timeout&quot;));
+        }
+    }
+...
+</code></pre>
+
+<p>여기까지 일단 10초 내로 Timeout을 거는건 해결되었다. 그런데, 스크립트 별로 제한 시간을 달리 둘 수도 있을 것이다.</p>
+
+<p>이런 경우는 프로그램을 작성하기 나름이라 어느것이 효율적이라고 잘라 말하기는 어렵다.</p>
+
+<p>여기서는 Rhino의 Context Class의 Method를 활용하는 쪽으로 예를 들어본다.</p>
+
+<p>아래의 코드는 다른 Class에서 위의 코드를 사용해 Javascript를 실행하는 예제이다.</p>
+
+<pre><code class="java">import org.mozilla.javascript.*;
+
+public class TestScript {
+    // ContextFactory를 앞에서 정의한 MyFactory Class의 Instance로 대체한다.
+    // 아래의 Static Block은 앞에서 작성한 MyFactory 에서도 정의되어 있는데,
+    // 이는 실제 Context에 진입해 코드를 실행할때 필요하기 때문에 여기에 두었다.(즉, 위에서는 삭제해도 되겠다.)
+    static {
+        ContextFactory.initGlobal(new MyFactory());
+    }
+
+    public static void main(String[] args)
+    {
+        Context cx = Context.enter();
+        Long runningTime = 0;
+        try {
+            Scriptable scope = cx.initStandardObjects();
+
+            // 실행하기 전에 해당 Thread 영역에 제한시간을 설정한다.
+            // Context Class의 putThreadLocal과 getThreadLocal을 사용하여 값을 전달한다.
+            cx.putThreadLocal(&quot;limitedTime&quot;, 5);
+
+            cx.evaluateString(scope, &quot;while(1){};&quot;, &quot;MySource&quot;, 1, null);
+
+        } finally {
+            runningTime = (Long)cx.getThreadLocal(&quot;executionTime&quot;);
+            Context.exit();
+        }
+        System.out.println(&quot;Running time : &quot;+runningTime+&quot;s&quot;);
+    }
+}
+</code></pre>
+
+<p>위의 코드에서 Context에 &quot;limitedTime&quot; 이라는 Key로 5란 값을 Value로 설정했고, &quot;executionTime&quot; 이라는 Key로 최종 실행 시간을 가져오도록 설정했다.  이에 맞춰서 기존의 MyContextFactory에도 일부 코드가 수정되어야 한다. 수정 코드는 아래와 같다.</p>
+
+<pre><code class="java">...
+   // Override observeInstructionCount(Context, int)
+    protected void observeInstructionCount(Context cx, int instructionCount)
+    {
+      MyContext mcx = (MyContext)cx;
+
+        // 현재 시점에서의 실행 시간을 의미한다.
+        long currentRunningTime = System.currentTimeMillis() - mcx.startTime;
+
+        // 이 부분에서 앞에서 설정한 값을 Thread 영역에서 가져온다.
+        long limitedTime = (Long)(cx.getThreadLocal(&quot;limitedTime&quot;));
+
+        // 이 부분에서 실행시간이 'limitedTime' 초를 넘어설 경우를 검사한다.
+        if ( currentRunningTime &gt; limitedTime*1000 ) {
+
+             // 중단된 지점까지의 실행 시간을 executionTime으로 값을 저장한다.
+             cx.putThreadLocal(&quot;executionTime&quot;, currentRunningTime);
+
+             throw Context.throwAsScriptRuntimeEx(new Exception(&quot;Timeout&quot;));
+        }
+    }
+
+    // 정상적으로 종료되었을 경우를 고려해 이 부분에 추가로 종료시간을 Context에 저장한다.
+    protected Object doTopCall(Callable callable,
+                               Context cx, Scriptable scope,
+                               Scriptable thisObj, Object[] args)
+    {
+      MyContext mcx = (MyContext)cx;
+      mcx.startTime = System.currentTimeMillis();
+
+      Object retObj = super.doTopCall(callable, cx, scope, thisObj, args);
+
+      // 최종 실행 시간을 executionTime으로 값을 저장한다.
+      long finalRunningTime = System.currentTimeMillis() - mcx.startTime;
+
+        cx.putThreadLocal(&quot;executionTime&quot;, finalRunningTime);
+        return retObj;
+    }
+...
+</code></pre>
+
+<p>위의 코드는 <a href="http://jsonlinejudge.appspot.com"><a href="http://jsonlinejudge.appspot.com">http://jsonlinejudge.appspot.com</a></a> 에서 코드의 실행시간을 측정하기 위한 방법으로 사용되었다.</p>
 
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/server-side-javascript-based-on-rhino#disqus_thread" data-disqus-identifier="5"></a>
+                        <a class="pull-right" href="/post/server-side-javascript-based-on-rhino#disqus_thread" data-disqus-identifier="13"></a>
                         <p>
                             <a href="/post/server-side-javascript-based-on-rhino" class="btn btn-info">Read more...</a>
                         </p>
@@ -443,7 +1457,7 @@
                             <h1><a href="/post/jsr-223---scripting-for-the-java-platform">JSR 223 - Scripting for the Java Platform</a></h1>
                             <span class="pull-right">Monday, May 14 2012 4:21 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -455,7 +1469,7 @@
                         <div class="markdown">
                             <h2>JSR 223 소개</h2>
 
-<p><img src="/post/jsr-223---scripting-for-the-java-platform/@img/wpid-wpid-jw-0424-scripting3-2010-09-27-17-07-2010-09-27-17-07.gif" alt="">
+<p><img src="./@img/wpid-wpid-jw-0424-scripting3-2010-09-27-17-07-2010-09-27-17-07.gif" alt="">
 </p>
 
 <p>Java SE 6에는 Script Engine을 지원하기 위해 API를 제공한다. 이는 Java에서 특정 Script를 실행시킬 수 있게 해줄 뿐 아니라, Java의 Context와 연결하기 위해 일종의 Entry Point를 제공해, Context를 공유할 수 있다.
@@ -482,9 +1496,340 @@ ScriptEngineFactory      </p>
 
 <p>위의 두 객체를 이용해 Script언어를 실행하기까지는 크게 3단계로 나뉠 수 있다.</p>
 
+<ol>
+<li>ScriptEngineManager 객체를 만든다.</li>
+<li>ScriptEngineManager 객체로 부터 사용하고자 하는 Script의 ScriptEngine 객체를 받는다.</li>
+<li>ScriptEngine 객체를 사용하여 Script를 실행한다.</li>
+</ol>
+
+<p>위 단계를 사용해 간단히 JavaScript Code를 실행시키는 예제를 살펴보자.</p>
+
+<pre><code class="java">   ScriptEngineManager mgr = new ScriptEngineManager();
+   ScriptEngine jsEngine = mgr.getEngineByName(“JavaScript”);
+
+   try {
+     jsEngine.eval(“print(‘Hello, world!’)”);
+   } catch (ScriptException ex) {
+       ex.printStackTrace();
+   }
+</code></pre>
+
+<h3>사용가능한 Script Engines</h3>
+
+<p>Java 6에는 기본적으로 Mozilla Rhino engine(JavaScript)이 포함되어 있다. 그 이외에 언어를 지원하고 싶다면 일단 <a href="https://scripting.dev.java.net에">https://scripting.dev.java.net에</a> JSR 223에서 사용 가능한 Script Engine 목록이 있는지 확인 하는게 좋겠다. 만약 새로운 언어를 임의로 추가하여 사용하고 싶다면 Making Scripting Languages JSR-223 를 참고하기 바란다.
+ListScriptingtEngines.java 에서는 JVM에서 사용 가능한 Script Engine 목록을 보여준다. ScriptEngineManager는 JVM에서 사용 가능한 ScriptEngine Class들을 찾고, 이를 Key/Value 형태로 관리한다.
+ScriptEngineManager 객체는 Script Framework를 위한 일종의 Discovery Mechanism을 제공함으로서 ScriptEngineFactory(ScriptEngine 객체를 생성)를 찾는다. 보다 더 상세한 정보는 해당 Script Library의 JAR File Specification에 들어 있다.</p>
+
+<pre><code class="java">import java.util.List;
+import javax.script.ScriptEngineFactory;
+import javax.script.ScriptEngineManager;
+
+ public class ListScriptingEngines {
+
+     public static void main(String[] args) {
+         ScriptEngineManager manager = new ScriptEngineManager();
+         List engines = manager.getEngineFactories();
+         if (engines.isEmpty()) {
+             System.out.println(“No scripting engines were found”);
+             return;
+         }
+         System.out.println(“The following “ + engines.size() +
+             “ scripting engines were found”);
+         System.out.println();
+         for (ScriptEngineFactory engine : engines) {
+             System.out.println(“Engine name: “ + engine.getEngineName());
+             System.out.println(“\tVersion: “ + engine.getEngineVersion());
+             System.out.println(“\tLanguage: “ + engine.getLanguageName());
+             List extensions = engine.getExtensions();
+             if (extensions.size() &gt; 0) {
+                 System.out.println(“\tEngine supports the following extensions:”);
+                 for (String e : extensions) {
+                     System.out.println(“\t\t” + e);
+                 }
+             }
+             List shortNames = engine.getNames();
+             if (shortNames.size() &gt; 0) {
+                 System.out.println(“\tEngine has the following short names:”);
+                 for (String n : engine.getNames()) {
+                     System.out.println(“\t\t” + n);
+                 }
+             }
+             System.out.println(“=========================“);
+         }
+     }
+}
+</code></pre>
+
+<p>EngineManager의 Instance 생성 후에 getEngineFactories() Method를 실행하였다. 이 Method는 Discovery Mechanism에 의해 발견된 ScriptEngineFactory Class를 모두 보여준다. 각 ScriptEngineFactory에는 Engine에 대한 Metadata를 가지고 있는데, 이는 getEngineName(), getEngineVersion(), getLangugeName(), getExtensions(), getNames()가 있다.</p>
+
+<pre><code>The following 1 scripting engines were found:
+
+ Engine name: Mozilla Rhino
+         Version: 1.6 release 2
+         Language: ECMAScript
+         Engine supports the following extensions:
+                 js
+         Engine has the following short names:
+                 js
+                 rhino
+                 JavaScript
+                 javascript
+                 ECMAScript
+                 ecmascript
+=========================
+</code></pre>
+
+<h3>Script 불러오기 &amp; 실행시키기</h3>
+
+<p>Python, Ruby가 JVM에서 사용할 수 있다고 가정하자.(Classpath 설정 필요) 예를들어 다음과 같이 Test.py, Test.rb 2개의 파일이 있을떄, 아래와 같은 코드를 사용해 파일의 확장자로 해당 Script Engine을 불러와 Script를 실행해 보자.</p>
+
+<pre><code>// Test.py
+print ‘Testing Jython!’
+</code></pre>
+
+<pre><code>// Test.rb
+puts ‘Testing JRuby!’
+</code></pre>
+
+<p>In JavaCode</p>
+
+<pre><code class="java">…
+String ext = fileName.substring(fileName.lastIndexOf(“.”)+1);           
+             ScriptEngine engine = manager.getEngineByExtension(ext);
+             if (engine != null) {
+                 try {
+                     ScriptEngineFactory factory = engine.getFactory();
+
+                     // Script 파일 이름 및 Engine의 정보 출력
+                    System.out.println(“Running “ + fileName + “ using engine “ +
+                         factory.getEngineName() + “ Version “ +
+                         factory.getEngineVersion() + “ for language “ +
+                         factory.getLanguageName());
+
+                     // Script 실행
+                    engine.eval(new FileReader(f));
+                 }
+…
+</code></pre>
+
+<p>위의 코드를 사용하여, JavaScriptingDemo.java 에서는 Test로 시작하는 파일 중 Script Engine이 지원하는 언어의 확장자의 파일을 실행시킨다.</p>
+
+<p>JavaScriptingDemo.java</p>
+
+<pre><code class="java">import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FilenameFilter;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineFactory;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
+ /**
+ * 현재 Directory에 있는 Test로 시작하는 파일을 찾아보고,
+  * 각 파일의 확장자에 맞는 엔진을 JVM에서 지원하면 실행한다.
+  *
+  * @author ptremblett
+  */
+public class JavaScriptingDemo {
+     /**
+      * @param args the command line arguments
+      */
+     public static void main(String[] args) {
+         ScriptEngineManager manager = new ScriptEngineManager();
+         File scriptsDir = new File(“scripts”);
+         File[] scripts = scriptsDir.listFiles(new TestFilter());
+         for (File f : scripts) {
+             String fileName = f.getName();
+             String ext = fileName.substring(fileName.lastIndexOf(“.”)+1);           
+             ScriptEngine engine = manager.getEngineByExtension(ext);
+             if (engine != null) {
+                 try {
+                     ScriptEngineFactory factory = engine.getFactory();
+                     System.out.println(“Running “ + fileName + “ using engine “ +
+                         factory.getEngineName() + “ Version “ +
+                         factory.getEngineVersion() + “ for language “ +
+                         factory.getLanguageName());
+                     engine.eval(new FileReader(f));                   
+                 }
+                 catch (FileNotFoundException ex) {
+                     Logger.getLogger(JavaScriptingDemo.class.getName()).log(Level.SEVERE, null, ex);
+                 }               
+                 catch (ScriptException ex) {
+                     Logger.getLogger(JavaScriptingDemo.class.getName()).log(Level.SEVERE, null, ex);
+                 }
+                 finally {
+                     System.out.println(“============================“);
+                 }
+             }
+             else {
+                 System.err.println(“Could not find scripting engine for “ + f.getName());
+             }
+         }
+     }
+}
+
+ class TestFilter implements FilenameFilter {
+
+     public boolean accept(File dir, String name) {
+         return name.startsWith(“Test.”);
+     }
+}
+</code></pre>
+
+<p>결과는 아래와 같다.</p>
+
+<pre><code>Running Test.py using engine jython Version 2.5.0 for language python
+Testing Jython!
+============================
+Running Test.rb using engine JRuby Engine Version 1.5.0 for language ruby
+Testing JRuby!
+============================
+</code></pre>
+
+<h3>Java에서 Script 내 함수 호출하기</h3>
+
+<p>아래와 같이 HelloGoodbye.rb에 3개의 함수가 있다고 하자.</p>
+
+<pre><code class="ruby">// HelloGoodbye.rb
+def hello()
+     puts “Hello world!”
+end
+
+ def goodbye()
+     puts “Goodbye cruel world!”
+end
+
+ def wait(seconds)
+     print “Waiting “,seconds,” seconds”
+     sleep(seconds)
+     puts “Finished waiting”
+end
+</code></pre>
+
+<p>아래의 코드는 위의 코드에서 hello()와 goodbye()를 호출한 결과를 보여준다.</p>
+
+<pre><code class="java">// InvokeFunctions.java
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.script.Invocable;
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineFactory;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
+ /**
+  *
+  * @author ptremblett
+  */
+public class InvokeFunctions {
+
+     /**
+      * @param args the command line arguments
+      */
+     public static void main(String[] args) {
+         ScriptEngineManager manager = new ScriptEngineManager();      
+         ScriptEngine engine = manager.getEngineByName(“ruby”);
+         try {
+                 engine.eval(new FileReader(“HelloGoodbye.rb”));
+
+                 Invocable inv = (Invocable)engine;
+             try {
+                 System.out.println(“Invoking hello”);
+                 inv.invokeFunction(“hello”);
+                 System.out.println(“Invoking goodbye”);
+                 inv.invokeFunction(“goodbye”);
+             }
+             catch (NoSuchMethodException ex) {
+                 Logger.getLogger(InvokeFunctions.class.getName()).log(Level.SEVERE, null, ex);
+             }
+         }
+       catch (FileNotFoundException ex) {
+                 Logger.getLogger(InvokeFunctions.class.getName()).log(Level.SEVERE, null, ex);
+             }     
+       catch (ScriptException ex) {
+             Logger.getLogger(InvokeFunctions.class.getName()).log(Level.SEVERE, null, ex);
+         }
+     }
+}
+</code></pre>
+
+<p>제약사항이 있다면, 위의 기능을 사용하기 전에 해당 언어에 Invocable Interface가 구현되어 있는지 여부를 확인해야 한다.
+Binding을 통한 Object 공유
+Java의 Object를 Script에서, 또는 Script의 값을 Java에서 사용할 수가 있다. 이는 ScriptEngine Instance의 put, get Method를 사용해서 공유하고자 하는 Object를 넣거나 가져오는 방법을 사용한다. 간단한 예제로 Java의 Object를 Ruby로 넘겨서 값을 변경한 후 출력해 보자.</p>
+
+<p>Java에서는 임의의 Object를 선언해 Ruby Context에서 볼 수 있도록 하자.</p>
+
+<pre><code class="java">Double rand = new Double(0.0);
+
+ // Engine에서는 randomNumber라는 이름으로 Java의 Double Type Object가 넘어간다.
+engine.put(“randomNumber”, rand);
+</code></pre>
+
+<pre><code class="ruby">share.rb
+// randomNumber의 값을 바꾼다.
+$randomNumber = rand()
+</code></pre>
+
+<p>아래는 위의 예제를 사용해 Engine Scope에 Binding되어 있는 Object명과 그 값을 보여준다.</p>
+
+<pre><code class="java">…
+ScriptEngineManager manager = new ScriptEngineManager();
+         ScriptEngine engine = manager.getEngineByName(“ruby”);
+         try {
+             // ScriptEngine으로 넘겨질 Object
+            Double rand = new Double(0.0);
+             engine.put(“randomNumber”, rand);
+
+             Bindings bindings = engine.getBindings(ScriptContext.ENGINE_SCOPE);
+             Iterator&gt; it = bindings.entrySet().iterator();
+             System.out.println(“Bindings follow:”);
+             while (it.hasNext()) {
+                 System.out.println(it.next());
+             }
+             System.out.println(“** end of bindings list **”);
+             System.out.println(“Generating 10 random numbers using script share.rb”);
+
+             for (int i = 0; i &lt; 10; ++i) {
+
+                 // Script를 실행시킨 후
+                engine.eval(new FileReader(“share.rb”));
+
+                 // Engine Scope에서 randomNumber를 가져옴.
+                System.out.println(engine.get(“randomNumber”));
+             }
+         }
+         catch (FileNotFoundException ex) {
+             Logger.getLogger(ShareObjects.class.getName()).log(Level.SEVERE, null, ex);
+         }
+         catch (ScriptException ex) {
+             Logger.getLogger(ShareObjects.class.getName()).log(Level.SEVERE, null, ex);
+         }
+…
+</code></pre>
+
+<h2>결론</h2>
+
+<p>Sandboxing이라는 문제가 남아있긴 하지만, 다른 언어와 Context를 공유할 경우가 있다면 JSR 223은 분명 매력적인 방법임에 틀림없다.</p>
+
+<h2>References</h2>
+
+<ul>
+<li><a href="http://java.sun.com/developer/technicalArticles/J2SE/Desktop/scripting/">SDN : Scripting for the Java Platform</a></li>
+<li><a href="http://www.drdobbs.com/java/215801163">Dr Dobbs - JSR 223: Scripting for the Java Platform</a></li>
+<li><a href="http://today.java.net/pub/a/today/2006/09/21/making-scripting-languages-jsr-223-aware.html">Making Scripting Languages JSR-223</a></li>
+<li><a href="https://scripting.dev.java.net/">scripting: Project Home Page</a></li>
+<li><a href="http://www.mozilla.org/rhino/">Mozilla Rhino project</a></li>
+</ul>
+
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/jsr-223---scripting-for-the-java-platform#disqus_thread" data-disqus-identifier="6"></a>
+                        <a class="pull-right" href="/post/jsr-223---scripting-for-the-java-platform#disqus_thread" data-disqus-identifier="14"></a>
                         <p>
                             <a href="/post/jsr-223---scripting-for-the-java-platform" class="btn btn-info">Read more...</a>
                         </p>
@@ -500,7 +1845,7 @@ ScriptEngineFactory      </p>
                             <h1><a href="/post/json-query-engine-top5">JSON Query Engine Top5</a></h1>
                             <span class="pull-right">Monday, May 14 2012 4:12 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -510,7 +1855,7 @@ ScriptEngineFactory      </p>
                             </ul>
                         </div>
                         <div class="markdown">
-                            <p><img src="/post/json-query-engine-top5/@img/json160.gif" alt="">
+                            <p><img src="./@img/json160.gif" alt="">
 </p>
 
 <p>JavaScript에서 JSON형식으로 데이터를 유지하는 것은 현대적인 웹 애플리케이션 개발에서 자주 사용됩니다.  간단하고 사용하기 쉽고 eval() 함수로 평가만 되면 개체로 사용할 수 있습니다.  입출력을 쉽게하며 JavaScript가 아닌 언어에서도 JSON 형식의 데이터를 처리하는 경우가 늘어나고 있습니다.</p>
@@ -521,9 +1866,107 @@ ScriptEngineFactory      </p>
 
 <h2>SQLike</h2>
 
+<p>introduce : <a href="http://thomasfrank.se/sqlike.html"><a href="http://thomasfrank.se/sqlike.html">http://thomasfrank.se/sqlike.html</a></a></p>
+
+<p>JOIN 구문이 우수합니다.  LINQ 보다 다소 SQL 문법과 유사하게 사용하며 프로그래머에게 좀더 친숙하게 접근하고 있습니다.  반면 방법이 약간 복잡한 부분이 있고, 특정 키워드를 파이프로 묶을 필요가 있습니다.  그리고 함수의 설명이 조금 귀찮다는 단점이 있습니다.</p>
+
+<p>쿼리 자체가 JSON을 사용하여 구조화 된 것이 특징입니다.  추가적으로 ActionScript 도 지원합니다.</p>
+
+<pre><code class="js">//선택 구문은 where 조건 비교함수의 this.born이 1941 보다 작은 조건에 만족하는 튜플을
+ //‘instrument’ 필드를 기준으로 내림차순으로 정렬하여 반환한다.
+ SQLike.q({
+ Select: ['*'],
+ From: dataJson,
+ Where: function(){return this.born &lt; 1941},
+ OrderBy: ['instrument','|desc|']
+ });
+</code></pre>
+
+<h2>JSLINQ</h2>
+
+<p>introduce : <a href="http://jslinq.codeplex.com/"><a href="http://jslinq.codeplex.com/">http://jslinq.codeplex.com/</a></a></p>
+
+<p>LINQ의 표기법에 가장 유사하게 구현되었습니다.  반면 JOIN 구문은 SQLike 만큼 완벽하지는 않습니다.  LINQ(Language Integrated Query : 통합 쿼리 언어)는 다양한 데이터 소스에 대한 범용적으로 사용할 수 있도록 설계된 쿼리 언어로 SQL 데이터베이스 쿼리 언어에 비해 LINQ는 데이터 원본의 종류를 가리지 않고 사용할 수 있도록 되어있다는 차이가 있습니다.</p>
+
+<pre><code class="js">//firstName 필드가 “Ringo”와 같은 튜플을 반환한다.
+ var exampleArray = JSLINQ(dataJson)
+ .Where(function(item){ return item.firstName == &quot;Ringo&quot;; });
+</code></pre>
+
+<h2>JSINQ</h2>
+
+<p>introduce : <a href="http://jsinq.codeplex.com/"><a href="http://jsinq.codeplex.com/">http://jsinq.codeplex.com/</a></a>, project : <a href="http://hugoware.net/projects/jlinq"><a href="http://hugoware.net/projects/jlinq">http://hugoware.net/projects/jlinq</a></a></p>
+
+<p>쿼리를 JavaScript 코드가 아닌 순수하게 문자열로 구성된 쿼리로 작성할 수 있는 특징이 있습니다.  그래서 쿼리를 만들거나 실행하는 것을 다른 방식으로도 할 수 있습니다.  그러나 이것은 이점이 있는 반면 단점도 있습니다.</p>
+
+<pre><code class="js">//문자열 형태의 쿼리를 수행할 수 있다.
+ var query = new jsinq.Query('\
+ from customer in $0 \
+ group customer by customer.lastname into g \
+ select {lastname: g.key, count: g.count()} \
+ into r \
+ orderby r.count descending \
+ select r \
+ ');
+
+
+query.setValue(0, customers);
+ var result = query.execute();
+</code></pre>
+
+<h2>JLinq</h2>
+
+<p>introduce : <a href="http://jlinq.codeplex.com/"><a href="http://jlinq.codeplex.com/">http://jlinq.codeplex.com/</a></a></p>
+
+<p>철저히 조건 함수로 작성하도록 되어 있고 현실적인 함수를 제공하며 사용하는데 별 어려움이 없습니다.  JOIN 기능은 제공되지 않으며 대신 union()으로 결합하고 그 후에 필요한 것들을 얻기 위한 기술해야 합니다.</p>
+
+<pre><code class="js">var results = jLinq.from(records)
+ .ignoreCase()
+ .startsWith(&quot;name&quot;, &quot;m&quot;)
+ .or(&quot;j&quot;)
+ .is(&quot;admin&quot;)
+ .orderBy(&quot;age&quot;)
+ .select();
+ }}
+</code></pre>
+
+<h2>JimmyLinq</h2>
+
+<p>introduce : <a href="http://netindonesia.net/blogs/jimmy/archive/2007/07/16/Javascript-LINQ_3F003F003F00_.aspx"><a href="http://netindonesia.net/blogs/jimmy/archive/2007/07/16/Javascript-LINQ_3F003F003F00_.aspx">http://netindonesia.net/blogs/jimmy/archive/2007/07/16/Javascript-LINQ_3F003F003F00_.aspx</a></a></p>
+
+<p>아주 간단한 JSON 쿼리 엔진으로 다른 JSON 쿼리 엔진과 비교할 때 제공하는 기능이 매우 적습니다.  직접 JSON 쿼리 엔진을 구현해야 하는 경우에 기초적으로 제공되어지기 위한 것에 가깝습니다.</p>
+
+<pre><code class="js">var p = from (peoples).
+ where (function(n) { return n.LastName === &quot;Doe&quot; || n.LastName === &quot;White&quot;; }).
+ orderby([ &quot;Age&quot;, &quot;LastName&quot;, &quot;FirstName&quot; ]).
+ select(function(n) { return { FullName : n.FirstName + &quot; &quot; + n.LastName, Age : n.Age }; });
+</code></pre>
+
+<h2>Summary</h2>
+
+<p>위의 엔진을 사용해보면서 느낀점은 하나의 웹 서비스를 개발함에 있어서 많은 Back-end 개발자들과 Front-end 개발자들이 협업할 때 백앤드 개발자들과는 일관된 데이터 포맷을 정의하고 제공받기 위해 유용하고 프론트 앤드 개발자들간에는 일관된 데이터 모델을 제공함으로써 복잡한 코드에서 일관된 데이터 모델에 접근할 수 있도록 제공하여 향후 다양한 이점이 발생할 것이라는 느낌을 받았습니다.</p>
+
+<p>뿐만 아니라 SQL을 기반으로 하고 있기 때문에 간단한 쿼리문만 이해하고 있다면 초기 학습시간도 그리 오래 걸리지 않을 것입니다.</p>
+
+<h2>See More</h2>
+
+<p>위에서 소개한 것 외에 다음과 같은 JSON 쿼리 라이브러리들이 더 존재합니다.</p>
+
+<p>TrimQuery</p>
+
+<p><a href="http://code.google.com/p/trimpath/wiki/TrimQuery"><a href="http://code.google.com/p/trimpath/wiki/TrimQuery">http://code.google.com/p/trimpath/wiki/TrimQuery</a></a></p>
+
+<p>JSONQuery: Data Querying Beyond JSONPath</p>
+
+<p><a href="http://www.sitepen.com/blog/2008/07/16/jsonquery-data-querying-beyond-jsonpath/"><a href="http://www.sitepen.com/blog/2008/07/16/jsonquery-data-querying-beyond-jsonpath/">http://www.sitepen.com/blog/2008/07/16/jsonquery-data-querying-beyond-jsonpath/</a></a></p>
+
+<p>jaql - Query Language for JavaScript(r) Object Notation (JSON)</p>
+
+<p><a href="http://code.google.com/p/jaql/wiki/JaqlOverview"><a href="http://code.google.com/p/jaql/wiki/JaqlOverview">http://code.google.com/p/jaql/wiki/JaqlOverview</a></a></p>
+
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/json-query-engine-top5#disqus_thread" data-disqus-identifier="7"></a>
+                        <a class="pull-right" href="/post/json-query-engine-top5#disqus_thread" data-disqus-identifier="15"></a>
                         <p>
                             <a href="/post/json-query-engine-top5" class="btn btn-info">Read more...</a>
                         </p>
@@ -539,7 +1982,7 @@ ScriptEngineFactory      </p>
                             <h1><a href="/post/jquery-cdn-hwalyong">jQuery CDN 활용</a></h1>
                             <span class="pull-right">Monday, May 14 2012 4:08 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -568,9 +2011,17 @@ ScriptEngineFactory      </p>
 
 <p>아래 코드로 간단하게 해결할 수 있습니다.</p>
 
+<pre><code class="js">&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.microsoft.com/ajax/jquery/jquery-1.3.2.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;// &lt;![CDATA[
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape(&quot;%3Cscript src='/Scripts/jquery-1.3.2.min.js' type='text/javascript'%3E%3C/script%3E&quot;));
+    }
+// ]]&gt;&lt;/script&gt;
+</code></pre>
+
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/jquery-cdn-hwalyong#disqus_thread" data-disqus-identifier="8"></a>
+                        <a class="pull-right" href="/post/jquery-cdn-hwalyong#disqus_thread" data-disqus-identifier="16"></a>
                         <p>
                             <a href="/post/jquery-cdn-hwalyong" class="btn btn-info">Read more...</a>
                         </p>
@@ -586,7 +2037,7 @@ ScriptEngineFactory      </p>
                             <h1><a href="/post/managing-scope-in-javascript">Managing Scope in JavaScript</a></h1>
                             <span class="pull-right">Monday, May 14 2012 3:46 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -607,7 +2058,7 @@ ScriptEngineFactory      </p>
 <li>Object members</li>
 </ul>
 
-<p><img src="/post/managing-scope-in-javascript/@img/wpid-f2-1-2010-09-17-13-08.png" alt="">
+<p><img src="./@img/wpid-f2-1-2010-09-17-13-08.png" alt="">
 </p>
 
 <p>위의 도표는 종류별로 각각 200,000개를 접근하는 속도를 브라우저 별로 테스트한 자료다. Literal value와 Variable의 접근 속도가 대체적으로 유사하고, Array item과 Object member에 접근하는 속도가 상대적으로 늦다는것을 보여준다.
@@ -615,9 +2066,206 @@ ScriptEngineFactory      </p>
 
 <h2>Managing Scope</h2>
 
+<h3>Scope Chains and Identifier Resolution</h3>
+
+<p>JavaScript에서의 function은 Object의 형태 구조를 따른다. Function object의 내부 property 중에 [[Scope]]가 있는데 이는 ECMA-262 Third Edition에 정의되어있다.
+이 [[Scope]] 에는 function이 생성되는 시점과 관련된 여러 Object Reference 정보들을 가지고 있는데, 이를 Function Scope Chain이라 한다. 이 Chain에서 function이 접근할 수 있는 Data 범위를 결정한다.
+Scope Chain에 있는 각각의 Object를 Variable Object라 하고, 이는 key-value 형태 자료구조를 갖는다. 함수가 생생될 시점에 Scope Chain 또한 생성되는데 이는 함수가 생성된 Scope를 기준으로 만들어진다.</p>
+
+<pre><code class="js">function add(num1, num2){
+var sum = num1 + num2;
+retur sum;
+}
+</code></pre>
+
+<p>위의 예제에서 보면 add()가 생성될 때, add()의 Scope Chain이 형성되고 이는 Global Object를 가리키게 된다. 아래 그림을 보면 쉽게 이해할 수 있다.</p>
+
+<p><img src="@img/wpid-f2-2-2010-09-17-13-08.png" alt="">
+</p>
+
+<p>** The Global Object
+보통 Global Context라고도 하는데, 이 Context 또한 Object이므로 Global Object라고도 한다. 웹브라우저에서 Global Object는 자기 자신을 가리키는 Property로, 보통은 window를 쓴다. Global Context에서 아래의 표현은 모두 같은 의미이다.</p>
+
+<pre><code class="js">foo = ‘bar’;
+var foo = ‘bar’;
+this.foo = ‘bar’;
+window.foo = ‘bar’;
+this.window.foo = ‘bar’;
+</code></pre>
+
+<p>함수 add()의 Scope Chain은 실제로 add()가 호출이 될때 사용하게 된다.</p>
+
+<pre><code class="js">var total = add(5, 10);
+</code></pre>
+
+<p>위와 같이 함수 add() 실행시 실행 환경을 결졍하는 Context 안에서 실행하게 되는데 이를 Execution Context라고 한다. Execution Context는 함수 실행 시점에 생성되고, 함수가 종료되는 시점에 사라진다.
+생성 단위는 하나의 함수 실행이고, 여러개의 함수가 실행되면 그때마다 각 함수에 해당하는 Context가 생성된다.</p>
+
+<p><img src="@img/wpid-f2-3-2010-09-17-13-08.png" alt="">
+</p>
+
+<p>add() 함수를 실행하는 시점에서 add() 함수 내부에서 num1, num2가 각각 5, 10으로 연결이 되는건, 이 값들이 Scope Chain의 첫번째인 Activation Object에 존재하기 떄문에 가능하다.
+만약 add() 함수 내부에서 document를 썼다면, Activation Scope내에 document가 존재하지 않기 때문에 그 다음 Chain으로 이동해 document를 찾게 된다.(Scope Chain에서 찾지 못하게 되면 undefined가 되겠다)
+이렇게 Chain을 따라 특정 key 값으로 value를 찾는 작업을 Identifier Resolution이라고 한다.</p>
+
+<p>** The Execution Context
+모든 JavaScript 코드는 Execution Context안에서 실행된다. 이 Context는 보통 JavaScript에서 &quot;scope&quot;란 의미로 종종 사용된다. 보통 함수를 호출함으로서 Execution Context가 형성되는데, 함수 안이 아닌 밖에서 실행되는 전역함수와 같은 경우는 scope가 아닌 global execution context란 의미의 &quot;Program&quot;이라는 단어를 사용한다고 한다.</p>
+
+<pre><code class="js">function add(num1, num2){
+var sum = num1 + num2;
+return sum;
+}
+
+add(5,3); // Global Context
+
+function hello() {
+add(5,3); // &quot;hello&quot; Context
+}
+</code></pre>
+
+<h3>Identifier Resolution Performance</h3>
+
+<p>아래 두 도표는 Scope Chain이 깊어질수록 key를 탐색하는 속도를 보여주는 그래프이다.(Depth 1은 Local variable이다.)</p>
+
+<p><img src="@img/wpid-f2-4-2010-09-17-13-08.png" alt="">
+
+<img src="@img/wpid-f2-5-2010-09-17-13-08.png" alt="">
+</p>
+
+<p>Global Variable은 항상 Scope Chain의 마지막에 있기 때문에, Global Variable을 사용하는 코드들을 먼저 Local Variable 영역으로 옮겨오는게 우선으로 해야할 작업이라고 한다.
+(예, document.getElementById 사용시 document 대신, document를 local variable로 담은 등의 작업)</p>
+
+<pre><code class="js">// (수정 전)
+var bd = document.body,
+links = document.getElementsByTagName(“a”),
+length = links.length;
+
+// (수정 후)
+var doc = document,
+bd = doc.body,
+links = doc.getElementsByTagName(“a”),
+length = links.length;
+</code></pre>
+
+<h3>Scope Chain Augmentation</h3>
+
+<ul>
+<li>with 사용시</li>
+</ul>
+
+<pre><code class="js">function initUI(){
+   with (document){        //avoid!
+        var bd = body,
+              links = getElementsByTagName(“a”),
+              i= 0, len = links.length;
+
+         while(i &lt; len){
+            update(links[i++]);
+         }
+
+         getElementById(“go-btn”).onclick = function() {
+            start();
+         };
+         bd.className = “active”;
+   }
+}
+</code></pre>
+
+<p>위의 예제에서 initUI가 실행되면 with 실행 시점에, 인자로 document가 넘어오게 된다.
+이때 Scope Chain은 local variable인 bd, links 등등 보다 document의 Scope를 먼저 보게 되므로, with 구문 내의 코드 실행시 물론 편리한점은 있지만 Scope Chain을 탐색하는데 있어 항상 document의 Property들을 먼저 본다는 점에서 성능적인 이슈가 있다. 하여 위의 예제와 같은 경우에서는 with을 쓰기 보다는 local variable을 활용하는게 좋겠다.</p>
+
+<p><img src="@img/wpid-f2-6-2010-09-17-13-08.png" alt="">
+</p>
+
+<p>try-catch 사용시</p>
+
+<pre><code class="js">try {
+   methodThatMightCauseAnError();
+} catch (ex) {
+   alert(ex.message); //scope chain is augmented here
+}
+</code></pre>
+
+<p>위의 예제의 경우, methodThatMightCauseAnError()에서 뭔가 문제가 발생하면 Exeception Object가 Scope chain의 첫번째로 push가 된다.</p>
+
+<p>그리고 catch 블럭의 처리가 끝나면 cope chain은 이전 상태로 되돌아 온다.
+만약 위의 경우, catch 블럭에서 local variable을 접근하려 한다면 먼저 Exeception Object를 찾게 되기 때문에 비효율적인 코드가 된다. 이를 아래와 같이 바꿔보자.</p>
+
+<pre><code class="js">try {
+   methodThatMightCauseAnError();
+} catch (ex) {
+   handleError(ex) //delegate to handler method
+}
+</code></pre>
+
+<p>위의 코드는 해당 Exception Object를 다른 함수에서 처리하게 하는 코드다.
+이럴 경우, catch 블럭 안에서 오류를 처리하기 위해 추가적인 Chain 탐색이 이루어지지 않고 handleError()의 Scope에서 처리가 되기 때문에 첫번째에 비해 효율적이라 할 수 있다.</p>
+
+<h3>Dynamic Scopes</h3>
+
+<p>Dynamic Scope는 단순 코드 정적 분석으로는 그 결과를 예측하기 힘든 경우에 해당한다. 아래의 코드를 보자.</p>
+
+<pre><code class="js">function execute(code) {
+   eval(code);
+
+   function subroutine(){
+      return window;
+   }
+   var w = subroutine(); //what value is w?
+};
+</code></pre>
+
+<p>위의 코드가 있다고 할 때, 다음과 같이 execute()를 실행한다고 하자.</p>
+
+<pre><code class="js">execute(&quot;var window = {};&quot;)
+</code></pre>
+
+<p>이 경우, eval()은 인자로 넘어오는 'var window = {};'를 가지고 Local Variable을 생성한다.
+Scope Chain의 첫번째인 Activation Object에 window = {}가 위치하게 되므로, subroutine()이 리턴하는 window는 빈 Object가 된다.</p>
+
+<p>다시말해 execute내에 window는 인자로 주어지는 코드에 따라 결정이 된다.
+이러한 Dynamic Scope의 사용은 자칫 의도하지 않는 결과를 낳을 수 있으므로, 사용할때 주의해야한다.</p>
+
+<h3>Closures, Scope, and Memory</h3>
+
+<p>Closure와 관련하여 아래의 코드를 살펴보자.</p>
+
+<pre><code class="js">function assignEvents() {
+   var id = &quot;xdi9592&quot;;
+
+   document.getElementById(&quot;save-btn&quot;).onclick = function(event) {
+      saveDocument(id);
+   };
+}
+</code></pre>
+
+<p>assignEvents()는 하나의 DOM Element에 이벤트 핸들러를 할당하는 함수다.</p>
+
+<p>이때 이 이벤트 헨들러가 Closure가 되는데, 이는 assignEvent() 함수가 실행되는 시점에 만들어지고, assignEvents()가 종료가 되어도 그 당시의 Chain Scope를 가지고 있다.</p>
+
+<p>일반적으로 함수가 실행되는 시점에 Activation Object가 생성되고, 실행이 종료되면 Activation Object가 메모리에서 해제가 되는데, Closure를 포함한 경우는 그렇지 않다.</p>
+
+<p>그 이유는 Closure의 Scope Chain이 함수의 실행 당시 Activation Object를 참조하고 있기 때문이다.
+이는 Closure가 Closure가 아닌 일반적인 함수에 비해 Memory Overhead가 크다는 것을 의미한다.</p>
+
+<p><img src="@img/wpid-f2-7-2010-09-17-13-08.png" alt="">
+</p>
+
+<p>Closure가 실행되면 Closure 역시 함수이므로, 자기 자신의 Activation Object가 생기게 된다.</p>
+
+<p>(Figure 2-8 참조)</p>
+
+<p><img src="@img/wpid-f2-8-2010-09-17-13-08.png" alt="">
+</p>
+
+<h3>References</h3>
+
+<p><a href="http://tore.darell.no/pages/scope_in_javascript">http://tore.darell.no/pages/scope_in_javascript</a>
+High Performance JavaScript(Chapter 2)</p>
+
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/managing-scope-in-javascript#disqus_thread" data-disqus-identifier="9"></a>
+                        <a class="pull-right" href="/post/managing-scope-in-javascript#disqus_thread" data-disqus-identifier="17"></a>
                         <p>
                             <a href="/post/managing-scope-in-javascript" class="btn btn-info">Read more...</a>
                         </p>
@@ -633,7 +2281,7 @@ ScriptEngineFactory      </p>
                             <h1><a href="/post/open-class---be-the-javascript-ninja">Open Class - Be the JavaScript Ninja</a></h1>
                             <span class="pull-right">Monday, May 14 2012 1:33 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -657,9 +2305,17 @@ ScriptEngineFactory      </p>
 
 <p>다시 한번 더 말씀드리고 싶은 것은, 커리큘럼이 아직 완전히 정해지지 않았으나 자바스크립트 입문자가 듣기에는 분명히 부적절한 내용이 있을 것이므로 이점을 생각하셔서 참가 신청을 바랍니다.</p>
 
+<h3>참가신청</h3>
+
+<p><a href="http://frends.kr/">http://frends.kr/</a> 사이트에서 공지내용이 올라오면 댓글로 신청할 수 있고 선착순입니다.</p>
+
+<p>공개강좌에 대한 의문사항은 여기 댓글로 달아주시고, 공개강좌의 Javascript 관련 질문은<a href="http://qa.frends.kr/">http://qa.frends.kr/</a> (셋업은 완료되었으나 잠시 보이지 않습니다)에서 할 수 있을 거예요.</p>
+
+<p>더 자세한 사항이나 다른 건의 사항은 ‘Contact’ 메뉴를 통해서 제게 메일 보내주시면 됩니다.</p>
+
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/open-class---be-the-javascript-ninja#disqus_thread" data-disqus-identifier="10"></a>
+                        <a class="pull-right" href="/post/open-class---be-the-javascript-ninja#disqus_thread" data-disqus-identifier="18"></a>
                         <p>
                             <a href="/post/open-class---be-the-javascript-ninja" class="btn btn-info">Read more...</a>
                         </p>
@@ -675,7 +2331,7 @@ ScriptEngineFactory      </p>
                             <h1><a href="/post/frends-dot-k-r">FRENDS에 오신것을 환영합니다.</a></h1>
                             <span class="pull-right">Monday, May 14 2012 12:18 PM</span>
                         </div>
-                        <div class="pull-right">
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
                             <ul class="thumbnails">
                                 <li class="thumbnail">
                                     <a>
@@ -698,9 +2354,25 @@ ScriptEngineFactory      </p>
 <p>그동안 방향과 운영방식이 명확하지 않았고 언제 어디서나 활동하거나 공유할 수 있는 시스템이 없는 상태에서 구글 그룹스를 통해서 의견을 나누고 있었습니다.
 그렇기 때문에 회원이라는 명분이 필요했습니다.</p>
 
+<p>하지만 현재 FRENDS는 블로그, 미디어위키, Q&amp;A시스템, 포럼(향후 필요에 따라 지원예정)을 통해 온라인으로 관련 지식을 공유할 수 있는 시스템을 구축해 놓은 상태입니다.</p>
+
+<p>그동안 필요했던 회원이라는 명분은 2010년 07년 09월부로 없애고 Contributor(공헌자 혹은 기여자) 를 두어 언제든지 온라인에 구축된 시스템을 통해 커뮤니티를 위해 공헌할 수 있게 됩니다.</p>
+
+<p>공헌할 수 있는 방식은 매우 다양합니다.
+FRENDS라는 커뮤니티를 홍보해 주시는 것 조차도 커뮤니티를 왕성하게 만드는 공헌을 하는 것입니다.  미디어 위키를 이용해 지식을 문서로 공유하거나 QA시스템을 이용해  지식인 답변을 제공하면서 많은 분들과 소통하는 것 많으로도 공헌자가 되고 또한 오프라인 지식 공유 세미나를 주도하는 경우도 마찬가지입니다.</p>
+
+<p>Contributor는 FRENDS의 운영에 공헌과 기여(의결권과 비슷함)를 할 수 있습니다.</p>
+
+<p>또한 Contributor 는 오프라인 세미나/발표회 등을 통해서 활동할 수 있도록 FRENDS 에서 지원할 계획입니다.</p>
+
+<p>부족한 활동과 정리되지 않는 모임에도 불구하고 관심을 갖어주시는 분들이 너무 많았습니다.
+지금부터 그런 분들과 함께 멋진 커뮤니티를 만들어 나가도록 하겠습니다.</p>
+
+<p>FRENDS 올림</p>
+
                         </div>
                         <hr/>
-                        <a class="pull-right" href="/post/frends-dot-k-r#disqus_thread" data-disqus-identifier="11"></a>
+                        <a class="pull-right" href="/post/frends-dot-k-r#disqus_thread" data-disqus-identifier="19"></a>
                         <p>
                             <a href="/post/frends-dot-k-r" class="btn btn-info">Read more...</a>
                         </p>
@@ -715,7 +2387,7 @@ ScriptEngineFactory      </p>
 
                             <script type="text/javascript">
                                 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                                var disqus_shortname = 'frends'; // required: replace example with your forum shortname
+                                var disqus_shortname = 'frendskr'; // required: replace example with your forum shortname
 
                                 /* * * DON'T EDIT BELOW THIS LINE * * */
                                 (function () {
@@ -728,13 +2400,14 @@ ScriptEngineFactory      </p>
 
 
 
+
     
 
     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="span12 ">
-                    <div class="well transbox">
+                    <div class="well-black">
                         <p class="pull-right"><a href="#">Back to top</a></p>
                             <strong>haroopress</strong> developed by <a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a>,<a href="http://twitter.com/haroopress" target="_blank">@haroopress</a> and source in <a href="https://github.com/rhiokim/haroopress" target="_blank">github</a><br/>
                             Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.<br />
