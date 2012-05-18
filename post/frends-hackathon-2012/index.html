@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>FRENDS Hackathon 2012 |  프론트앤드 개발자들의 모루! 프랜즈(frends)</title>
+    <meta name="description" content="프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.">
+    <meta name="author" content="frends">
+    <meta name="keywords" content="javascript,html5,css3,node.js,git,jQuery" />
+    <meta name="generator" content="haroopress v0.8.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루! 프랜즈(frends)" type="application/rss+xml">
+
+    <!-- Le styles -->
+    <link rel="canonical" href="http://frends.github.com">
+    <link href='http://fonts.googleapis.com/css?family=Magra:700' rel='stylesheet' type='text/css'>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/haroo.css" rel="stylesheet">
+    <link href="/css/haroo-wood.css" rel="stylesheet">
+    <link href="/css/prettify.css" rel="stylesheet">
+    <link href="/css/archives.css" rel="stylesheet">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <!--<link rel="apple-touch-icon" href="assets/ico/bootstrap-apple-57x57.png">-->
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-64.png">
+    <!--<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/bootstrap-apple-114x114.png">-->
+
+    <!-- Le javascript -->
+    <!--<script src="/js/lib/require.1.0.4.js"></script>-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/prettify.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.jsonp.js"></script>
+    <script src="/js/mustache.js"></script>
+    <script src="/js/apps/github.js"></script>
+    <script src="/js/apps/twitter.js"></script>
+</head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+    
+<div class="container">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+          <a class="pull-right" style="margin-top: 5px;" href="/rss.xml"><img src="/img/social/rss_dark.png" /></a>
+          
+            <a class="pull-right" style="margin-top: 5px;" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/social/twitter_dark.png" /></a>
+          
+          
+
+          <form class="navbar-search pull-right" style="margin-right: 2px;" method="get" action="http://www.google.com/search">
+              <input type="hidden" name="q" value="site:frends.github.com" />
+              <input type="text" name="q" value="" results="0"class="search-query span2" placeholder="Search" />
+          </form>
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/archives">Archives</a>
+              </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <!-- Masthead (blueprinty thing)
+================================================== -->
+<header class="jumbotron masthead" id="overview">
+    <div class="inner">
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="span3">
+            <div id="author" class="well">
+                <div>
+                    <h3>About Author</h3>
+                    <ul class="thumbnails">
+                        <li>
+                            <a class="thumbnail">
+                                <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                            </a>
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>frends</strong><br/>
+                        blog: <a href="undefined" target="_blank">http://frends.kr</a><br/>
+                        twitter: <a href="http://twitter.com/undefined" target="_blank">@frends_kr</a><br/>
+                        github: <a href="https://github.com/undefined" target="_blank">frends</a>
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/frends_kr" class="twitter-follow-button" data-show-count="true">Follow @frends_kr</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </p>
+                    <p>
+                        <p>Front-end Developers in 발해</p>
+
+                    </p>
+                </div>
+                <div>
+                    <h3>About this Article</h3>
+                    <p>
+                        <h5>Date Released:</h5>
+                        <span>Friday, May 18 2012 11:26 AM</span>
+                    </p>
+                </div>
+            </div>
+            			<div class="well">
+                <ul class="nav nav-list">
+                    <li class="nav-header">Categories</li>
+                    <li class="active"><a href="/category"><i class="icon-white icon-home"></i> Home</a></li>
+                    
+                    <li><a href="/category/javascript"><i class="icon-book"></i> javascript</a></li>
+                    
+                    <li><a href="/category/javascript core"><i class="icon-book"></i> javascript core</a></li>
+                    
+                    <li><a href="/category/CouchDB"><i class="icon-book"></i> CouchDB</a></li>
+                    
+                    <li><a href="/category/JavaScript Core"><i class="icon-book"></i> JavaScript Core</a></li>
+                    
+                    <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
+                    
+                    <li><a href="/category/frends"><i class="icon-book"></i> frends</a></li>
+                    
+                    <li><a href="/category/google"><i class="icon-book"></i> google</a></li>
+                    
+                    <li><a href="/category/JavaScript"><i class="icon-book"></i> JavaScript</a></li>
+                    
+                    <li><a href="/category/html5"><i class="icon-book"></i> html5</a></li>
+                    
+                    <li><a href="/category/jQuery"><i class="icon-book"></i> jQuery</a></li>
+                    
+                    <li><a href="/category/Java"><i class="icon-book"></i> Java</a></li>
+                    
+                    <li><a href="/category/rhino"><i class="icon-book"></i> rhino</a></li>
+                    
+                    <li><a href="/category/css3"><i class="icon-book"></i> css3</a></li>
+                    
+                    <li><a href="/category/tech"><i class="icon-book"></i> tech</a></li>
+                    
+                    <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
+                    
+                </ul>
+            </div>
+            <div class="well">
+    <ul class="nav nav-list">
+        <li class="nav-header">Recent Articles</li>
+    
+        <li>
+            <a href="/post/andrw-dot-j-s-javascript-lecture" target="_blank">Andrw.J's JavaScript Lecture
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/cappuccino-peureimweokeu-sijaghagi-1" target="_blank">Cappuccino 프레임워크 시작하기1
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/cappuccino-peureimweokeu-sijaghagi-2" target="_blank">Cappuccino 프레임워크 시작하기 2
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/chapter-1-execution-contexts" target="_blank">Chapter 1. Execution Contexts
+            <span class="label">Rhio Kim</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/couchdb-sijaghagi" target="_blank">CouchDB 시작하기
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/flyweight-pattern-in-javascript" target="_blank">Flyweight Pattern in JavaScript
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/frends-dot-k-r" target="_blank">FRENDS에 오신것을 환영합니다.
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/frends-hackathon-2012" target="_blank">FRENDS Hackathon 2012
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/frends-opeurain-moim" target="_blank">FRENDS 오프라인 모임
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/frendsnumber-4-moim" target="_blank">FRENDS #4 모임
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/google-app-engine-sdk-1-dot-4-0-release" target="_blank">Google App Engine SDK 1.4.0 Release
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/googles-javascript-keobeoriji-ceugjeong-dogu" target="_blank">JavaScript 를 위한 코드 커버리지 측정도구 'ScriptCover'
+            <span class="label">Rhio Kim</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/introduce-cappuccino-framework" target="_blank">Introduce Cappuccino Framework
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/javascript-application-framework-seuteodi" target="_blank">Javascript Application Framework 스터디
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/javascript-mentors" target="_blank">JavaScript Mentors
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/javascript-the-core" target="_blank">JavaScript. The Core
+            <span class="label">Rhio Kim</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/javascript-the-next" target="_blank">Google's The Next JavaScript
+            <span class="label">Rhio Kim</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/jeongcanmyeongnimyi-html5and-responsive-web-design" target="_blank">정찬명님의 HTML5 &amp; Responsive Web Design
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/jquery-cdn-hwalyong" target="_blank">jQuery CDN 활용
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/json-query-engine-top5" target="_blank">JSON Query Engine Top5
+            <span class="label">Rhio Kim</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/jsr-223---scripting-for-the-java-platform" target="_blank">JSR 223 - Scripting for the Java Platform
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/knockout-dot-j-s-haegsim" target="_blank">Knockout.js 핵심
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/knockout-dot-j-s-install" target="_blank">Knockout.js Install
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/knockout-dot-j-s-sogae" target="_blank">Knockout.js 소개
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/managing-scope-in-javascript" target="_blank">Managing Scope in JavaScript
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/meetup-clearbothand-frends" target="_blank">MeetUp: Clearboth &amp; FRENDS
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/microsoft-azure-e-node-dot-j-s-daeeung" target="_blank">Microsoft, Azure 에 Node.js 대응
+            <span class="label">Rhio Kim</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/open-class---be-the-javascript-ninja" target="_blank">Open Class - Be the JavaScript Ninja
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/release-sproutcore-2-dot-0-developer-preview" target="_blank">Release SproutCore 2.0 Developer Preview
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/release-zepto-dot-j-s-0-dot-2" target="_blank">Release zepto.js 0.2
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/ringojs-sijaghagi" target="_blank">RingoJS 시작하기
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/server-side-javascript-based-on-rhino" target="_blank">Server Side javaScript based on Rhino
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/simple-data-transmission-in-javascript" target="_blank">Simple Data Transmission in JavaScript
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/tobynimi-beonyeoghasin-css3-background-seulraideu" target="_blank">Toby님이 번역하신 CSS3 Background 슬라이드
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/tobynimi-beonyeoghasin-css3-color-seulraideu" target="_blank">Toby님이 번역하신 CSS3 Color 슬라이드
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/web-risoseu-coejeoghwa-gibeob-gonggae-mozilla" target="_blank">JavaScript/CSS 압축 최적화 80초에서 6초로 단축 기법 공개 – Mozilla
+            <span class="label">Rhio Kim</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/webfont-sayonghagi" target="_blank">Webfont 사용하기
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/webgaebaljareul-wihan-html5-seupeg" target="_blank">웹개발자를 위한 HTML5 스펙
+            <span class="label">frends</span></a>
+
+        </li>
+    
+        <li>
+            <a href="/post/writing-native-extension-for-node-dot-j-s" target="_blank">Writing Native Extension for Node.js
+            <span class="label">Rhio Kim</span></a>
+
+        </li>
+    
+    </ul>
+</div>
+        </div>
+        <div class="span9">
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1>FRENDS Hackathon 2012</h1>
+                        </div>
+
+                        
+
+                        <div class="pull-right">
+                            <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) return;
+                              js = d.createElement(s); js.id = id;
+                              js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId=246177242115486";
+                              fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                        </div>
+
+                        
+                        <div class="pull-right">
+                            <!-- Place this tag where you want the +1 button to render -->
+                            <g:plusone href="http://frends.github.com/post/frends-hackathon-2012" size="medium"></g:plusone>
+
+                            <!-- Place this render call where appropriate -->
+                            <script type="text/javascript">
+                              (function() {
+                                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                po.src = 'https://apis.google.com/js/plusone.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                              })();
+                            </script>
+                        </div>
+
+
+                        
+                        <div class="pull-right">
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-text="FRENDS Hackathon 2012 -" data-url="http://frends.github.com/post/frends-hackathon-2012" data-via="frends_kr">Tweet</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>
+
+
+                        <div class="markdown">
+                            <p><img src="./@img/frends-hackathon-20124.png" alt="">
+</p>
+
+<h2>행사개요</h2>
+
+<p>FRENDS 에서는 올해 1/Q 를 마무리하며 내부 해카톤 행사를 개최합니다.  해카톤의 취지는 프론트 앤드와 연관된 최신의 기술들을 활용하여 가지고 있던 아이디어를 구현해보고 구현 과정에서 얻은 다양한 기술을 공유하는 FRENDS 의 연중 행사 중에 하나입니다.</p>
+
+<p>또한 톡톡 튀는 아이디어, 심심하지만 구현해 볼만한, 나에게 꼭 필요한 도구등 다양한 이유에서 구현을 해보고 싶은 것들을 함께 모인 자리에서 <strong>‘뚝딱뚝딱’</strong> 만들어 보는 행사입니다.</p>
+
+<p>FRENDS 해카톤은 3월 1일부터 시작하여 3월 30일 한달에 걸쳐 진행되고 있습니다.</p>
+
+<h2>왜? 하니?</h2>
+
+<p>우리(프론트 앤드 개발자)끼리 모여서 즐겁게 코딩하고 싶어서.</p>
+
+<h2>왜? 한달이니?</h2>
+
+<p>국내 야근 문화를 어느 정도 감안하여 혹 FRENDS 해카톤 행사로 인해 과로로 쓰러지지는 맴버가 생기지 않도록 최선의 건강 상태를 보장하기 위해서 잉여와 개인 시간이 허락되는 시간을 평균 하루 30 분에서  1시간 정도를 예측하고 하루의 행사로 칠때 한달 정도가 적당하다고 생각을 해서 한달 동안 진행합니다.</p>
+
+<p>마지막 30일 저녁 10시부터 다음날 저녁 10 시까지는 함께 모여서 못다한 구현을 마무리하고 최종 결과물에 대한 데모와 발표 아이디어에 대한 구현 과정과  과정 속에서 얻은 다양한 기술들에 대해서 공유하며 마무리를 짖도록 합니다.</p>
+
+<h2>왜? 니들끼리 하니?</h2>
+
+<p>FRENDS 가 구성된지 언 2년이 되어갑니다.  그동안 발표 형식의 기술 공유를 많이 해왔었고 올해는 서로 모여서 코딩하는 모임을 갖어보고자 시작하였습니다. 그리고 작은 아이디어도 함께 모여 구현을 해보는 그런 행사의 첫 시발점이 되고자 내부의 행사를 마련해서 진행을 해보고 있습니다.</p>
+
+<p>오픈 커뮤니티가 아니고 행사 운영에 대한 경험도 없고 시행착오에 대한 리스크를 떠 않고 행사를 키우기에는 부담이 있어 FRENDS 내부적으로 행사를 진행하고 있습니다.</p>
+
+<p>내부적인 행사이기는 하지만 해카톤 진행에서 나온 결과는 최대한 오픈할 계획입니다.</p>
+
+<h2>행사정보</h2>
+
+<ul>
+<li>행사명 : FRENDS Hackathon 2012</li>
+<li>행사일정 : 3월 1일부터 3월 31일 저녁 10시까지</li>
+<li>버닝데이 : 3월 30일 저녁 10시부터 3월 31일 저녁 10시까지</li>
+<li>참가자격 : FRENDS 멤버이거나 멤버를 포함한 팀</li>
+</ul>
+
+<p>참여자의 주제는 아래와 같습니다.</p>
+
+<h2>참가자 명단 및 주제</h2>
+
+<h4>Node.js 기반의 Markdown 포맷의 정적 블로그 엔진</h4>
+
+<p><img src="./@img/rhiokim.png" alt="">
+</p>
+
+<ul>
+<li>설명 : Node.js 를 기반으로 한 정적 페이지로 블로그 엔진</li>
+<li>기술 : Node.js, Twitter Bootstrap, jQuery, require.js</li>
+<li>소스 : <a href="https://github.com/rhiokim/haroopress">https://github.com/rhiokim/haroopress</a></li>
+</ul>
+
+<h4>HTML5로 구현된 Brain Workshop</h4>
+
+<p><img src="./@img/andrwj.png" alt="">
+</p>
+
+<ul>
+<li>설명: <a href="http://brainworkshop.sourceforge.net/">http://brainworkshop.sourceforge.net/</a> 어플리케이션의 웹 브라우저 버전</li>
+<li>기술: Twitter Bootstrap, CouchDB, jQuery, KnockoutJS ..</li>
+<li>소스: 예정</li>
+</ul>
+
+<h4>프리젠테이션 사이트</h4>
+
+<p><img src="./@img/outsider.png" alt="">
+</p>
+
+<ul>
+<li>설명 : desk.js를 이용한 프리젠테이션 백채널 사이트</li>
+<li>기술 : Node.js, Twitter Bootstrap, MongoDB</li>
+<li>소스 : 예정</li>
+</ul>
+
+<h4>타자연습 게임</h4>
+
+<p><img src="./@img/j2p1.png" alt="">
+</p>
+
+<ul>
+<li>설명: 한글과 컴퓨터에 포함되었던 산성비 게임</li>
+<li>기술: Node.js, express, Twitter Bootstrap, jQuery</li>
+<li>소스: <a href="https://github.com/J2P/typing">https://github.com/J2P/typing</a></li>
+</ul>
+
+<h4>웹 슬라이드 툴</h4>
+
+<p><img src="./@img/zziuni.png" alt="">
+</p>
+
+<ul>
+<li>설명: markdown 원고를 웹 슬라이드로 만들어주는 툴.</li>
+<li>기술: Node.js, Twitter Bootstrap, jQuery, reveal.js…</li>
+<li>소스: 예정</li>
+</ul>
+
+<h4>Simple Three.js Animator</h4>
+
+<p><img src="./@img/fallroot1.png" alt="">
+</p>
+
+<ul>
+<li>설명 : Three.js를 이용해서 개체의 속성을 타임라인에 따라 변화시키는 도구</li>
+<li>기술 : three.js, backbone.js, zepto.js</li>
+<li>소스 : <a href="https://github.com/fallroot/threejs-animator">https://github.com/fallroot/threejs-animator</a></li>
+</ul>
+
+<h4>Node.js Black Edition</h4>
+
+<p><img src="./@img/nanhapark1.png" alt="">
+</p>
+
+<ul>
+<li>설명 : Node.js 에 유용한 확장 모듈을 native module 로 추가하고 이에 대한 Help 함수를 제공하는데 목적이 있습니다.</li>
+<li>기술 : Node</li>
+<li>소스 : <a href="https://github.com/nanha/nodejs_black_edition">https://github.com/nanha/nodejs_black_edition</a></li>
+</ul>
+
+<h4>Noddler(Web-Based Fiddler)</h4>
+
+<p><img src="./@img/kyungw00k.png" alt="">
+</p>
+
+<ul>
+<li>설명 : 사용자 기반의 http proxy 서버, 웹에서 모니터링할 수 있는 UI 제공, Rewrite 기능, throttling 기능 구현</li>
+<li>기술 : Node.js, Twitter Bootstrap, JavaScript</li>
+<li>소스 : 예정</li>
+</ul>
+
+<h4>마크다운 실시간 뷰어</h4>
+
+<p><img src="./@img/geekdani.png" alt="">
+</p>
+
+<ul>
+<li>설명 : 9.99달러로 산 Byword의 아주 약한 실시간 프리뷰 기능을 해결할 뷰어</li>
+<li>기술 : Node.js, Twitter Bootstrap, jQuery, knockoutjs, expressjs, socket.io</li>
+<li>소스 : <a href="https://github.com/dgkim84/markdown-viewer">https://github.com/dgkim84/markdown-viewer</a></li>
+</ul>
+
+<h2>스폰서</h2>
+
+<p><img src="./@img/nexr2.png" alt="">
+ <img src="./@img/insightbook1.png" alt="">
+</p>
+
+                        </div>
+                        <hr />
+                                            
+                        <div class="row-fluid">
+                            
+                            <div class="pull-right">
+                                <a href="/post/frends-opeurain-moim" class="btn btn-info">FRENDS 오프라인 모임 <i class="icon-white icon-chevron-right"></i></a>
+                            </div>
+                            
+
+                            
+                            <div class="pull-left">
+                                <a href="/post/frends-dot-k-r" class="btn btn-info"><i class="icon-white icon-chevron-left"></i> FRENDS에 오신것을 환영합니다.</a>
+                            </div>
+                            
+                        </div>
+                    
+
+                        <div class="row">
+    <div style="margin-left:30px;">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'frendskr'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    <!--<div class="row">-->
+        <!--<div class="offset3 span9">-->
+            <!--<strong>tags</strong> :-->
+            <!---->
+        <!--</div>-->
+    <!--</div>-->
+</div><!-- /container -->
+
+
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="span12 ">
+                    <div class="well transbox">
+                        <p class="pull-right"><a href="#">Back to top</a></p>
+                            <strong>haroopress</strong> developed by <a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a>,<a href="http://twitter.com/haroopress" target="_blank">@haroopress</a> and source in <a href="https://github.com/rhiokim/haroopress" target="_blank">github</a><br/>
+                            Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.<br />
+                            Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('pre > code').parent().addClass('prettyprint linenums');
+        prettyPrint();
+    </script>
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-17041304-1']);
+            _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+    </body>
+</html>

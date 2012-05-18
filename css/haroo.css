@@ -1,21 +1,10 @@
 body {
-    font-family: 'Magra', AppleSDGothicNeo, sans-serif;
-    font-size: 12px;
-    background: url(/img/document-bg.jpg);
+    background: url('/img/document-bg.jpg');
     background-attachment: fixed;
-}
-
-p, h1, h2, h3, h4, h5, h6, ul, li {
-    font-family: 'Magra', AppleSDGothicNeo, sans-serif;
-}
-
-header {
-    margin: 70px 0 20px 0;
 }
 
 footer {
     margin: 30px 0 20px 0;
-    color: #f4e8d3;
 }
 
 .navbar-fixed-top .brand {
@@ -50,6 +39,22 @@ footer {
     margin: 5px;
   }
 
+}
+
+/*****************
+ *
+ *****************/
+
+#author {
+    /*color: #000;*/
+}
+
+#author h1,
+#author h2,
+#author h3,
+#author h4,
+#author h5 {
+    /*color: #000;*/
 }
 
 /***************************
@@ -318,6 +323,7 @@ footer {
     -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
+
 
 /* twitter plugin */
 ._tweets {

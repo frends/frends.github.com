@@ -15,14 +15,15 @@
     <![endif]-->
 
     <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루! 프랜즈(frends)" type="application/rss+xml">
-    <link href='http://fonts.googleapis.com/css?family=Magra:700' rel='stylesheet' type='text/css'>
 
     <!-- Le styles -->
     <link rel="canonical" href="http://frends.github.com">
+    <link href='http://fonts.googleapis.com/css?family=Magra:700' rel='stylesheet' type='text/css'>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/css/haroo.css" rel="stylesheet">
+    <link href="/css/haroo-wood.css" rel="stylesheet">
     <link href="/css/prettify.css" rel="stylesheet">
     <link href="/css/archives.css" rel="stylesheet">
 
@@ -46,7 +47,8 @@
   <body data-spy="scroll" data-target=".subnav" data-offset="50">
 
     
-    <div class="navbar navbar-fixed-top">
+<div class="container">
+    <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -55,10 +57,16 @@
             <span class="icon-bar"></span>
           </a>
 
-          <a class="pull-right" href="/rss.xml"><img src="/img/buttons/rss.png" /></a>
+          <a class="pull-right" style="margin-top: 5px;" href="/rss.xml"><img src="/img/social/rss_dark.png" /></a>
           
-            <a class="pull-right" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/buttons/twitter.png" /></a>
+            <a class="pull-right" style="margin-top: 5px;" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/social/twitter_dark.png" /></a>
           
+          
+
+          <form class="navbar-search pull-right" style="margin-right: 2px;" method="get" action="http://www.google.com/search">
+              <input type="hidden" name="q" value="site:frends.github.com" />
+              <input type="text" name="q" value="" results="0"class="search-query span2" placeholder="Search" />
+          </form>
 
           <div class="nav-collapse">
             <ul class="nav">
@@ -74,6 +82,7 @@
         </div>
       </div>
     </div>
+</div>
 
     <!-- Masthead (blueprinty thing)
 ================================================== -->
@@ -93,15 +102,21 @@
                     
                     <li><a href="/category/javascript"><i class="icon-book"></i> javascript</a></li>
                     
+                    <li><a href="/category/javascript core"><i class="icon-book"></i> javascript core</a></li>
+                    
                     <li><a href="/category/CouchDB"><i class="icon-book"></i> CouchDB</a></li>
                     
                     <li><a href="/category/JavaScript Core"><i class="icon-book"></i> JavaScript Core</a></li>
                     
                     <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
                     
+                    <li><a href="/category/frends"><i class="icon-book"></i> frends</a></li>
+                    
                     <li><a href="/category/google"><i class="icon-book"></i> google</a></li>
                     
                     <li><a href="/category/JavaScript"><i class="icon-book"></i> JavaScript</a></li>
+                    
+                    <li><a href="/category/html5"><i class="icon-book"></i> html5</a></li>
                     
                     <li><a href="/category/jQuery"><i class="icon-book"></i> jQuery</a></li>
                     
@@ -109,7 +124,9 @@
                     
                     <li><a href="/category/rhino"><i class="icon-book"></i> rhino</a></li>
                     
-                    <li><a href="/category/html5"><i class="icon-book"></i> html5</a></li>
+                    <li><a href="/category/css3"><i class="icon-book"></i> css3</a></li>
+                    
+                    <li><a href="/category/tech"><i class="icon-book"></i> tech</a></li>
                     
                     <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
                     
@@ -126,13 +143,44 @@
             <a class="pull-left" href="/authors/frends" title=""><img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
             <p>
                 <strong>frends</strong><br/>
-                <span>@frends_kr</span>
+                <span><a href="http://twitter.com/frends_kr" target="_blank">@frends_kr</a></span>
+            </p>
+        </div>
+        <hr>
+        
+        <div class="row-fluid">
+            <a class="pull-left" href="/authors/Rhio Kim" title=""><img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
+            <p>
+                <strong>Rhio Kim</strong><br/>
+                <span><a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a></span>
             </p>
         </div>
         <hr>
         
     </div>
     
+                
+
+            
+<div class="well">
+    <ul class="nav nav-list">
+        <li class="nav-header">Favorites</li>
+        
+        <li>
+            <a href="http://nodejs.kr" target="_blank">노드 한국 개발자 커뮤니티</a>
+        </li>
+        
+        <li>
+            <a href="http://frends.kr" target="_blank">프론트 앤드 개발자 커뮤니티</a>
+        </li>
+        
+        <li>
+            <a href="http://rhio.tistory.com" target="_blank">리오 블로그</a>
+        </li>
+        
+    </ul>
+</div>
+
         </div>
         <div class="span9">
             <div class="well bg">
@@ -173,8 +221,96 @@
                         <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
                     </div>
                     <div class="span7">
+                        <h3><a href="/post/cappuccino-peureimweokeu-sijaghagi-2">Cappuccino 프레임워크 시작하기 2</a></h3>
+                        <small>by frends / Friday, May 18 2012 9:17 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/googles-javascript-keobeoriji-ceugjeong-dogu">JavaScript 를 위한 코드 커버리지 측정도구 'ScriptCover'</a></h3>
+                        <small>by Rhio Kim / Friday, May 18 2012 11:19 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
                         <h3><a href="/post/introduce-cappuccino-framework">Introduce Cappuccino Framework</a></h3>
                         <small>by frends / Thursday, May 17 2012 6:23 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/javascript-the-next">Google's The Next JavaScript</a></h3>
+                        <small>by Rhio Kim / Friday, May 18 2012 9:25 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/knockout-dot-j-s-haegsim">Knockout.js 핵심</a></h3>
+                        <small>by frends / Friday, May 18 2012 10:13 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/knockout-dot-j-s-install">Knockout.js Install</a></h3>
+                        <small>by frends / Friday, May 18 2012 10:09 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/knockout-dot-j-s-sogae">Knockout.js 소개</a></h3>
+                        <small>by frends / Friday, May 18 2012 10:00 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/microsoft-azure-e-node-dot-j-s-daeeung">Microsoft, Azure 에 Node.js 대응</a></h3>
+                        <small>by Rhio Kim / Friday, May 18 2012 10:25 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/release-sproutcore-2-dot-0-developer-preview">Release SproutCore 2.0 Developer Preview</a></h3>
+                        <small>by frends / Friday, May 18 2012 9:39 AM</small>
                     </div>
                 </div>
                 <hr/>
@@ -186,6 +322,35 @@
                     <div class="span7">
                         <h3><a href="/post/release-zepto-dot-j-s-0-dot-2">Release zepto.js 0.2</a></h3>
                         <small>by frends / Thursday, May 17 2012 5:27 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
+                        <h2>javascript core</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/chapter-1-execution-contexts">Chapter 1. Execution Contexts</a></h3>
+                        <small>by Rhio Kim / Friday, May 18 2012 11:12 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/javascript-the-core">JavaScript. The Core</a></h3>
+                        <small>by Rhio Kim / Friday, May 18 2012 10:40 AM</small>
                     </div>
                 </div>
                 <hr/>
@@ -266,6 +431,68 @@
                 </div>
                 <hr/>
                 
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/javascript-application-framework-seuteodi">Javascript Application Framework 스터디</a></h3>
+                        <small>by frends / Friday, May 18 2012 10:20 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/meetup-clearbothand-frends">MeetUp: Clearboth &amp; FRENDS</a></h3>
+                        <small>by frends / Friday, May 18 2012 9:47 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
+                        <h2>frends</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/frends-hackathon-2012">FRENDS Hackathon 2012</a></h3>
+                        <small>by frends / Friday, May 18 2012 11:26 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/frends-opeurain-moim">FRENDS 오프라인 모임</a></h3>
+                        <small>by frends / Friday, May 18 2012 9:54 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/frendsnumber-4-moim">FRENDS #4 모임</a></h3>
+                        <small>by frends / Friday, May 18 2012 10:28 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
             
                 <div class="row">
                     <div class="span9">
@@ -304,11 +531,11 @@
                 
                 <div class="row">
                     <div class="span1" style="width:40px;">
-                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
                     </div>
                     <div class="span7">
                         <h3><a href="/post/json-query-engine-top5">JSON Query Engine Top5</a></h3>
-                        <small>by frends / Monday, May 14 2012 4:12 PM</small>
+                        <small>by Rhio Kim / Monday, May 14 2012 4:12 PM</small>
                     </div>
                 </div>
                 <hr/>
@@ -331,6 +558,46 @@
                     <div class="span7">
                         <h3><a href="/post/simple-data-transmission-in-javascript">Simple Data Transmission in JavaScript</a></h3>
                         <small>by frends / Monday, May 14 2012 4:54 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
+                        <h2>html5</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/jeongcanmyeongnimyi-html5and-responsive-web-design">정찬명님의 HTML5 &amp; Responsive Web Design</a></h3>
+                        <small>by frends / Friday, May 18 2012 9:41 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/webfont-sayonghagi">Webfont 사용하기</a></h3>
+                        <small>by frends / Thursday, May 17 2012 6:13 PM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/webgaebaljareul-wihan-html5-seupeg">웹개발자를 위한 HTML5 스펙</a></h3>
+                        <small>by frends / Thursday, May 17 2012 6:32 PM</small>
                     </div>
                 </div>
                 <hr/>
@@ -403,7 +670,7 @@
             
                 <div class="row">
                     <div class="span9">
-                        <h2>html5</h2>
+                        <h2>css3</h2>
                     </div>
                 </div>
                 
@@ -412,8 +679,8 @@
                         <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
                     </div>
                     <div class="span7">
-                        <h3><a href="/post/webfont-sayonghagi">Webfont 사용하기</a></h3>
-                        <small>by frends / Thursday, May 17 2012 6:13 PM</small>
+                        <h3><a href="/post/tobynimi-beonyeoghasin-css3-background-seulraideu">Toby님이 번역하신 CSS3 Background 슬라이드</a></h3>
+                        <small>by frends / Friday, May 18 2012 9:44 AM</small>
                     </div>
                 </div>
                 <hr/>
@@ -423,8 +690,26 @@
                         <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
                     </div>
                     <div class="span7">
-                        <h3><a href="/post/webgaebaljareul-wihan-html5-seupeg">웹개발자를 위한 HTML5 스펙</a></h3>
-                        <small>by frends / Thursday, May 17 2012 6:32 PM</small>
+                        <h3><a href="/post/tobynimi-beonyeoghasin-css3-color-seulraideu">Toby님이 번역하신 CSS3 Color 슬라이드</a></h3>
+                        <small>by frends / Friday, May 18 2012 9:52 AM</small>
+                    </div>
+                </div>
+                <hr/>
+                
+            
+                <div class="row">
+                    <div class="span9">
+                        <h2>tech</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="span1" style="width:40px;">
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                    </div>
+                    <div class="span7">
+                        <h3><a href="/post/web-risoseu-coejeoghwa-gibeob-gonggae-mozilla">JavaScript/CSS 압축 최적화 80초에서 6초로 단축 기법 공개 – Mozilla</a></h3>
+                        <small>by Rhio Kim / Friday, May 18 2012 11:21 AM</small>
                     </div>
                 </div>
                 <hr/>
@@ -438,11 +723,11 @@
                 
                 <div class="row">
                     <div class="span1" style="width:40px;">
-                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                        <img class="thumbnail" width="40" src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
                     </div>
                     <div class="span7">
                         <h3><a href="/post/writing-native-extension-for-node-dot-j-s">Writing Native Extension for Node.js</a></h3>
-                        <small>by frends / Monday, May 14 2012 4:46 PM</small>
+                        <small>by Rhio Kim / Monday, May 14 2012 4:46 PM</small>
                     </div>
                 </div>
                 <hr/>
@@ -460,7 +745,7 @@
         <div class="container">
             <div class="row">
                 <div class="span12 ">
-                    <div class="well-black">
+                    <div class="well transbox">
                         <p class="pull-right"><a href="#">Back to top</a></p>
                             <strong>haroopress</strong> developed by <a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a>,<a href="http://twitter.com/haroopress" target="_blank">@haroopress</a> and source in <a href="https://github.com/rhiokim/haroopress" target="_blank">github</a><br/>
                             Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.<br />

@@ -15,14 +15,15 @@
     <![endif]-->
 
     <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루! 프랜즈(frends)" type="application/rss+xml">
-    <link href='http://fonts.googleapis.com/css?family=Magra:700' rel='stylesheet' type='text/css'>
 
     <!-- Le styles -->
     <link rel="canonical" href="http://frends.github.com">
+    <link href='http://fonts.googleapis.com/css?family=Magra:700' rel='stylesheet' type='text/css'>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/css/haroo.css" rel="stylesheet">
+    <link href="/css/haroo-wood.css" rel="stylesheet">
     <link href="/css/prettify.css" rel="stylesheet">
     <link href="/css/archives.css" rel="stylesheet">
 
@@ -46,7 +47,8 @@
   <body data-spy="scroll" data-target=".subnav" data-offset="50">
 
     
-    <div class="navbar navbar-fixed-top">
+<div class="container">
+    <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -55,10 +57,16 @@
             <span class="icon-bar"></span>
           </a>
 
-          <a class="pull-right" href="/rss.xml"><img src="/img/buttons/rss.png" /></a>
+          <a class="pull-right" style="margin-top: 5px;" href="/rss.xml"><img src="/img/social/rss_dark.png" /></a>
           
-            <a class="pull-right" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/buttons/twitter.png" /></a>
+            <a class="pull-right" style="margin-top: 5px;" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/social/twitter_dark.png" /></a>
           
+          
+
+          <form class="navbar-search pull-right" style="margin-right: 2px;" method="get" action="http://www.google.com/search">
+              <input type="hidden" name="q" value="site:frends.github.com" />
+              <input type="text" name="q" value="" results="0"class="search-query span2" placeholder="Search" />
+          </form>
 
           <div class="nav-collapse">
             <ul class="nav">
@@ -74,6 +82,7 @@
         </div>
       </div>
     </div>
+</div>
 
     <!-- Masthead (blueprinty thing)
 ================================================== -->
@@ -94,15 +103,21 @@
                     
                     <li><a href="/category/javascript"><i class="icon-book"></i> javascript</a></li>
                     
+                    <li><a href="/category/javascript core"><i class="icon-book"></i> javascript core</a></li>
+                    
                     <li><a href="/category/CouchDB"><i class="icon-book"></i> CouchDB</a></li>
                     
                     <li><a href="/category/JavaScript Core"><i class="icon-book"></i> JavaScript Core</a></li>
                     
                     <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
                     
+                    <li><a href="/category/frends"><i class="icon-book"></i> frends</a></li>
+                    
                     <li><a href="/category/google"><i class="icon-book"></i> google</a></li>
                     
                     <li><a href="/category/JavaScript"><i class="icon-book"></i> JavaScript</a></li>
+                    
+                    <li><a href="/category/html5"><i class="icon-book"></i> html5</a></li>
                     
                     <li><a href="/category/jQuery"><i class="icon-book"></i> jQuery</a></li>
                     
@@ -110,7 +125,9 @@
                     
                     <li><a href="/category/rhino"><i class="icon-book"></i> rhino</a></li>
                     
-                    <li><a href="/category/html5"><i class="icon-book"></i> html5</a></li>
+                    <li><a href="/category/css3"><i class="icon-book"></i> css3</a></li>
+                    
+                    <li><a href="/category/tech"><i class="icon-book"></i> tech</a></li>
                     
                     <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
                     
@@ -127,7 +144,16 @@
             <a class="pull-left" href="/authors/frends" title=""><img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
             <p>
                 <strong>frends</strong><br/>
-                <span>@frends_kr</span>
+                <span><a href="http://twitter.com/frends_kr" target="_blank">@frends_kr</a></span>
+            </p>
+        </div>
+        <hr>
+        
+        <div class="row-fluid">
+            <a class="pull-left" href="/authors/Rhio Kim" title=""><img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
+            <p>
+                <strong>Rhio Kim</strong><br/>
+                <span><a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a></span>
             </p>
         </div>
         <hr>
@@ -152,9 +178,277 @@
                                 </a>
                                 <div class="comment-body">
                                     <div class="text">
+                                        <p>Cappuccino 프레임워크 시작하기 2... <a href="/post/cappuccino-peureimweokeu-sijaghagi-2">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/Rhio Kim">
+                                    <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Chapter 1. Execution Contexts... <a href="/post/chapter-1-execution-contexts">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/Rhio Kim" >Rhio Kim</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>FRENDS Hackathon 2012... <a href="/post/frends-hackathon-2012">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>FRENDS 오프라인 모임... <a href="/post/frends-opeurain-moim">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>FRENDS #4 모임... <a href="/post/frendsnumber-4-moim">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/Rhio Kim">
+                                    <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>JavaScript 를 위한 코드 커버리지 측정도구 'ScriptCover'... <a href="/post/googles-javascript-keobeoriji-ceugjeong-dogu">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/Rhio Kim" >Rhio Kim</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Javascript Application Framework 스터디... <a href="/post/javascript-application-framework-seuteodi">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/Rhio Kim">
+                                    <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>JavaScript. The Core... <a href="/post/javascript-the-core">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/Rhio Kim" >Rhio Kim</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/Rhio Kim">
+                                    <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Google's The Next JavaScript... <a href="/post/javascript-the-next">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/Rhio Kim" >Rhio Kim</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>정찬명님의 HTML5 &amp; Responsive Web Design... <a href="/post/jeongcanmyeongnimyi-html5and-responsive-web-design">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Knockout.js 핵심... <a href="/post/knockout-dot-j-s-haegsim">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Knockout.js Install... <a href="/post/knockout-dot-j-s-install">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Knockout.js 소개... <a href="/post/knockout-dot-j-s-sogae">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>MeetUp: Clearboth &amp; FRENDS... <a href="/post/meetup-clearbothand-frends">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/Rhio Kim">
+                                    <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Microsoft, Azure 에 Node.js 대응... <a href="/post/microsoft-azure-e-node-dot-j-s-daeeung">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/Rhio Kim" >Rhio Kim</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Release SproutCore 2.0 Developer Preview... <a href="/post/release-sproutcore-2-dot-0-developer-preview">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Toby님이 번역하신 CSS3 Background 슬라이드... <a href="/post/tobynimi-beonyeoghasin-css3-background-seulraideu">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>Toby님이 번역하신 CSS3 Color 슬라이드... <a href="/post/tobynimi-beonyeoghasin-css3-color-seulraideu">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/Rhio Kim">
+                                    <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
+                                        <p>JavaScript/CSS 압축 최적화 80초에서 6초로 단축 기법 공개 – Mozilla... <a href="/post/web-risoseu-coejeoghwa-gibeob-gonggae-mozilla">read</a></p>
+                                    </div>
+                                    <p class="attribution">by <a href="/authors/Rhio Kim" >Rhio Kim</a> at 45:37am, 18th May 2012</p>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        
+                        
+                        <section class="comments">
+                            <article class="comment">
+                                <a class="comment-img" href="/authors/frends">
+                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="text">
                                         <p>Andrw.J's JavaScript Lecture... <a href="/post/andrw-dot-j-s-javascript-lecture">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -168,7 +462,7 @@
                                     <div class="text">
                                         <p>Cappuccino 프레임워크 시작하기1... <a href="/post/cappuccino-peureimweokeu-sijaghagi-1">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -182,7 +476,7 @@
                                     <div class="text">
                                         <p>Google App Engine SDK 1.4.0 Release... <a href="/post/google-app-engine-sdk-1-dot-4-0-release">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -196,7 +490,7 @@
                                     <div class="text">
                                         <p>Introduce Cappuccino Framework... <a href="/post/introduce-cappuccino-framework">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -210,7 +504,7 @@
                                     <div class="text">
                                         <p>Release zepto.js 0.2... <a href="/post/release-zepto-dot-j-s-0-dot-2">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -224,7 +518,7 @@
                                     <div class="text">
                                         <p>RingoJS 시작하기... <a href="/post/ringojs-sijaghagi">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -238,7 +532,7 @@
                                     <div class="text">
                                         <p>Webfont 사용하기... <a href="/post/webfont-sayonghagi">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -252,7 +546,7 @@
                                     <div class="text">
                                         <p>웹개발자를 위한 HTML5 스펙... <a href="/post/webgaebaljareul-wihan-html5-seupeg">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -268,7 +562,7 @@
                                     <div class="text">
                                         <p>CouchDB 시작하기... <a href="/post/couchdb-sijaghagi">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -282,7 +576,7 @@
                                     <div class="text">
                                         <p>Flyweight Pattern in JavaScript... <a href="/post/flyweight-pattern-in-javascript">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -296,7 +590,7 @@
                                     <div class="text">
                                         <p>FRENDS에 오신것을 환영합니다.... <a href="/post/frends-dot-k-r">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -310,7 +604,7 @@
                                     <div class="text">
                                         <p>JavaScript Mentors... <a href="/post/javascript-mentors">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -324,21 +618,21 @@
                                     <div class="text">
                                         <p>jQuery CDN 활용... <a href="/post/jquery-cdn-hwalyong">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
                         
                         <section class="comments">
                             <article class="comment">
-                                <a class="comment-img" href="/authors/frends">
-                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                <a class="comment-img" href="/authors/Rhio Kim">
+                                    <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
                                 </a>
                                 <div class="comment-body">
                                     <div class="text">
                                         <p>JSON Query Engine Top5... <a href="/post/json-query-engine-top5">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/Rhio Kim" >Rhio Kim</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -352,7 +646,7 @@
                                     <div class="text">
                                         <p>JSR 223 - Scripting for the Java Platform... <a href="/post/jsr-223---scripting-for-the-java-platform">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -366,7 +660,7 @@
                                     <div class="text">
                                         <p>Managing Scope in JavaScript... <a href="/post/managing-scope-in-javascript">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -380,7 +674,7 @@
                                     <div class="text">
                                         <p>Open Class - Be the JavaScript Ninja... <a href="/post/open-class---be-the-javascript-ninja">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -394,7 +688,7 @@
                                     <div class="text">
                                         <p>Server Side javaScript based on Rhino... <a href="/post/server-side-javascript-based-on-rhino">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -408,21 +702,21 @@
                                     <div class="text">
                                         <p>Simple Data Transmission in JavaScript... <a href="/post/simple-data-transmission-in-javascript">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
                         
                         <section class="comments">
                             <article class="comment">
-                                <a class="comment-img" href="/authors/frends">
-                                    <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
+                                <a class="comment-img" href="/authors/Rhio Kim">
+                                    <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" alt="" width="50" height="50">
                                 </a>
                                 <div class="comment-body">
                                     <div class="text">
                                         <p>Writing Native Extension for Node.js... <a href="/post/writing-native-extension-for-node-dot-j-s">read</a></p>
                                     </div>
-                                    <p class="attribution">by <a href="/authors/frends" >frends</a> at 43:46pm, 17th May 2012</p>
+                                    <p class="attribution">by <a href="/authors/Rhio Kim" >Rhio Kim</a> at 45:37am, 18th May 2012</p>
                                 </div>
                             </article>
                         </section>
@@ -444,7 +738,7 @@
         <div class="container">
             <div class="row">
                 <div class="span12 ">
-                    <div class="well-black">
+                    <div class="well transbox">
                         <p class="pull-right"><a href="#">Back to top</a></p>
                             <strong>haroopress</strong> developed by <a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a>,<a href="http://twitter.com/haroopress" target="_blank">@haroopress</a> and source in <a href="https://github.com/rhiokim/haroopress" target="_blank">github</a><br/>
                             Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.<br />
