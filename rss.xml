@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 >    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://blog.frends.kr</link><generator>NodeJS RSS Module</generator><lastBuildDate>Wed, 30 May 2012 04:31:31 GMT</lastBuildDate><atom:link href="http://blog.frends.kr/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Andrw.J's JavaScript Lecture]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/andrw-dot-j-s-javascript-lecture/@img/bethejavascriptninja.gif" alt="">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 >    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://blog.frends.kr</link><generator>NodeJS RSS Module</generator><lastBuildDate>Tue, 12 Jun 2012 02:15:35 GMT</lastBuildDate><atom:link href="http://blog.frends.kr/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Andrw.J's JavaScript Lecture]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/andrw-dot-j-s-javascript-lecture/@img/bethejavascriptninja.gif" alt="">
 </p>
 
 <p>작년에 계획했다가 사정으로 지연되었던 A.J의 자바스크립트 교육을 진행하게 되었습니다.</p>
@@ -67,7 +67,57 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 ]]></description><link>http://blog.frends.kr/post/chapter-1-execution-contexts</link><guid isPermaLink="false">chapter-1-execution-contexts</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[CouchDB 시작하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>CouchDB가 뭔지 아주 간단한 형태의 소개 PPT입니다.</p>
 
 <p><a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View CouchDB on Scribd" href="http://www.scribd.com/doc/43705467/CouchDB">CouchDB</a> <object id="doc_990660446048915" style="outline: none;" width="100%" height="600" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="document_id=43705467&amp;access_key=key-2a7j8ekdd637pm5ww9xe&amp;page=1&amp;viewMode=slideshow" /><param name="src" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><embed id="doc_990660446048915" style="outline: none;" width="100%" height="600" type="application/x-shockwave-flash" src="http://d1.scribdassets.com/ScribdViewer.swf" wmode="opaque" allowFullScreen="true" allowScriptAccess="always" FlashVars="document_id=43705467&amp;access_key=key-2a7j8ekdd637pm5ww9xe&amp;page=1&amp;viewMode=slideshow" allowscriptaccess="always" allowfullscreen="true" /> </object></p>
-]]></description><link>http://blog.frends.kr/post/couchdb-sijaghagi</link><guid isPermaLink="false">couchdb-sijaghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Flyweight Pattern in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>&quot;하나의 객체에 많은 정보를 담기 보다, 나눠서 담고 추가적인 정보는 Manager에서 관리하자&quot; 라는 의도의 Pattern입니다. 어려운 내용은 하나도 없으니 한번 쓰윽 보시면 될 것 같습니다.</p>
+]]></description><link>http://blog.frends.kr/post/couchdb-sijaghagi</link><guid isPermaLink="false">couchdb-sijaghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Fluent Conference 29 May]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h3>A Sip of CoffeeScript</h3>
+
+<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24421">세션 소개 페이지</a></p>
+
+<p>발표자 : Caike Souza (Envy Labs), Gregg Pollack (Envy Labs)</p>
+
+<ul>
+<li>커피스크립트의 기본적인 것들에 대해 다룸</li>
+<li>자바스크립트 코드 작성을 즐겨하고 있다면 이미 커피스크립트 코드를 즐기고 있다는 내용.</li>
+</ul>
+
+<h3>Writing robust Node.js applications</h3>
+
+<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24856">세션 소개 페이지</a></p>
+
+<p>발표자 : Tom Hughes-Croucher (Jetpacks for Dinosaurs)</p>
+]]></description><link>http://blog.frends.kr/post/fluent-conference-29-may</link><guid isPermaLink="false">fluent-conference-29-may</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Fluent Converence 30 May]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h3>JavaScript at 17</h3>
+
+<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24538">세션 소개 페이지</a></p>
+
+<p>발표자 : Brendan Eich (Mozilla)</p>
+
+<ul>
+<li>자바스크립트의 역사와 가지고 있는 문제점</li>
+<li>LLJS, Emscripten(C/C++ Compiled JS), ECMAScript 6</li>
+</ul>
+
+<iframe width="825" height="464" src="http://www.youtube.com/embed/Rj49rmc01Hs" frameborder="0" allowfullscreen></iframe>
+
+<h3>wtf.js: JavaScript as a First Language</h3>
+
+<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24888">세션 소개 페이지</a></p>
+]]></description><link>http://blog.frends.kr/post/fluent-conference-30-may</link><guid isPermaLink="false">fluent-conference-30-may</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Fluent Conference 31 May]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h3>Javascript Development Workflow of 2013</h3>
+
+<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24847">세션 소개 페이지</a></p>
+
+<p>발표자 : Paul Irish (Google)</p>
+
+<ul>
+<li>지난 2년 동안 툴과 에디터의 혁명은 계속되어 왔고 더 재미있어졌고 정확히 말하면 좀더 나은 생산성을 보장하려 노력</li>
+<li>에디터와 플러그인, 인증 추상화, 테스팅과 DVCS 통합을 통해 현대적인 개발 워크플로우에 대해서 다룸</li>
+</ul>
+
+<iframe width="825" height="464" src="http://www.youtube.com/embed/f7AU2Ozu8eo" frameborder="0" allowfullscreen></iframe>
+
+<h3>Improving JavaScript</h3>
+
+<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/25048">세션 소개 페이지</a></p>
+
+<p>발표자 : Axel Rauschmayer (2ality consulting)</p>
+]]></description><link>http://blog.frends.kr/post/fluent-conference-31-may</link><guid isPermaLink="false">fluent-conference-31-may</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Flyweight Pattern in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>&quot;하나의 객체에 많은 정보를 담기 보다, 나눠서 담고 추가적인 정보는 Manager에서 관리하자&quot; 라는 의도의 Pattern입니다. 어려운 내용은 하나도 없으니 한번 쓰윽 보시면 될 것 같습니다.</p>
 
 <p><a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View Flyweight Pattern in JavaScript on Scribd" href="http://www.scribd.com/doc/43694481/Flyweight-Pattern-in-JavaScript">Flyweight Pattern in JavaScript</a> <object id="doc_427664386578350" style="outline: none;" width="100%" height="600" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="document_id=43694481&amp;access_key=key-vu84arsvt5ys1j4zs1n&amp;page=1&amp;viewMode=slideshow" /><param name="src" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><embed id="doc_427664386578350" style="outline: none;" width="100%" height="600" type="application/x-shockwave-flash" src="http://d1.scribdassets.com/ScribdViewer.swf" wmode="opaque" allowFullScreen="true" allowScriptAccess="always" FlashVars="document_id=43694481&amp;access_key=key-vu84arsvt5ys1j4zs1n&amp;page=1&amp;viewMode=slideshow" allowscriptaccess="always" allowfullscreen="true" /></object></p>
 ]]></description><link>http://blog.frends.kr/post/flyweight-pattern-in-javascript</link><guid isPermaLink="false">flyweight-pattern-in-javascript</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS에 오신것을 환영합니다.]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>안녕하세요. FRENDS입니다.</p>
