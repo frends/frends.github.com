@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 >    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://blog.frends.kr</link><generator>NodeJS RSS Module</generator><lastBuildDate>Tue, 12 Jun 2012 02:59:10 GMT</lastBuildDate><atom:link href="http://blog.frends.kr/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Andrw.J's JavaScript Lecture]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/andrw-dot-j-s-javascript-lecture/@img/bethejavascriptninja.gif" alt="">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 >    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://blog.frends.kr</link><generator>NodeJS RSS Module</generator><lastBuildDate>Tue, 12 Jun 2012 07:58:53 GMT</lastBuildDate><atom:link href="http://blog.frends.kr/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Andrw.J's JavaScript Lecture]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/andrw-dot-j-s-javascript-lecture/@img/bethejavascriptninja.gif" alt="">
 </p>
 
 <p>작년에 계획했다가 사정으로 지연되었던 A.J의 자바스크립트 교육을 진행하게 되었습니다.</p>
@@ -190,7 +190,7 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <h2>기타 논의 사항</h2>
 
 <ul>
-<li>최근 멤버들의 참여가 거의 없을 뿐 아니라 참여 의지도 매우 약해짐 그래서 <strong>FRENDS 의 현 운영 방식 개선에 대한 논의</strong>를 별도로 진행할 예정입니다.</li>
+<li>최근 멤버들의 참여가 거의 없을 뿐 아니라 참여 의지도 매우 약해짐 그래서 <strong>FRENDS 의 현 운영 방식 개선에 대한 논의</strong>를 별도로 진행할 예정</li>
 </ul>
 ]]></description><link>http://blog.frends.kr/post/frendsnumber-6</link><guid isPermaLink="false">frendsnumber-6</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Google App Engine SDK 1.4.0 Release]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>크리스마스 선물과도 같은 릴리즈인것 같습니다.
 Channel API가 오픈되서 Server-Side Push를 해볼 수 있네요.
