@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 >    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://blog.frends.kr</link><generator>NodeJS RSS Module</generator><lastBuildDate>Wed, 13 Jun 2012 08:51:01 GMT</lastBuildDate><atom:link href="http://blog.frends.kr/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Andrw.J's JavaScript Lecture]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/andrw-dot-j-s-javascript-lecture/@img/bethejavascriptninja.gif" alt="">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 >    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://blog.frends.kr</link><generator>NodeJS RSS Module</generator><lastBuildDate>Fri, 15 Jun 2012 02:50:13 GMT</lastBuildDate><atom:link href="http://blog.frends.kr/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Andrw.J's JavaScript Lecture]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/andrw-dot-j-s-javascript-lecture/@img/bethejavascriptninja.gif" alt="">
 </p>
 
 <p>작년에 계획했다가 사정으로 지연되었던 A.J의 자바스크립트 교육을 진행하게 되었습니다.</p>
@@ -185,7 +185,7 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <li>하루프레스 FRENDS 블로그 적용 및 운영 방식 공유 ( 30분 )</li>
 <li>번역 후기 ( 30분 )</li>
 <li>커피스크립트, MVC 프레임웍, PhantomJS 중 1개 ( 30분 )</li>
-<li>레일즈 ( 30분 )</li>
+<li><del>레일즈 ( 30분 )</del></li>
 </ul>
 
 <h2>기타 논의 사항</h2>
