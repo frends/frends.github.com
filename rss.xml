@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 >    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://blog.frends.kr</link><generator>NodeJS RSS Module</generator><lastBuildDate>Thu, 21 Jun 2012 00:31:51 GMT</lastBuildDate><atom:link href="http://blog.frends.kr/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Andrw.J's JavaScript Lecture]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/andrw-dot-j-s-javascript-lecture/@img/bethejavascriptninja.gif" alt="">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[프론트앤드 개발자들의 모루! 프랜즈(frends)]]></title><description><![CDATA[프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 >    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.]]></description><link>http://frends.kr</link><generator>NodeJS RSS Module</generator><lastBuildDate>Thu, 21 Jun 2012 00:32:35 GMT</lastBuildDate><atom:link href="http://frends.kr/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Andrw.J's JavaScript Lecture]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/andrw-dot-j-s-javascript-lecture/@img/bethejavascriptninja.gif" alt="">
 </p>
 
 <p>작년에 계획했다가 사정으로 지연되었던 A.J의 자바스크립트 교육을 진행하게 되었습니다.</p>
@@ -17,7 +17,7 @@
 
 <p>이번 자바스크립트 교육에 참가하기 위해서는 Ajaxian.kr 에 몇 가지 간단한 확인이 있습니다.
 이것은 유료 교육이기 때문에 교육의 난이도에 적합한 분들을 조정하기 위한 것이니 양해를 부탁드립니다.</p>
-]]></description><link>http://blog.frends.kr/post/andrw-dot-j-s-javascript-lecture</link><guid isPermaLink="false">andrw-dot-j-s-javascript-lecture</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Cappuccino 프레임워크 시작하기1]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>카푸치노는 어떠한 OS 나 Browser 상에서라도 개발할 수 있습니다.
+]]></description><link>http://frends.kr/post/andrw-dot-j-s-javascript-lecture</link><guid isPermaLink="false">andrw-dot-j-s-javascript-lecture</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Cappuccino 프레임워크 시작하기1]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>카푸치노는 어떠한 OS 나 Browser 상에서라도 개발할 수 있습니다.
 여러분에게 가장 편리한 에디터를 사용해서 개발하실 수 있습니다.
 그러나, Max OSX 혹은 Ubuntu 와 같은 리눅스계열 OS에 설치하면, 좀 더 다양한 툴을 제공해 줍니다.
 Cappuccino 프레임워크를 시작하기 위한 준비로, 설치방법 및 디버깅툴, 개발툴 등을 알아보겠습니다.</p>
@@ -31,7 +31,7 @@ Cappuccino 프레임워크를 시작하기 위한 준비로, 설치방법 및 �
 초보자를 위한 Starter Package 를 직접제공하고 있어 단 한줄의 커멘드 만으로도 설치가 가능합니다.</p>
 
 <p><a href="http://cappuccino.org/starter">Starter Package 다운로드하기</a></p>
-]]></description><link>http://blog.frends.kr/post/cappuccino-peureimweokeu-sijaghagi-1</link><guid isPermaLink="false">cappuccino-peureimweokeu-sijaghagi-1</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Cappuccino 프레임워크 시작하기 2]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>카푸치노 웹개발환경 구축하기</h2>
+]]></description><link>http://frends.kr/post/cappuccino-peureimweokeu-sijaghagi-1</link><guid isPermaLink="false">cappuccino-peureimweokeu-sijaghagi-1</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Cappuccino 프레임워크 시작하기 2]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>카푸치노 웹개발환경 구축하기</h2>
 
 <p>웹 클라이언트 개발환경. 즉 브라우저 기반 어플리케이션을 개발하는것은 데스크탑 OS 혹은 서버측 코드를 개발하는 환경과는 뚜렷한 차이가 있습니다.
 Cappuccino 는 이러한 차이를 줄여나가기 위해 디자인되어 있습니다.
@@ -55,7 +55,7 @@ Firebug 는 예외 스텍 추적(trace), 성능에 주요 병목점을 찾기위
 <p>대부분의 브라우저가 그렇듯이 Firefox 역시 포괄적인 에러로그를 제공합니다.
 Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보이는 코드가 어디에 있는지에 관해서 힌트를 얻는데 유용합니다. 그밖의 다른 예외상황 리포트 역시 일반적으로 다른 브라우저보다 더 좋은 편입니다.
 심지어 개발을 위해 다른 브라우저를 선택하더라도, Firefox 를 곁에 두는것은 문제를 찾고 수정하는데 좋은 참고가 될것입니다.</p>
-]]></description><link>http://blog.frends.kr/post/cappuccino-peureimweokeu-sijaghagi-2</link><guid isPermaLink="false">cappuccino-peureimweokeu-sijaghagi-2</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Chapter 1. Execution Contexts]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p>이 기사는 <a href="http://dmitrysoshnikov.com/">Dmitry A. Soshnikov</a>에 의해 작성된 <a href="http://dmitrysoshnikov.com/ecmascript/chapter-1-execution-contexts/"> Chapter 1. Execution Context </a> 를 번역한 문서로 허가를 받아 개제합니다.</p>
+]]></description><link>http://frends.kr/post/cappuccino-peureimweokeu-sijaghagi-2</link><guid isPermaLink="false">cappuccino-peureimweokeu-sijaghagi-2</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Chapter 1. Execution Contexts]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p>이 기사는 <a href="http://dmitrysoshnikov.com/">Dmitry A. Soshnikov</a>에 의해 작성된 <a href="http://dmitrysoshnikov.com/ecmascript/chapter-1-execution-contexts/"> Chapter 1. Execution Context </a> 를 번역한 문서로 허가를 받아 개제합니다.</p>
 
 <h2>소개</h2>
 
@@ -64,10 +64,10 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <h2>정의</h2>
 
 <p>컨트롤이 ECMAScript 실행 코드로 이동하면 컨트롤은 항상 실행 컨텍스트로 전환합니다. (역주: 브라우저에서 웹 페이지가 로드될 때의 일련의 과정중 자바스크립트 수행되는 시점)</p>
-]]></description><link>http://blog.frends.kr/post/chapter-1-execution-contexts</link><guid isPermaLink="false">chapter-1-execution-contexts</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[CouchDB 시작하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>CouchDB가 뭔지 아주 간단한 형태의 소개 PPT입니다.</p>
+]]></description><link>http://frends.kr/post/chapter-1-execution-contexts</link><guid isPermaLink="false">chapter-1-execution-contexts</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[CouchDB 시작하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>CouchDB가 뭔지 아주 간단한 형태의 소개 PPT입니다.</p>
 
 <p><a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View CouchDB on Scribd" href="http://www.scribd.com/doc/43705467/CouchDB">CouchDB</a> <object id="doc_990660446048915" style="outline: none;" width="100%" height="600" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="document_id=43705467&amp;access_key=key-2a7j8ekdd637pm5ww9xe&amp;page=1&amp;viewMode=slideshow" /><param name="src" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><embed id="doc_990660446048915" style="outline: none;" width="100%" height="600" type="application/x-shockwave-flash" src="http://d1.scribdassets.com/ScribdViewer.swf" wmode="opaque" allowFullScreen="true" allowScriptAccess="always" FlashVars="document_id=43705467&amp;access_key=key-2a7j8ekdd637pm5ww9xe&amp;page=1&amp;viewMode=slideshow" allowscriptaccess="always" allowfullscreen="true" /> </object></p>
-]]></description><link>http://blog.frends.kr/post/couchdb-sijaghagi</link><guid isPermaLink="false">couchdb-sijaghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Fluent Conference 29 May]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h3>A Sip of CoffeeScript</h3>
+]]></description><link>http://frends.kr/post/couchdb-sijaghagi</link><guid isPermaLink="false">couchdb-sijaghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Fluent Conference 29 May]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h3>A Sip of CoffeeScript</h3>
 
 <p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24421">세션 소개 페이지</a></p>
 
@@ -83,7 +83,7 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24856">세션 소개 페이지</a></p>
 
 <p>발표자 : Tom Hughes-Croucher (Jetpacks for Dinosaurs)</p>
-]]></description><link>http://blog.frends.kr/post/fluent-conference-29-may</link><guid isPermaLink="false">fluent-conference-29-may</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Fluent Converence 30 May]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h3>JavaScript at 17</h3>
+]]></description><link>http://frends.kr/post/fluent-conference-29-may</link><guid isPermaLink="false">fluent-conference-29-may</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Fluent Converence 30 May]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h3>JavaScript at 17</h3>
 
 <p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24538">세션 소개 페이지</a></p>
 
@@ -99,7 +99,7 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <h3>wtf.js: JavaScript as a First Language</h3>
 
 <p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24888">세션 소개 페이지</a></p>
-]]></description><link>http://blog.frends.kr/post/fluent-conference-30-may</link><guid isPermaLink="false">fluent-conference-30-may</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Fluent Conference 31 May]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h3>Javascript Development Workflow of 2013</h3>
+]]></description><link>http://frends.kr/post/fluent-conference-30-may</link><guid isPermaLink="false">fluent-conference-30-may</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Fluent Conference 31 May]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h3>Javascript Development Workflow of 2013</h3>
 
 <p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24847">세션 소개 페이지</a></p>
 
@@ -117,10 +117,10 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/25048">세션 소개 페이지</a></p>
 
 <p>발표자 : Axel Rauschmayer (2ality consulting)</p>
-]]></description><link>http://blog.frends.kr/post/fluent-conference-31-may</link><guid isPermaLink="false">fluent-conference-31-may</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Flyweight Pattern in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>&quot;하나의 객체에 많은 정보를 담기 보다, 나눠서 담고 추가적인 정보는 Manager에서 관리하자&quot; 라는 의도의 Pattern입니다. 어려운 내용은 하나도 없으니 한번 쓰윽 보시면 될 것 같습니다.</p>
+]]></description><link>http://frends.kr/post/fluent-conference-31-may</link><guid isPermaLink="false">fluent-conference-31-may</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Flyweight Pattern in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>&quot;하나의 객체에 많은 정보를 담기 보다, 나눠서 담고 추가적인 정보는 Manager에서 관리하자&quot; 라는 의도의 Pattern입니다. 어려운 내용은 하나도 없으니 한번 쓰윽 보시면 될 것 같습니다.</p>
 
 <p><a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View Flyweight Pattern in JavaScript on Scribd" href="http://www.scribd.com/doc/43694481/Flyweight-Pattern-in-JavaScript">Flyweight Pattern in JavaScript</a> <object id="doc_427664386578350" style="outline: none;" width="100%" height="600" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="document_id=43694481&amp;access_key=key-vu84arsvt5ys1j4zs1n&amp;page=1&amp;viewMode=slideshow" /><param name="src" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><embed id="doc_427664386578350" style="outline: none;" width="100%" height="600" type="application/x-shockwave-flash" src="http://d1.scribdassets.com/ScribdViewer.swf" wmode="opaque" allowFullScreen="true" allowScriptAccess="always" FlashVars="document_id=43694481&amp;access_key=key-vu84arsvt5ys1j4zs1n&amp;page=1&amp;viewMode=slideshow" allowscriptaccess="always" allowfullscreen="true" /></object></p>
-]]></description><link>http://blog.frends.kr/post/flyweight-pattern-in-javascript</link><guid isPermaLink="false">flyweight-pattern-in-javascript</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS에 오신것을 환영합니다.]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>안녕하세요. FRENDS입니다.</p>
+]]></description><link>http://frends.kr/post/flyweight-pattern-in-javascript</link><guid isPermaLink="false">flyweight-pattern-in-javascript</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS에 오신것을 환영합니다.]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>안녕하세요. FRENDS입니다.</p>
 
 <p>저희 FRENDS는 국내 수 많은 프론트 앤드 개발자들 그리고 이 분야에 관심있는 분들과 함께 다양한 이야기를 나누고 자발적인 공헌과 기여를 통해 소통의 장을 마련하고자 지금까지 몇몇 분들과 다양한 이야기를 나누고 있습니다.</p>
 
@@ -129,7 +129,7 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <p>그중 가장 중요한 것은 “오픈 웹 기술을 다루는 프론트앤드 기술에 대해 논하고 자발적인 공헌과 기여를 통해 개방된 모임을 만들자” 입니다.</p>
 
 <p>그리고 회원에 대한 부분입니다.</p>
-]]></description><link>http://blog.frends.kr/post/frends-dot-k-r</link><guid isPermaLink="false">frends-dot-k-r</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS Hackathon 2012]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/frends-hackathon-2012/@img/frends-hackathon-20124.png" alt="">
+]]></description><link>http://frends.kr/post/frends-dot-k-r</link><guid isPermaLink="false">frends-dot-k-r</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS Hackathon 2012]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/frends-hackathon-2012/@img/frends-hackathon-20124.png" alt="">
 </p>
 
 <h2>행사개요</h2>
@@ -139,7 +139,7 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <p>또한 톡톡 튀는 아이디어, 심심하지만 구현해 볼만한, 나에게 꼭 필요한 도구등 다양한 이유에서 구현을 해보고 싶은 것들을 함께 모인 자리에서 <strong>‘뚝딱뚝딱’</strong> 만들어 보는 행사입니다.</p>
 
 <p>FRENDS 해카톤은 3월 1일부터 시작하여 3월 30일 한달에 걸쳐 진행되고 있습니다.</p>
-]]></description><link>http://blog.frends.kr/post/frends-hackathon-2012</link><guid isPermaLink="false">frends-hackathon-2012</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS 오프라인 모임]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>지난 5월 28일 FRENDS 3차 오프라인 모임을 갖었습니다.</p>
+]]></description><link>http://frends.kr/post/frends-hackathon-2012</link><guid isPermaLink="false">frends-hackathon-2012</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS 오프라인 모임]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>지난 5월 28일 FRENDS 3차 오프라인 모임을 갖었습니다.</p>
 
 <p>발표는 @rhiokim, @zziuni, @odyss009, @andrwj  가 진행하였고 간략한 트레일러 영상과 발표 자료를
 아래의 내용에서 볼 수 있습니다.</p>
@@ -152,7 +152,7 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <li><p><a href="http://twitter.com/rhiokim">@rhiokim</a> 의 Function Work in JavaScript 라는 주제는 자바스크립트의 정의와 선언 방식에 대해서 살펴보고 자바스크립트 Function 의 동작원리를 깊게 살펴보는 시간이였습니다.</p></li>
 <li><p><a href="http://twitter.com/zziuni">@zziuni</a> 의 Getting Started with WebGL 은 스터디 소모임의 2달간의 결과물로 잘 구성된 내용들과 쉬운 데모와 예시로 WebGL 입문으로는 정말 좋은 내용이였습니다.</p></li>
 </ul>
-]]></description><link>http://blog.frends.kr/post/frends-opeurain-moim</link><guid isPermaLink="false">frends-opeurain-moim</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS #4 모임]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h3>7월 30일 4차 모임</h3>
+]]></description><link>http://frends.kr/post/frends-opeurain-moim</link><guid isPermaLink="false">frends-opeurain-moim</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS #4 모임]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h3>7월 30일 4차 모임</h3>
 
 <ul>
 <li>자바스크립트의 역사</li>
@@ -170,7 +170,7 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <p>브라우저의 기원과 그와 함께한 자바스크립트의 탄생과 발전!!</p>
 
 <p><object id="__sse8390737" width="601" height="490" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="src" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=javascripthistory-110622120026-phpapp02&amp;stripped_title=javascript-history-8390737&amp;userName=rhio.kim" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><embed id="__sse8390737" width="601" height="490" type="application/x-shockwave-flash" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=javascripthistory-110622120026-phpapp02&amp;stripped_title=javascript-history-8390737&amp;userName=rhio.kim" allowFullScreen="true" allowScriptAccess="always" allowscriptaccess="always" allowfullscreen="true" /></object></p>
-]]></description><link>http://blog.frends.kr/post/frendsnumber-4-moim</link><guid isPermaLink="false">frendsnumber-4-moim</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS #6]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>FRENDS 6차 모임 공지</h2>
+]]></description><link>http://frends.kr/post/frendsnumber-4-moim</link><guid isPermaLink="false">frendsnumber-4-moim</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[FRENDS #6]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>FRENDS 6차 모임 공지</h2>
 
 <ul>
 <li>날짜와 시간 : 2012년 6월 23일(토요일) 오후 2시부터</li>
@@ -200,7 +200,7 @@ Firefox 의 에러 해석은 특정한 이슈나 문제가 있을것으로 보�
 <ul>
 <li>최근 멤버들의 참여가 거의 없을 뿐 아니라 참여 의지도 매우 약해짐 그래서 <strong>FRENDS 의 현 운영 방식 개선에 대한 논의</strong>를 별도로 진행할 예정</li>
 </ul>
-]]></description><link>http://blog.frends.kr/post/frendsnumber-6</link><guid isPermaLink="false">frendsnumber-6</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Google App Engine SDK 1.4.0 Release]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>크리스마스 선물과도 같은 릴리즈인것 같습니다.
+]]></description><link>http://frends.kr/post/frendsnumber-6</link><guid isPermaLink="false">frendsnumber-6</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Google App Engine SDK 1.4.0 Release]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>크리스마스 선물과도 같은 릴리즈인것 같습니다.
 Channel API가 오픈되서 Server-Side Push를 해볼 수 있네요.
 기념으로 간단하게 채팅방 포팅해봤습니다.</p>
 
@@ -213,7 +213,7 @@ Channel API가 오픈되서 Server-Side Push를 해볼 수 있네요.
 
 <p>SDK Detail 정보는 아래 링크에서 확인하세요 :D
 <a href="http://googleappengine.blogspot.com/2010/12/happy-holidays-from-app-engine-team-140.html"><a href="http://googleappengine.blogspot.com/2010/12/happy-holidays-from-app-engine-team-140.html">http://googleappengine.blogspot.com/2010/12/happy-holidays-from-app-engine-team-140.html</a></a></p>
-]]></description><link>http://blog.frends.kr/post/google-app-engine-sdk-1-dot-4-0-release</link><guid isPermaLink="false">google-app-engine-sdk-1-dot-4-0-release</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript 를 위한 코드 커버리지 측정도구 'ScriptCover']]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p>미국 Google 은 10월 26일 자바스크립트 코드 커버리지 분석을 할 수 있는 Google Chrome 확장 기능인 “ScriptCover” 를 오픈 소스로 공개했습니다.  Google Code 프로젝트 페이지에서 소스 코드를 얻을 수 있습니다.</p>
+]]></description><link>http://frends.kr/post/google-app-engine-sdk-1-dot-4-0-release</link><guid isPermaLink="false">google-app-engine-sdk-1-dot-4-0-release</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript 를 위한 코드 커버리지 측정도구 'ScriptCover']]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p>미국 Google 은 10월 26일 자바스크립트 코드 커버리지 분석을 할 수 있는 Google Chrome 확장 기능인 “ScriptCover” 를 오픈 소스로 공개했습니다.  Google Code 프로젝트 페이지에서 소스 코드를 얻을 수 있습니다.</p>
 
 <p><img src="/post/googles-javascript-keobeoriji-ceugjeong-dogu/@img/image00-300x213.png" alt="">
 </p>
@@ -223,7 +223,7 @@ Channel API가 오픈되서 Server-Side Push를 해볼 수 있네요.
 <p>라이센스는 Apache License 2.0 이고 자동화 테스트 또는 복잡한 코드 디버깅 작업 시 사용할 수 있다고 생각합니다.</p>
 
 <p>향후 패스 커버리지, 조건 범위와 같은 신규 기술 보고서에 따르면 기본 기능에 대한 충실하게 만들어 나가고 HTML/XML 로 내보내기 등의 기능을 추가하고 싶다고 알려졌습니다.</p>
-]]></description><link>http://blog.frends.kr/post/googles-javascript-keobeoriji-ceugjeong-dogu</link><guid isPermaLink="false">googles-javascript-keobeoriji-ceugjeong-dogu</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Introduce Cappuccino Framework]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/introduce-cappuccino-framework/@img/cappuccino-icon.jpeg" alt="">
+]]></description><link>http://frends.kr/post/googles-javascript-keobeoriji-ceugjeong-dogu</link><guid isPermaLink="false">googles-javascript-keobeoriji-ceugjeong-dogu</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Introduce Cappuccino Framework]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/introduce-cappuccino-framework/@img/cappuccino-icon.jpeg" alt="">
 </p>
 <blockquote>
 <p>Cappuccino is an open source framework that makes it easy to build desktop-caliber applications that run in a web browser.</p>
@@ -236,7 +236,7 @@ DOM의 구성이나, 브라우저의 버그에 대한 예외처리등에 신경�
 
 <p><img src="/post/introduce-cappuccino-framework/@img/280NorthLogoSmall.png" alt="">
 </p>
-]]></description><link>http://blog.frends.kr/post/introduce-cappuccino-framework</link><guid isPermaLink="false">introduce-cappuccino-framework</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Javascript Application Framework 스터디]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>**굉장히 많은 분께서 관심가져 주셨습니다. 감사합니다!! 그래서 이만 조기 모집 종료합니다. **</p>
+]]></description><link>http://frends.kr/post/introduce-cappuccino-framework</link><guid isPermaLink="false">introduce-cappuccino-framework</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Javascript Application Framework 스터디]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>**굉장히 많은 분께서 관심가져 주셨습니다. 감사합니다!! 그래서 이만 조기 모집 종료합니다. **</p>
 
 <p>FRENDS 에서 작년에 Cappuccino 스터디를 진행하였습니다.</p>
 
@@ -254,7 +254,7 @@ DOM의 구성이나, 브라우저의 버그에 대한 예외처리등에 신경�
 </p>
 
 <p>Cappuccino 스터디때와 마찬가지로 FRENDS 가 준비하고 같이 공부해 보고 싶어 하시는 여러분들을 모집하여 재미있게 공부하고 싶습니다 </p>
-]]></description><link>http://blog.frends.kr/post/javascript-application-framework-seuteodi</link><guid isPermaLink="false">javascript-application-framework-seuteodi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript Mentors]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>메일링리스트가 국내에서는 그리 활발한 문화는 아니지만 잘 활용하면 꽤 유용하다고 생각하고 있는데 JavaScript를 주제로 한 메일링 리스트가 있어서 소개합니다.</p>
+]]></description><link>http://frends.kr/post/javascript-application-framework-seuteodi</link><guid isPermaLink="false">javascript-application-framework-seuteodi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript Mentors]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>메일링리스트가 국내에서는 그리 활발한 문화는 아니지만 잘 활용하면 꽤 유용하다고 생각하고 있는데 JavaScript를 주제로 한 메일링 리스트가 있어서 소개합니다.</p>
 
 <p><a href="http://jsmentors.com/">JSMentors</a> 라는 이 메일링은 Asen Bozhilov와 Rey Bango가 만들었으며 11명의 멘토들이 운영하고 있습니다. JSMentors는 아래의 주제들에 대해서 논의하는 메일링 리스트입니다.</p>
 
@@ -270,14 +270,14 @@ DOM의 구성이나, 브라우저의 버그에 대한 예외처리등에 신경�
 </ul>
 
 <p>그동안 메일링에서 논의된 내용들은 <a href="http://jsmentors.com/pipermail/jsmentors_jsmentors.com/">아카이브 페이지</a> 에서 볼 수 있으면 <a href="http://jsmentors.com/mailman/listinfo/jsmentors_jsmentors.com">가입페이지</a> 에서 가입하고 인증메일을 확인하면 메일링 리스트를 이용할 수 있습니다.</p>
-]]></description><link>http://blog.frends.kr/post/javascript-mentors</link><guid isPermaLink="false">javascript-mentors</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript. The Core]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p>이 기사는 <a href="http://dmitrysoshnikov.com/">Dmitry A. Soshnikov</a>에 의해 작성된 <a href="http://dmitrysoshnikov.com/ecmascript/javascript-the-core/">JavaScript. The Core.</a> 를 번역한 문서로 허가를 받아 개제합니다.</p>
+]]></description><link>http://frends.kr/post/javascript-mentors</link><guid isPermaLink="false">javascript-mentors</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript. The Core]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p>이 기사는 <a href="http://dmitrysoshnikov.com/">Dmitry A. Soshnikov</a>에 의해 작성된 <a href="http://dmitrysoshnikov.com/ecmascript/javascript-the-core/">JavaScript. The Core.</a> 를 번역한 문서로 허가를 받아 개제합니다.</p>
 
 <h2>The Core</h2>
 
 <p>웹 상에서는 자바스크립트에 대한 수 많은 레퍼런스와 기사들이 있으나 ECMAScript 사양에 준하여 자세히 설명하고 있는 문서는 그리 많지 않습니다. 이 문서가 자바스크립트 본연의 기술을 이해하기 위해 필히 학습을 권장합니다. 뿐만 아니라 Dmitry 블로그에는 ECMAScript 사양에 대해서 굉장히 자세히 분석하여 포스팅을 하고 있으니 관심을 갖고 보기를 권장합니다.</p>
 
 <h2>소개</h2>
-]]></description><link>http://blog.frends.kr/post/javascript-the-core</link><guid isPermaLink="false">javascript-the-core</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Google's The Next JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h2>구글과 자바스크립트</h2>
+]]></description><link>http://frends.kr/post/javascript-the-core</link><guid isPermaLink="false">javascript-the-core</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Google's The Next JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><h2>구글과 자바스크립트</h2>
 
 <p>차세대 자바스크립트라는 글을 쓰기에 앞서 구글에 대해서 간략히 정리가 필요하다.
 구글은 ECMA-262 4th 스펙 표준화에 참여하였다. 뿐만아니라 많은 브라우저 벤더에서 참가하였다.</p>
@@ -287,7 +287,7 @@ DOM의 구성이나, 브라우저의 버그에 대한 예외처리등에 신경�
 <p>브라우저 벤더들이 대부분이였고 Adobe 가 참여하였었다.  많은 이야기가 메일링으로 오갔으며 스펙의 분량은 점점 넓어지고 결국 실패로 돌아가게 되었습니다.  하지만 어느 정도의 뼈대가 갖춰졌었는지 Adobe 는 최종 권고가 나지 않는 스펙의 일부를 ActionScript 에 적용하였고. ActionScript 3.0 으로 2.x 이하 버젼보다 좀더 객체 지향적인 언어로 탈바뀜하게 되었습니다.</p>
 
 <p>이때 구글은 무엇을 했을까? HTML5 의 주도적인 표준화에 참여하였고 JavaScript 의 표준 사양인 ECMA-262 표준에도 공헌하였다.</p>
-]]></description><link>http://blog.frends.kr/post/javascript-the-next</link><guid isPermaLink="false">javascript-the-next</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[정찬명님의 HTML5 & Responsive Web Design]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/jeongcanmyeongnimyi-html5and-responsive-web-design/@img/naradesign-responsive-design.gif" alt="">
+]]></description><link>http://frends.kr/post/javascript-the-next</link><guid isPermaLink="false">javascript-the-next</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[정찬명님의 HTML5 & Responsive Web Design]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/jeongcanmyeongnimyi-html5and-responsive-web-design/@img/naradesign-responsive-design.gif" alt="">
 </p>
 
 <p><a href="http://naradesign.net/wp/">NARADESIGN</a> 블로그를 운영하시는 정찬명님이 자신의 블로그의 마크업을 HTML5 및 반응형 웹 디자인(Responsive Web Design)으로 수정을 하면서 그 적용한 내용을 정리한 포스팅을 올리셨습니다.</p>
@@ -295,7 +295,7 @@ DOM의 구성이나, 브라우저의 버그에 대한 예외처리등에 신경�
 <p>이 글에는 HTML5를 적용하기 위한 기본적인 부분부터 사용한 HTML5 태그와 input type들에 대해서 설명해 주고 있으며 Responsive Web Design을 적용하기 위해서 CSS3 Media Query를 어떻게 적용하는지 설명되어 있습니다. 실제 적용한 부분들을 기준으로 설명되어 있기 때문에 실용적이고 이해하기 좋습니다.</p>
 
 <p>[<a href="http://naradesign.net/wp/2011/05/27/1483/">전체 글 보기</a>]</p>
-]]></description><link>http://blog.frends.kr/post/jeongcanmyeongnimyi-html5and-responsive-web-design</link><guid isPermaLink="false">jeongcanmyeongnimyi-html5and-responsive-web-design</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[jQuery CDN 활용]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><a href="http://weblogs.asp.net/jgalloway/default.aspx">Jon Galloway</a>씨는 <a href="http://weblogs.asp.net/jgalloway/archive/2010/01/21/using-cdn-hosted-jquery-with-a-local-fall-back-copy.aspx">Using CDN Hosted jQuery with a Local Fall-back Copy</a>라는 글에서 대안적인 방법과 함께 jQuery CDN을 사용하는 방법을 소개하였습니다.</p>
+]]></description><link>http://frends.kr/post/jeongcanmyeongnimyi-html5and-responsive-web-design</link><guid isPermaLink="false">jeongcanmyeongnimyi-html5and-responsive-web-design</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[jQuery CDN 활용]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><a href="http://weblogs.asp.net/jgalloway/default.aspx">Jon Galloway</a>씨는 <a href="http://weblogs.asp.net/jgalloway/archive/2010/01/21/using-cdn-hosted-jquery-with-a-local-fall-back-copy.aspx">Using CDN Hosted jQuery with a Local Fall-back Copy</a>라는 글에서 대안적인 방법과 함께 jQuery CDN을 사용하는 방법을 소개하였습니다.</p>
 
 <p>jQuery같은 공통 자바스크립트 라이브러리를 자신의 서버가 아닌 CDN을 사용해야 하는 여러가지 이유가 있는데 <a href="http://encosia.com/2008/12/10/3-reasons-why-you-should-let-google-host-jquery-for-you/">Dave Ward가 3가지 주요한 이유를 설명</a>하였습니다.</p>
 
@@ -311,7 +311,7 @@ DOM의 구성이나, 브라우저의 버그에 대한 예외처리등에 신경�
 <li>오프라인 개발</li>
 <li>데모시연과 샘플코드</li>
 </ul>
-]]></description><link>http://blog.frends.kr/post/jquery-cdn-hwalyong</link><guid isPermaLink="false">jquery-cdn-hwalyong</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JSON Query Engine Top5]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/json-query-engine-top5/@img/json160.gif" alt="">
+]]></description><link>http://frends.kr/post/jquery-cdn-hwalyong</link><guid isPermaLink="false">jquery-cdn-hwalyong</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JSON Query Engine Top5]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/json-query-engine-top5/@img/json160.gif" alt="">
 </p>
 
 <p>JavaScript에서 JSON형식으로 데이터를 유지하는 것은 현대적인 웹 애플리케이션 개발에서 자주 사용됩니다.  간단하고 사용하기 쉽고 eval() 함수로 평가만 되면 개체로 사용할 수 있습니다.  입출력을 쉽게하며 JavaScript가 아닌 언어에서도 JSON 형식의 데이터를 처리하는 경우가 늘어나고 있습니다.</p>
@@ -319,7 +319,7 @@ DOM의 구성이나, 브라우저의 버그에 대한 예외처리등에 신경�
 <p>JSON 데이터를 조작하기 위한 엔진의 하나로 JSON 쿼리 엔진 또는 JSON 쿼리 언어, JSON 쿼리 라이브러리라는 것이 있습니다.   JSON 데이터에서 특정 데이터를 가져와 다른  JSON 객체를 생성하는 등 브라우저단에서 데이터 구조를 형성하는데 매우 유용합니다.  예를 들어 서버에서 데이터를 JSON 형식으로 클라이언트 캐시에 저장해 놓고, 실제로 표시되는 데이터는 조건에 따라 JSON 쿼리 엔진을 사용하여 캐시에 저장된 데이터를 통해 표시하도록 하는 것들입니다.</p>
 
 <p>JSON 쿼리 엔진을 적용하고 있는 쿼리 언어는 다양한 종류가 있습니다.  SQL과 유사한 문법을 채용한 것이나 LINQ를 채용한 것 그리고 자체 형식 SQL과 LINQ 또는 JSON의 조합 등으로 사용하는 등의 여러가지가 있습니다.  제공하는 기능도 다양하고 각각의 특징을 가지고 있습니다.   JSON Query Languages : 5 special purpose editors 에서는 다섯가지 JSON 쿼리 엔진의 장단점과 특징을 소개하고 있습니다.    소개하고 있는 JSON 쿼리 엔진은 다음과 같습니다.</p>
-]]></description><link>http://blog.frends.kr/post/json-query-engine-top5</link><guid isPermaLink="false">json-query-engine-top5</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[JSR 223 - Scripting for the Java Platform]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>JSR 223 소개</h2>
+]]></description><link>http://frends.kr/post/json-query-engine-top5</link><guid isPermaLink="false">json-query-engine-top5</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[JSR 223 - Scripting for the Java Platform]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>JSR 223 소개</h2>
 
 <p><img src="/post/jsr-223---scripting-for-the-java-platform/@img/wpid-wpid-jw-0424-scripting3-2010-09-27-17-07-2010-09-27-17-07.gif" alt="">
 </p>
@@ -345,7 +345,7 @@ ScriptEngineFactory      </p>
 <li>ScriptEngineManager는 어떤 Script Engine이 JRE에서 사용할 수 있는지 알려주는 객체다.</li>
 <li>ScriptEngine는 ScriptEngineManager에서 지원하는 언어들로 작성된 Script 실행할 수 있게 하는 객체이다.</li>
 </ul>
-]]></description><link>http://blog.frends.kr/post/jsr-223---scripting-for-the-java-platform</link><guid isPermaLink="false">jsr-223---scripting-for-the-java-platform</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Knockout.js 핵심]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>관측대상 (Observables)</h2>
+]]></description><link>http://frends.kr/post/jsr-223---scripting-for-the-java-platform</link><guid isPermaLink="false">jsr-223---scripting-for-the-java-platform</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Knockout.js 핵심]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>관측대상 (Observables)</h2>
 
 <p>원문 : <a href="http://knockoutjs.com/documentation/observables.html"><a href="http://knockoutjs.com/documentation/observables.html">http://knockoutjs.com/documentation/observables.html</a></a></p>
 
@@ -358,7 +358,7 @@ ScriptEngineFactory      </p>
 </ol>
 
 <p>이 페이지에서는 이 세가지중 처음 것을 배울 것이다. 그전에 MVVM 패턴과 뷰모델에 대한 개념을 먼저 설명한다.</p>
-]]></description><link>http://blog.frends.kr/post/knockout-dot-j-s-haegsim</link><guid isPermaLink="false">knockout-dot-j-s-haegsim</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Knockout.js Install]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>설치</h2>
+]]></description><link>http://frends.kr/post/knockout-dot-j-s-haegsim</link><guid isPermaLink="false">knockout-dot-j-s-haegsim</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Knockout.js Install]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>설치</h2>
 
 <p>Knockout 핵심 라이브러리는 다른 어떤 자바스크립트 라이브러리에 의존하지 않는다.  기존 어플리케이션에서 KO를 사용하기 위해 다음과 같은 절차를 따른다:</p>
 
@@ -368,14 +368,14 @@ ScriptEngineFactory      </p>
 </ol>
 
 <p>단지 이 두가지만 하면 설치가 완료된다.</p>
-]]></description><link>http://blog.frends.kr/post/knockout-dot-j-s-install</link><guid isPermaLink="false">knockout-dot-j-s-install</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Knockout.js 소개]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>소개</h2>
+]]></description><link>http://frends.kr/post/knockout-dot-j-s-install</link><guid isPermaLink="false">knockout-dot-j-s-install</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Knockout.js 소개]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>소개</h2>
 
 <p>원문 : <a href="http://knockoutjs.com/documentation/introduction.html"><a href="http://knockoutjs.com/documentation/introduction.html">http://knockoutjs.com/documentation/introduction.html</a></a></p>
 
 <p>Knockout은  깔끔한 데이터 모델을 기반으로 잘 반응하는 사용자 인터페이스를 만들 수 있게 해주는 자바스크립트 라이브러리다 . 사용자의 반응이나 외부의 데이터 소스의 변화에 따라 동적으로 변하는 UI를 만들어야 한다면,  KO를 이용해서 간단하게 유지 가능하도록 구현할 수 있다.</p>
 
 <h3>주요 특징:</h3>
-]]></description><link>http://blog.frends.kr/post/knockout-dot-j-s-sogae</link><guid isPermaLink="false">knockout-dot-j-s-sogae</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Managing Scope in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>Backgrounds</h2>
+]]></description><link>http://frends.kr/post/knockout-dot-j-s-sogae</link><guid isPermaLink="false">knockout-dot-j-s-sogae</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Managing Scope in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>Backgrounds</h2>
 
 <p>JavaScript에서의 Data 접근은 Data 형태에 따라 크게 4가지 종류가 있다.</p>
 
@@ -391,7 +391,7 @@ ScriptEngineFactory      </p>
 
 <p>위의 도표는 종류별로 각각 200,000개를 접근하는 속도를 브라우저 별로 테스트한 자료다. Literal value와 Variable의 접근 속도가 대체적으로 유사하고, Array item과 Object member에 접근하는 속도가 상대적으로 늦다는것을 보여준다.
 속도에 민감한 작업시에는 Array와 Object 형태 보다 Literal과 local variable을 사용하는게 성능 향상하는게 도움이 된다고 한다.</p>
-]]></description><link>http://blog.frends.kr/post/managing-scope-in-javascript</link><guid isPermaLink="false">managing-scope-in-javascript</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[MeetUp: Clearboth & FRENDS]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><blockquote>
+]]></description><link>http://frends.kr/post/managing-scope-in-javascript</link><guid isPermaLink="false">managing-scope-in-javascript</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[MeetUp: Clearboth & FRENDS]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><blockquote>
 <p><img src="/post/meetup-clearbothand-frends/@img/2011-5-31-clearboth-frends-meetup-masked-300x224.jpeg" alt="">
 </p>
 
@@ -402,7 +402,7 @@ ScriptEngineFactory      </p>
 온라인에서만 오래동안 알고지내다 만나보니 같은 회사직원이더라.. ㅋ 정말 오늘의 대박이었습니다. 아*** 님과 추** 모님이 한건 한거죠. 이렇듯 온라인으로만 알고지내던 많은 개발자를 직접 만나서 수다떠는 것이 얼마만인지 ㅎㅎ 앞으로 계속 이런 가볍고 즐거운 ‘MeetUp’이 Clearboth와 FRENDS 소속 개발자뿐만 아니라 개발자라면 누구든 부담없이 만나는 모임이 계속되었으면 하는 바램입니다.</p>
 
 <p>자바스크립트 골수팬들이 모인 FRENDS는 즐거운 모임이지만 외부에게 다소 폐쇄적으로 보인 점도 있었습니다. 하지만 내부적으론 그런 평가에 어리둥절할 뿐이죠  여건이 허락한다면 프론트 개발자들과 재미난 주제로 모여 세미나를 열어 서로 다른 파트에서의 개발과정상 고충을 나누며 서로서로 배울 수 있는 자리가 많이 생기길 바랍니다.</p>
-]]></description><link>http://blog.frends.kr/post/meetup-clearbothand-frends</link><guid isPermaLink="false">meetup-clearbothand-frends</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Microsoft, Azure 에 Node.js 대응]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/microsoft-azure-e-node-dot-j-s-daeeung/@img/cl-node-300x195.png" alt="">
+]]></description><link>http://frends.kr/post/meetup-clearbothand-frends</link><guid isPermaLink="false">meetup-clearbothand-frends</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Microsoft, Azure 에 Node.js 대응]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/microsoft-azure-e-node-dot-j-s-daeeung/@img/cl-node-300x195.png" alt="">
 </p>
 
 <p>최근 [Node.js][1] 를 윈도우에 포팅하기 위한 작업을 진행중입니다. Ryan Dahl 은 Microsoft는 [Node.js][1]를 Window Azure 및 Window Server 에 이식하기 위한 작업을 시작했다고 발표했다.</p>
@@ -413,7 +413,7 @@ ScriptEngineFactory      </p>
 
 <p>마이크로소프트는 사실 Node.js 뿐만 아니라 유명한 오픈 소스 지원에 굉장히 적극적으로 대응하고 있다.
 jQuery 지원은 이미 지원하고 있고 Windows Azure 는 PHP, Ruby on Rails, Mysql 등도 대응하였다.</p>
-]]></description><link>http://blog.frends.kr/post/microsoft-azure-e-node-dot-j-s-daeeung</link><guid isPermaLink="false">microsoft-azure-e-node-dot-j-s-daeeung</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Open Class - Be the JavaScript Ninja]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>금요일 오후 8시에 #FRENDS 팀이 모여서 여러가지를 의논했고, 리더인 <a href="http://twitter.com/rhiokim">@Rhiokim</a>님이 곧 <a href="http://frends.kr">http://frends.kr</a> 에 공개 강좌관련 알림을 올릴 것입니다.</p>
+]]></description><link>http://frends.kr/post/microsoft-azure-e-node-dot-j-s-daeeung</link><guid isPermaLink="false">microsoft-azure-e-node-dot-j-s-daeeung</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Open Class - Be the JavaScript Ninja]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>금요일 오후 8시에 #FRENDS 팀이 모여서 여러가지를 의논했고, 리더인 <a href="http://twitter.com/rhiokim">@Rhiokim</a>님이 곧 <a href="http://frends.kr">http://frends.kr</a> 에 공개 강좌관련 알림을 올릴 것입니다.</p>
 
 <p>그동안 #FRENDS 모임이 개발자들과 소통하기 위한 환경을 구축하느라 닫혀진 블로그 페이지만 보여왔으나 몇가진 서비스 사이트를 오픈함으로써 최소한의 대화의 창은 열리게 되었구요, 저만 공개강좌를 하는 것이 아니라 @firejune 님의 “디자이너를 위한 자바스크립트” 라든가 @Rhiokim 님의 “ExtJS 활용”, @Outsider__ 님의 “Javascript 기본” 등과 같이 모든 회원이 자신의 지식을 같이 나눌려고 노력할 것이며, 프론트 개발의 워킹그룹으로써의 활동도 할 예정입니다. (물론 비공식적이며 자체적인 활동일 뿐입니다 )</p>
 
@@ -424,7 +424,7 @@ jQuery 지원은 이미 지원하고 있고 Windows Azure 는 PHP, Ruby on Rails
 <p>댓글을 달아주신 분만 생각한다면 20명까지만 참석인원을 제한할 수 밖에 없을 것 같아요. 날짜와 시간은 2010년 7월 24일 (토) 오후 2시~5시 입니다. @firejune의 “디자이너를 위한 자바스크립트” 가 같은 날에 진행될지는 아직 일정이 잡히지 않았기에 추후 @firejune이 직접 알려줄 것이라 생각합니다.</p>
 
 <p>장소가 여의치 않아 토즈에서 진행한다면 서울시내의 토즈 중 한군데서 하게될 것이라 생각되고 참가비는 1만원 ~ 1만 5천원 사이가 될 것입니다.</p>
-]]></description><link>http://blog.frends.kr/post/open-class---be-the-javascript-ninja</link><guid isPermaLink="false">open-class---be-the-javascript-ninja</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Release SproutCore 2.0 Developer Preview]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>차세대 프론트앤드 프레임웍으로 주목받는 <a href="http://www.sproutcore.com/">SproutCore</a>의 2.0이 지난 25일 모습을 드러냈습니다.</p>
+]]></description><link>http://frends.kr/post/open-class---be-the-javascript-ninja</link><guid isPermaLink="false">open-class---be-the-javascript-ninja</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Release SproutCore 2.0 Developer Preview]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>차세대 프론트앤드 프레임웍으로 주목받는 <a href="http://www.sproutcore.com/">SproutCore</a>의 2.0이 지난 25일 모습을 드러냈습니다.</p>
 
 <p>SproutCore 1.0은 네이티브스타일의 애플리케이션을 만드는 목적으로 디자인되었기 때문에 데스크탑 프레임워크같은 리치한 컨트롤을 제공했으며 SproutCore의 강력한 MVC 아키텍처는 다른 경량 프레임웍보다 쉽게 고급스런 애플리케이션을 만들수 있지만 개발자들은 애플리케이션에서 필요하지 않는 기능들까지 SproutCore의 뷰 레이어에 맞춰야 하는 문제가 있었습니다.</p>
 
@@ -433,12 +433,12 @@ jQuery 지원은 이미 지원하고 있고 Windows Azure 는 PHP, Ruby on Rails
 <p>현재 2.0은 한창 개발중에 있기 때문에 API도 바뀔 예정이지만 더 넓은 범위의 애플리케이션을 지원하도록 만들어지고 있으며 네이티브 스타일은 SproutCore 1.6에서 충분히 지원하고 있기 때문에 SproutCore 2.0은 웹스타일 애플리케이션에 초점이 맞추어져 있습니다.</p>
 
 <p>SproutCore Starter Kit으로 애플리케이션 제작을 시작해 볼 수 있으면 <a href="https://github.com/sproutcore/starter-kit/raw/master/js/libs/sproutcore-2.0.a.2.js">JavaScript 파일만 다운로드</a>(<a href="https://github.com/sproutcore/starter-kit/raw/master/js/libs/sproutcore-2.0.a.2.min.js">압축버전은 여기</a>)해서 사용할 수 있습니다.</p>
-]]></description><link>http://blog.frends.kr/post/release-sproutcore-2-dot-0-developer-preview</link><guid isPermaLink="false">release-sproutcore-2-dot-0-developer-preview</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Release zepto.js 0.2]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>모바일 Webkit을 위한 저용량 프레임워크인 Zepto.js의 0.2버전이 릴리즈 되었습니다.</p>
+]]></description><link>http://frends.kr/post/release-sproutcore-2-dot-0-developer-preview</link><guid isPermaLink="false">release-sproutcore-2-dot-0-developer-preview</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Release zepto.js 0.2]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>모바일 Webkit을 위한 저용량 프레임워크인 Zepto.js의 0.2버전이 릴리즈 되었습니다.</p>
 
 <p>이번 버전에서는 무거운 JavaScript 애플리케이션의 구조화를 위한 <a href="http://documentcloud.github.com/backbone/">backbone.js</a>에 대한 지원이 추가되었으며 이전버번에서 호환성이 없던 문제들이 해결되었고 JSON인코딩을 포함하여 Ajax호출이 더 적절하게 이뤄지도록 수정되었습니다. 0.2버전에서는 minified되고 gzip으로 압축하면 2.5k의 저용량을 유지하고 있습니다.</p>
 
 <p>자세한 내용은 Zepto.js를 만든 <a href="http://mir.aculo.us/2010/12/01/zepto-js-v0-2-%E2%80%94-backbone-js-compatibility-unbind-text-better-ajax/">Thomas Fuchs</a> 에 글에 나와있으며 API 사용법에 대해서는 Zepto.js의 저장소인 <a href="https://github.com/madrobby/zepto">Github</a>에 잘 나와 있습니다.</p>
-]]></description><link>http://blog.frends.kr/post/release-zepto-dot-j-s-0-dot-2</link><guid isPermaLink="false">release-zepto-dot-j-s-0-dot-2</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[RingoJS 시작하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>Introduction</h2>
+]]></description><link>http://frends.kr/post/release-zepto-dot-j-s-0-dot-2</link><guid isPermaLink="false">release-zepto-dot-j-s-0-dot-2</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[RingoJS 시작하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><h2>Introduction</h2>
 
 <p>NodeJS와 유사한 프로젝트로, RingoJS라는걸 소개하고자 한다. 이 역시 CommonJS 구현체이고, 구현된 스팩은 아래와 같다.</p>
 
@@ -457,7 +457,7 @@ jQuery 지원은 이미 지원하고 있고 Windows Azure 는 PHP, Ruby on Rails
 (물론 Wrapper를 만들어야한다는게 문제라면 문제다.)</p>
 
 <h2>Installation</h2>
-]]></description><link>http://blog.frends.kr/post/ringojs-sijaghagi</link><guid isPermaLink="false">ringojs-sijaghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Server Side javaScript based on Rhino]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>먼저 ContextFactory Class에서 제공하는 observeInstructionCount(Context, int) Method를 Overriding 하는 것으로 시작한다.</p>
+]]></description><link>http://frends.kr/post/ringojs-sijaghagi</link><guid isPermaLink="false">ringojs-sijaghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Server Side javaScript based on Rhino]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>먼저 ContextFactory Class에서 제공하는 observeInstructionCount(Context, int) Method를 Overriding 하는 것으로 시작한다.</p>
 
 <p>이 Method는 본래 실행할 Javascript 코드의 Instruction 개수를 제한을 두어, 실행 제한을 두기 위해 사용하는데, 이를 재정의하면 Timeout 기능 구현이 가능하겠다.</p>
 
@@ -467,10 +467,10 @@ jQuery 지원은 이미 지원하고 있고 Windows Azure 는 PHP, Ruby on Rails
 
 <pre><code class="java">import org.mozilla.javascript.*;
 </code></pre>
-]]></description><link>http://blog.frends.kr/post/server-side-javascript-based-on-rhino</link><guid isPermaLink="false">server-side-javascript-based-on-rhino</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Simple Data Transmission in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>Get 방식으로 통신하는 여러가지 방법 중, 제가 종종 쓰는 두가지 방법을 소개해봅니다.</p>
+]]></description><link>http://frends.kr/post/server-side-javascript-based-on-rhino</link><guid isPermaLink="false">server-side-javascript-based-on-rhino</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Simple Data Transmission in JavaScript]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>Get 방식으로 통신하는 여러가지 방법 중, 제가 종종 쓰는 두가지 방법을 소개해봅니다.</p>
 
 <p><a style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;" title="View Simple Data Transmission in Javascript on Scribd" href="http://www.scribd.com/doc/43704300/Simple-Data-Transmission-in-Javascript">Simple Data Transmission in Javascript</a> <object id="doc_420732268586646" style="outline: none;" width="100%" height="600" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="document_id=43704300&amp;access_key=key-jbwpg1ievtcz1es9jlb&amp;page=1&amp;viewMode=slideshow" /><param name="src" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><embed id="doc_420732268586646" style="outline: none;" width="100%" height="600" type="application/x-shockwave-flash" src="http://d1.scribdassets.com/ScribdViewer.swf" wmode="opaque" allowFullScreen="true" allowScriptAccess="always" FlashVars="document_id=43704300&amp;access_key=key-jbwpg1ievtcz1es9jlb&amp;page=1&amp;viewMode=slideshow" allowscriptaccess="always" allowfullscreen="true" /></object></p>
-]]></description><link>http://blog.frends.kr/post/simple-data-transmission-in-javascript</link><guid isPermaLink="false">simple-data-transmission-in-javascript</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Toby님이 번역하신 CSS3 Background 슬라이드]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/tobynimi-beonyeoghasin-css3-background-seulraideu/@img/css3-background.gif" alt="">
+]]></description><link>http://frends.kr/post/simple-data-transmission-in-javascript</link><guid isPermaLink="false">simple-data-transmission-in-javascript</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Toby님이 번역하신 CSS3 Background 슬라이드]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/tobynimi-beonyeoghasin-css3-background-seulraideu/@img/css3-background.gif" alt="">
 </p>
 
 <p><a href="http://www.maxdesign.com.au/">Max Design</a>의 Russ Weakley가 CSS3에 대해서 연재하고 있는 슬라이드를 <a href="http://twitter.com/#!/tobyyun">Toby</a>님이 Russ Weakley의 허가를 정식으로 받아서 번역을 해서 올려주시기 시작하셨습니다. 이번에 번역된 슬라이드는 CSS3 Background에 대한 내용으로 슬라이드형태로 구성이 되어 있어서 직관적으로 이해하기 좋게 되어 있으며 처음부터 한글자료인것 처럼 깔끔하게 만들어졌습니다. Russ Weakley의 다른 슬라이드도 계속해서 번역해서 올리는 작업을 하실 예정이시랍니다.</p>
@@ -480,7 +480,7 @@ jQuery 지원은 이미 지원하고 있고 Windows Azure 는 PHP, Ruby on Rails
 <li>[<a href="http://www.slideshare.net/headvoy/css3-backgrounds-8148112">CSS3 Background 슬라이드</a>]</li>
 <li>[<a href="http://www.slideshare.net/maxdesign/slideshows">Russ Weakley의 슬라이드</a>]</li>
 </ul>
-]]></description><link>http://blog.frends.kr/post/tobynimi-beonyeoghasin-css3-background-seulraideu</link><guid isPermaLink="false">tobynimi-beonyeoghasin-css3-background-seulraideu</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Toby님이 번역하신 CSS3 Color 슬라이드]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><a href="http://frends.kr/topics/toby%EB%8B%98%EC%9D%B4-%EB%B2%88%EC%97%AD%ED%95%98%EC%8B%A0-css3-background-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C/">지난번에 좋은 슬라이드라 소개</a>해 드렸더니 주말에 작업하고 싶어졌다고 하시고는 Toby님께서 Russ Weakley의 두번째 슬라이드를 번역해서 공유해 주셨습니다. 이번 슬라이드는 <a href="http://tobyyun.com/6066">CSS3 Colors</a>이고 깔끔하게 이해하기 좋도록 구성되어있습니다.</p>
+]]></description><link>http://frends.kr/post/tobynimi-beonyeoghasin-css3-background-seulraideu</link><guid isPermaLink="false">tobynimi-beonyeoghasin-css3-background-seulraideu</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Toby님이 번역하신 CSS3 Color 슬라이드]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><a href="http://frends.kr/topics/toby%EB%8B%98%EC%9D%B4-%EB%B2%88%EC%97%AD%ED%95%98%EC%8B%A0-css3-background-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C/">지난번에 좋은 슬라이드라 소개</a>해 드렸더니 주말에 작업하고 싶어졌다고 하시고는 Toby님께서 Russ Weakley의 두번째 슬라이드를 번역해서 공유해 주셨습니다. 이번 슬라이드는 <a href="http://tobyyun.com/6066">CSS3 Colors</a>이고 깔끔하게 이해하기 좋도록 구성되어있습니다.</p>
 
 <p>마치 이렇게 될걸 예상이라도 하신듯 CSS3 Colors슬라이드를 공유해주시고 몇일뒤에 드디어 CSS3 Colors가 <a href="http://www.w3.org/TR/css3-color/">W3C Recommandation</a> 되었습니다. 이젠 표준스펙이군요</p>
 
@@ -488,7 +488,7 @@ jQuery 지원은 이미 지원하고 있고 Windows Azure 는 PHP, Ruby on Rails
 <li>[<a href="http://tobyyun.com/6066">원문 보기</a>]</li>
 <li>[<a href="http://www.slideshare.net/headvoy/css3-colors">CSS3 Background 슬라이드</a>]</li>
 </ul>
-]]></description><link>http://blog.frends.kr/post/tobynimi-beonyeoghasin-css3-color-seulraideu</link><guid isPermaLink="false">tobynimi-beonyeoghasin-css3-color-seulraideu</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript/CSS 압축 최적화 80초에서 6초로 단축 기법 공개 – Mozilla]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/web-risoseu-coejeoghwa-gibeob-gonggae-mozilla/@img/automatically-compressing-javascript-files-on-apache.jpeg" hspace="5" class="pull-left">
+]]></description><link>http://frends.kr/post/tobynimi-beonyeoghasin-css3-color-seulraideu</link><guid isPermaLink="false">tobynimi-beonyeoghasin-css3-color-seulraideu</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[JavaScript/CSS 압축 최적화 80초에서 6초로 단축 기법 공개 – Mozilla]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p><img src="/post/web-risoseu-coejeoghwa-gibeob-gonggae-mozilla/@img/automatically-compressing-javascript-files-on-apache.jpeg" hspace="5" class="pull-left">
 Mozilla WebDev 블로그에 “From 80 Seconds to 60 : Optimizing Our Asset Compression” 으로 JavaScript, CSS, 이미지 최소화 처리 시간을 80초~160초가 걸리던 것을 6초로 단축시키는 기술이 공개되었습니다.</p>
 
 <p>실용적인 자료로 참고할 필요가 있습니다.</p>
@@ -501,7 +501,7 @@ Mozilla WebDev 블로그에 “From 80 Seconds to 60 : Optimizing Our Asset Comp
 이 부분을 자브스크립트에 대해서는 UgilfyJS 로 CSS 에 대해서는 Clean-css 를 사용하도록 변경했는데 이 변경으로 43초를 단축.</p></li>
 <li><p>파일 해시값을 사전에 보관하도록 변경으로 2초 정도 단축</p></li>
 </ol>
-]]></description><link>http://blog.frends.kr/post/web-risoseu-coejeoghwa-gibeob-gonggae-mozilla</link><guid isPermaLink="false">web-risoseu-coejeoghwa-gibeob-gonggae-mozilla</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Webfont 사용하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>최근, 웹폰트를 사용해보고 싶어서 안달이 난 나머지 폰트를 분해해 재조립 해보기도 하고,
+]]></description><link>http://frends.kr/post/web-risoseu-coejeoghwa-gibeob-gonggae-mozilla</link><guid isPermaLink="false">web-risoseu-coejeoghwa-gibeob-gonggae-mozilla</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item><item><title><![CDATA[Webfont 사용하기]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p>최근, 웹폰트를 사용해보고 싶어서 안달이 난 나머지 폰트를 분해해 재조립 해보기도 하고,
 어느정도 사이즈가 줄어들때로 줄어드니깐 이제 Cross-browsing에 안달이나 @font-face로 별짓 다 해봤다.
 (이 글도 자세히 쓰려다가 중간에 날라가서 다시 쓰는 삽질도 하고 있다. T_T)</p>
 
@@ -604,17 +604,17 @@ Mozilla WebDev 블로그에 “From 80 Seconds to 60 : Optimizing Our Asset Comp
 </tr>
 </tbody>
 </table>
-]]></description><link>http://blog.frends.kr/post/webfont-sayonghagi</link><guid isPermaLink="false">webfont-sayonghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[웹개발자를 위한 HTML5 스펙]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><a href="http://germanforblack.com/">Ben Schwarz</a>는 2010년에  W3C의 스펙문서를 더 읽기 편하게 만들기 위한 문서화 프로젝트를 시작하고 2011년 1월 WHATWG IRC채널에서 <a href="http://hixie.ch/">Ian Hickson</a>으로부터 웹개발자를 위한 스펙문서를 작업하는 것을 승인받아 <a href="http://developers.whatwg.org/">HTML5 a technical specification for Web developers</a>를 공개했습니다.</p>
+]]></description><link>http://frends.kr/post/webfont-sayonghagi</link><guid isPermaLink="false">webfont-sayonghagi</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[웹개발자를 위한 HTML5 스펙]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&s=48.jpg&d=identicon"><br/><p><a href="http://germanforblack.com/">Ben Schwarz</a>는 2010년에  W3C의 스펙문서를 더 읽기 편하게 만들기 위한 문서화 프로젝트를 시작하고 2011년 1월 WHATWG IRC채널에서 <a href="http://hixie.ch/">Ian Hickson</a>으로부터 웹개발자를 위한 스펙문서를 작업하는 것을 승인받아 <a href="http://developers.whatwg.org/">HTML5 a technical specification for Web developers</a>를 공개했습니다.</p>
 
 <p><img src="/post/webgaebaljareul-wihan-html5-seupeg/@img/html5_for_webdevelopers.gif" alt="">
 </p>
 
 <p>스펙을 읽는 것은 중요하지만 읽기가 지루한 편이고 HTML5 같은 경우는 웹개발자가 아닌 브라우저 벤더를 위한 스펙들이 상당부분 포함되어 있기 때문에 읽기가 쉽지 않은데 그런 부분에서 웹개발자만을 타겟팅해서 만든 이 문서는 HTML5를 이해하는데 많은 도움이 될 것으로 보입니다. 이 문서는 <a href="https://github.com/benschwarz/developers.whatwg.org/commits/master">Github</a>에서 관리되고 있습니다.</p>
-]]></description><link>http://blog.frends.kr/post/webgaebaljareul-wihan-html5-seupeg</link><guid isPermaLink="false">webgaebaljareul-wihan-html5-seupeg</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Writing Native Extension for Node.js]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p>이 자료는 2010. 10. 23 일 FRENDS 오프모임에서 발표한 내용입니다.</p>
+]]></description><link>http://frends.kr/post/webgaebaljareul-wihan-html5-seupeg</link><guid isPermaLink="false">webgaebaljareul-wihan-html5-seupeg</guid><dc:creator><![CDATA[<a href="frends_kr" target="_blank">frends</a>]]></dc:creator></item><item><title><![CDATA[Writing Native Extension for Node.js]]></title><description><![CDATA[<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&s=48.jpg&d=identicon"><br/><p>이 자료는 2010. 10. 23 일 FRENDS 오프모임에서 발표한 내용입니다.</p>
 
 <p>이번 내용은 Node.js 의 Native 확장 기능의 구조와 원리에 대해서 알아보고 간단한 실습을 통해서 직접 작성해보기도 하였습니다.</p>
 
 <p>자세한 내용은 <a href="/post/writing-native-extension-for-node-dot-j-s/@img/CPP_addon_with_NodeJS.pdf">PDF</a> 를 참고해주세요.</p>
 
 <p><object id="doc_60606" style="outline: none;" width="660" height="580" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="data" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="FlashVars" value="document_id=39860807&amp;access_key=key-1mpv3rj59whv4sdutmc&amp;page=1&amp;viewMode=slideshow" /><param name="src" value="http://d1.scribdassets.com/ScribdViewer.swf" /><param name="allowfullscreen" value="true" /><param name="flashvars" value="document_id=39860807&amp;access_key=key-1mpv3rj59whv4sdutmc&amp;page=1&amp;viewMode=slideshow" /><param name="allowscriptaccess" value="always" /><embed id="doc_60606" style="outline: none;" width="660" height="580" type="application/x-shockwave-flash" src="http://d1.scribdassets.com/ScribdViewer.swf" data="http://d1.scribdassets.com/ScribdViewer.swf" wmode="opaque" allowFullScreen="true" allowScriptAccess="always" FlashVars="document_id=39860807&amp;access_key=key-1mpv3rj59whv4sdutmc&amp;page=1&amp;viewMode=slideshow" allowfullscreen="true" flashvars="document_id=39860807&amp;access_key=key-1mpv3rj59whv4sdutmc&amp;page=1&amp;viewMode=slideshow" allowscriptaccess="always" /></object></p>
-]]></description><link>http://blog.frends.kr/post/writing-native-extension-for-node-dot-j-s</link><guid isPermaLink="false">writing-native-extension-for-node-dot-j-s</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item></channel></rss>
+]]></description><link>http://frends.kr/post/writing-native-extension-for-node-dot-j-s</link><guid isPermaLink="false">writing-native-extension-for-node-dot-j-s</guid><dc:creator><![CDATA[<a href="rhiokim" target="_blank">Rhio Kim</a>]]></dc:creator></item></channel></rss>
