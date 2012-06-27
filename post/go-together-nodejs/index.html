@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Go together nodejs |  프론트앤드 개발자들의 모루! 프랜즈(frends)</title>
+    <meta name="description" content="프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 &gt;    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.">
+    <meta name="author" content="frends">
+    <meta name="keywords" content="javascript,node.js,html5,css3,git,jQuery" />
+    <meta name="generator" content="haroopress v0.8.4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루! 프랜즈(frends)" type="application/rss+xml">
+
+    <!-- Le styles -->
+    <link rel="canonical" href="http://frends.kr">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/prettify.css" rel="stylesheet">
+    <link href="/css/haroopress.css" rel="stylesheet">
+    <link href="/css/archives.css" rel="stylesheet">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <!--<link rel="apple-touch-icon" href="assets/ico/bootstrap-apple-57x57.png">-->
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-64.png">
+    <!--<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/bootstrap-apple-114x114.png">-->
+
+    <!-- Le javascript -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/prettify.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.jsonp.js"></script>
+    <script src="/js/mustache.js"></script>
+    <script src="/js/apps/github.js"></script>
+    <script src="/js/apps/twitter.js"></script>
+</head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+        <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+          <a class="pull-right" href="/rss.xml"><img src="/img/buttons/rss.png" /></a>
+          
+            <a class="pull-right" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/buttons/twitter.png" /></a>
+          
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/archives">Archives</a>
+              </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container page-archive">
+    <div class="row">
+        <div class="span3">
+            <div id="author" class="well">
+                <div>
+                    <h3>About Author</h3>
+                    <ul class="thumbnails">
+                        <li>
+                            <a class="thumbnail">
+                                <img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                            </a>
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>nanhapark</strong><br/>
+                        blog: <a href="undefined" target="_blank">http://nodeqa.com</a><br/>
+                        twitter: <a href="http://twitter.com/undefined" target="_blank">@nanhapark</a><br/>
+                        github: <a href="https://github.com/undefined" target="_blank">nanha</a>
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/nanhapark" class="twitter-follow-button" data-show-count="true">Follow @nanhapark</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </p>
+                    <p>
+                        <p>:) Javascript(Node.JS), python, bash, php
+:) company: KTH , part: DevOps. <a href="http://about.me/nanha">http://about.me/nanha</a>
+Seoul, Korea · <a href="http://nodeqa.com">http://nodeqa.com</a></p>
+
+                    </p>
+                </div>
+                <div>
+                    <h3>About this Article</h3>
+                    <p>
+                        <h5>Date Released:</h5>
+                        <span>Wednesday, June 27 2012 11:20 PM</span>
+                    </p>
+                </div>
+            </div>
+                        <div class="well">
+                <ul class="nav nav-list">
+                    <li class="nav-header">Categories</li>
+                    <li class=""><a href="/category"><i class="icon-home"></i> Home</a></li>
+                    
+                    <li><a href="/category/javascript"><i class="icon-book"></i> javascript</a></li>
+                    
+                    <li><a href="/category/javascript core"><i class="icon-book"></i> javascript core</a></li>
+                    
+                    <li><a href="/category/couchdb"><i class="icon-book"></i> couchdb</a></li>
+                    
+                    <li><a href="/category/conference"><i class="icon-book"></i> conference</a></li>
+                    
+                    <li><a href="/category/frends"><i class="icon-book"></i> frends</a></li>
+                    
+                    <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
+                    
+                    <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
+                    
+                    <li><a href="/category/google"><i class="icon-book"></i> google</a></li>
+                    
+                    <li><a href="/category/html5"><i class="icon-book"></i> html5</a></li>
+                    
+                    <li><a href="/category/jquery"><i class="icon-book"></i> jquery</a></li>
+                    
+                    <li><a href="/category/java"><i class="icon-book"></i> java</a></li>
+                    
+                    <li><a href="/category/news"><i class="icon-book"></i> news</a></li>
+                    
+                    <li><a href="/category/rhino"><i class="icon-book"></i> rhino</a></li>
+                    
+                    <li><a href="/category/css3"><i class="icon-book"></i> css3</a></li>
+                    
+                    <li><a href="/category/tech"><i class="icon-book"></i> tech</a></li>
+                    
+                </ul>
+            </div>
+
+            
+<div class="well">
+    <ul class="nav nav-list">
+        <li class="nav-header">Recent Articles</li>
+    
+        <li>
+            <a href="/post/go-together-nodejs" target="_blank">Go together nodejs
+            <span class="label">nanhapark</span></a>
+        </li>
+    
+        <li>
+            <a href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog" target="_blank">Node.js v0.8 발표요약
+            <span class="label">Rhio Kim</span></a>
+        </li>
+    
+        <li>
+            <a href="/post/frends-6ca-moim-hugi" target="_blank">FRENDS 6차 모임 후기
+            <span class="label">frends</span></a>
+        </li>
+    
+        <li>
+            <a href="/post/frendsnumber-6" target="_blank">FRENDS #6
+            <span class="label">frends</span></a>
+        </li>
+    
+        <li>
+            <a href="/post/fluent-conference-31-may" target="_blank">Fluent Conference 31 May
+            <span class="label">Rhio Kim</span></a>
+        </li>
+    
+    </ul>
+</div>
+
+        </div>
+        <div class="span9">
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1>Go together nodejs</h1>
+                        </div>
+
+                        
+
+                        <div class="pull-right">
+                            <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) return;
+                              js = d.createElement(s); js.id = id;
+                              js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId=246177242115486";
+                              fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                        </div>
+
+                                            
+                        <div class="pull-right">
+                            <!-- Place this tag where you want the +1 button to render -->
+                            <g:plusone href="/post/go-together-nodejs" size="medium"></g:plusone>
+
+                            <!-- Place this render call where appropriate -->
+                            <script type="text/javascript">
+                              (function() {
+                                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                po.src = 'https://apis.google.com/js/plusone.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                              })();
+                            </script>
+                        </div>
+                    
+
+                                            
+                        <div class="pull-right">
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-text="Go together nodejs -" data-url="http://frends.kr/post/go-together-nodejs" data-via="nanhapark">Tweet</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>
+                    
+
+                        <div class="markdown">
+                            <h1>Go together node.js</h1>
+
+<p><a href="http://blog.frends.kr">FRENDS</a> 6차 모임때 발표한 슬라이드입니다.</p>
+
+<div style="width:425px" id="__ss_13427102"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/nanhapark/frends-go-together-with-nodejs" title="[Frends] go together with nodejs" target="_blank">[Frends] go together with nodejs</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/13427102" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/nanhapark" target="_blank">Nanha Park</a> </div> </div>
+
+<h1>JS2C Live coding</h1>
+
+<h2>전체순서</h2>
+
+<pre><code>// console API 를 js2c로 컴파일
+python module.compile.py
+
+// header 확인
+cat output.h |less
+
+// ascii 모음의 진위 판단하기 위한 decompile 확인
+vi module_decompile.c 
+
+// gcc / 실행
+gcc -o module_exec module_decompile.c 
+./module_exec |more
+
+// 비교
+vi lib/console.js 
+</code></pre>
+
+<h2>output.h</h2>
+
+<p><code>js2c</code>는 아래와 같은 <code>Header</code>파일을 만들어 냅니다. 예제에서는 <code>console</code> 만 대상으로 했지만, 모든 <code>lib</code>디렉토리의 모듈이 포함되어집니다.</p>
+
+<pre><code>#ifndef node_natives_h
+#define node_natives_h
+
+namespace node {
+
+  const char console_native[] = { 47, 47, 32, 67, 111, 112, 121, 114, 105, 103, 104, 116, 32, 74, 111, 121, 101, 110, 116, 44, 32, 73, 110, 99, 46, 32, 97, 110, 100, 32, 111, 116, 104, 101, 114, 32, 78, 111, 100, 101, 32, 99, 111, 110, 116, 114, 105, 98, 117, 116, 111, 114, 115, 46, 10, 47, 47, 10, 47, 47, 32, 80, 101, 114, 109, 105, 115, 115, 105, 111, 110, 32, 105, 115, 32, 104, 101, 114, 101, 98, 121, 32, 103, 114, 97, 110, 116, 101, 100, 44, 32, 102, 114, 101, 101, 32, 111, 102, 32, 99, 104, 97, 114, 103, 101, 44, 32, 116, 111, 32, 97, 110, 121, 32, 112, 101, 114, 115, 111, 110, 32, 111, 98, 116, 97, 105, 110, 105, 110, 103, 32, 97, 10, 47, 47, 32, 99, 111, 112, 121, 32, 111, 102, 32, 116, 104, 105, 115, 32, 115, 111, 102, 116, 119, 97, 114, 101, 32, 97, 110, 100, 32, 97, 115, 115, 111, 99, 105, 97, 116, 101, 100, 32, 100, 111, 99, 117, 109, 101, 110, 116, 97, 116, 105, 111, 110, 32, 102, 105, 108, 101, 115, 32, 40, 116, 104, 101, 10, 47, 47, 32, 34, 83, 111, 102, 116, 119, 97, 114, 101, 34, 41, 44, 32, 116, 111, 32, 100, 101, 97, 108, 32, 105, 110, 32, 116, 104, 101, 32, 83, 111, 102, 116, 119, 97, 114, 101, 32, 119, 105, 116, 104, 111, 117, 116, 32, 114, 101, 115, 116, 114, 105, 99, 116, 105, 111, 110, 44, 32, 105, 110, 99, 108, 117, 100, 105, 110, 103, 10, 47, 47, 32, 119, 105, 116, 104, 111, 117, 116, 32, 108, 105, 109, 105, 116, 97, 116, 105, 111, 110, 32, 116, 104, 101, 32, 114, 105, 103, 104, 116, 115, 32, 116, 111, 32, 117, 115, 101, 44, 32, 99, 111, 112, 121, 44, 32, 109, 111, 100, 105, 102, 121, 44, 32, 109, 101, 114, 103, 101, 44, 32, 112, 117, 98, 108, 105, 115, 104, 44, 10, 47, 47, 32, 100, 105, 115, 116, 114, 105, 98, 117, 116, 101, 44, 32, 115, 117, 98, 108, 105, 99, 101, 110, 115, 101, 44, 32, 97, 110, 100, 47, 111, 114, 32, 115, 101, 108, 108, 32, 99, 111, 112, 105, 101, 115, 32, 111, 102, 32, 116, 104, 101, 32, 83, 111, 102, 116, 119, 97, 114, 101, 44, 32, 97, 110, 100, 32, 116, 111, 32, 112, 101, 114, 109, 105, 116, 10, 47, 47, 32, 112, 101, 114, 115, 111, 110, 115, 32, 116, 111, 32, 119, 104, 111, 109, 32, 116, 104, 101, 32, 83, 111, 102, 116, 119, 97, 114, 101, 32, 105, 115, 32, 102, 117, 114, 110, 105, 115, 104, 101, 100, 32, 116, 111, 32, 100, 111, 32, 115, 111, 44, 32, 115, 117, 98, 106, 101, 99, 116, 32, 116, 111, 32, 116, 104, 101, 10, 47, 47, 32, 102, 111, 108, 108, 111, 119, 105, 110, 103, 32, 99, 111, 110, 100, 105, 116, 105, 111, 110, 115, 58, 10, 47, 47, 10, 47, 47, 32, 84, 104, 101, 32, 97, 98, 111, 118, 101, 32, 99, 111, 112, 121, 114, 105, 103, 104, 116, 32, 110, 111, 116, 105, 99, 101, 32, 97, 110, 100, 32, 116, 104, 105, 115, 32, 112, 101, 114, 109, 105, 115, 115, 105, 111, 110, 32, 110, 111, 116, 105, 99, 101, 32, 115, 104, 97, 108, 108, 32, 98, 101, 32, 105, 110, 99, 108, 117, 100, 101, 100, 10, 47, 47, 32, 105, 110, 32, 97, 108, 108, 32, 99, 111, 112, 105, 101, 115, 32, 111, 114, 32, 115, 117, 98, 115, 116, 97, 110, 116, 105, 97, 108, 32, 112, 111, 114, 116, 105, 111, 110, .... 중략 ....};
+
+  struct _native {
+    const char* name;
+    const char* source;
+    size_t source_len;
+  };
+
+
+  static const struct _native natives[] = {
+
+    { &quot;console&quot;, console_native, sizeof(console_native)-1 },
+
+    { NULL, NULL } /* sentinel */
+
+  };
+
+}#endif
+</code></pre>
+
+<h2>module_compile.py</h2>
+
+<pre><code>#!/bin/env python
+# -*- coding: utf-8 -*-
+# =============================================
+# js2c 사용한 console.js 컴파일 과정 예제
+#
+# @author nanhapark
+# =============================================
+def main():
+  # 최상위 디렉토리에서 tools를 라이브러리 참조디렉토리로 포함
+  import sys
+  sys.path.append('./tools')
+
+  # js2c 불러옴
+  import js2c
+
+  # 소스트리 최상위에서 native module이 존재하는 lib 디렉토리안의
+  # console.js 지정
+  source = ['./lib/console.js']
+  targets = ['output.h']
+  js2c.JS2C(source, targets)
+
+  print 'Complete ..'
+  print 'Confirm output.h'
+
+if __name__ == '__main__':
+  main()
+</code></pre>
+
+<h2>module_decompile.c</h2>
+
+<p>아래 코드를 컴파일 하시면 <code>lib/console.js</code> 내용을 확인할 수 있습니다.</p>
+
+<pre><code>/****************************************************
+ * js2c 에 의해 컴파일된 C Style의 Static 값을
+ * decompile 하여 원래 소스내용을 확인하는 예제소스
+ *
+ * @author nanhapark
+ ****************************************************/
+
+#include &lt;stdio.h&gt;
+int main(void) {
+  // native module console 객체가 js2c로 인해 변화된 값
+  const char console_native[] = { 47, 47, 32, 67, 111, 112, 121, 114, 105, 103, 104, 116, 32, 74, 111, 121, 101, 110, 116, 44, 32, 73, 110, 99, 46, 32, 97, 110, 100, 32, 111, 116, 104, 101, 114, 32, 78, 111, 100, 101, 32, 99, 111, 110, 116, 114, 105, 98, 117, 116, 111, 114, 115, 46, 10, 47, 47, 10, 47, 47, 32, 80, 101, 114, 109, 105, 115, 115, 105, 111, 110, 32, 105, 115, 32, 104, 101, 114, 101, 98, 121, 32, 103, 114, 97, 110, 116, 101, 100, 44, 32, 102, 114, 101, 101, 32, 111, 102, 32, 99, 104, 97, 114, 103, 101, 44, 32, 116, 111, 32, 97, 110, 121, 32, 112, 101, 114, 115, 111, 110, 32, 111, 98, 116, 97, 105, 110, 105, 110, 103, 32, 97, 10, 47, 47, 32, 99, 111, 112, 121, 32, 111, 102, 32, 116, 104, 105, 115, 32, 115, 111, 102, 116, 119, 97, 114, 101, 32, 97, 110, 100, 32, 97, 115, 115, 111, 99, 105, 97, 116, 101, 100, 32, 100, 111, 99, 117, 109, 101, 110, 116, 97, 116, 105, 111, 110, 32, 102, 105, 108, 101, 115, 32, 40, 116, 104, 101, 10, 47, 47, 32, 34, 83, 111, 102, 116, 119, 97, 114, 101, 34, 41, 44, 32, 116, 111, 32, 100, 101, 97, 108, 32, 105, 110, 32, 116, 104, 101, 32, 83, 111, 102, 116, 119, 97, 114, 101, 32, 119, 105, 116, 104, 111, 117, 116, 32, 114, 101, 115, 116, 114, 105, 99, 116, 105, 111, 110, 44, 32, 105, 110, 99, 108, 117, 100, 105, 110, 103, 10, 47, 47, 32, 119, 105, 116, 104, 111, 117, 116, 32, 108, 105, 109, 105, 116, 97, 116, 105, 111, 110, 32, 116, 104, 101, 32, 114, 105, 103, 104, 116, 115, 32, 116, 111, 32, 117, 115, 101, 44, 32, 99, 111, 112, 121, 44, 32, 109, 111, 100, 105, 102, 121, 44, 32, 109, 101, 114, 103, 101, 44, 32, 112, 117, 98, 108, 105, 115, 104, 44, 10, 47, 47, 32, 100, 105, 115, 116, 114, 105, 98, 117, 116, 101, 44, 32, 115, 117, 98, 108, 105, 99, 101, 110, 115, 101, 44, 32, 97, 110, 100, 47, 111, 114, 32, 115, 101, 108, 108, 32, 99, 111, 112, 105, 101, 115, 32, 111, 102, 32, 116, 104, 101, 32, 83, 111, 102, 116, 119, 97, 114, 101, 44, 32, 97, 110, 100, 32, 116, 111, 32, 112, 101, 114, 109, 105, 116, 10, 47, 47, 32, 112, 101, 114, 115, 111, 110, 115, 32, 116, 111, 32, 119, 104, 111, 109, 32, 116, 104, 101, 32, 83, 111, 102, 116, 119, 97, 114, 101, 32, 105, 115, 32, 102, 117, 114, 110, 105, 115, 104, 101, 100, 32, 116, 111, 32, 100, 111, 32, 115, 111, 44, 32, 115, 117, 98, 106, 101, 99, 116, 32, 116, 111, 32, 116, 104, 101, 10, 47, 47, 32, 102, 111, 108, 108, 111, 119, 105, 110, 103, 32, 99, 111, 110, 100, 105, 116, 105, 111, 110, 115, 58, 10, 47, 47, 10, 47, 47, 32, 84, 104, 101, 32, 97, 98, 111, 118, 101, 32, 99, 111, 112, 121, 114, 105, 103, 104, 116, 32, 110, 111, 116, 105, 99, 101, 32, 97, 110, 100, 32, 116, 104, 105, 115, 32, 112, 101, 114, 109, 105, 115, 115, 105, 111, 110, 32, 110, 111, 116, 105, 99, 101, 32, 115, 104, 97, 108, 108, 32, 98, 101, 32, 105, 110, 99, 108, 117, 100, 101, 100, 10, 47, 47, 32, 105, 110, 32, 97, 108, 108, 32, 99, 111, 112, 105, 101, 115, 32, 111, 114, 32, 115, 117, 98, 115, 116, 97, 110, 116, 105, 97, 108, 32, 112, 111, 114, 116, 105, 111, 110, 115, 32, 111, 102, 32, 116, 104, ..... 중략..... };
+
+  const char *pp;
+  pp = console_native;
+  while (*pp) {
+    printf(&quot;%c&quot;, *pp);
+    pp++;
+  }
+
+  return 0;
+}
+</code></pre>
+
+<h1>nodeman Live coding</h1>
+
+<h2>목차</h2>
+
+<pre><code># 설치
+npm install nodeman -g
+
+# 포함된 메뉴얼 키워드 확인
+nodeman -b
+
+# cluster 모듈 확인
+nodeman cluster|more
+</code></pre>
+
+<h2>vi wscript +1013</h2>
+
+<p><code>node.js black edition</code>의 <code>Helper</code>로서 <code>wscript</code>에 빌드시 자동으로 설치될 수 있도록 삽입함.</p>
+
+<pre><code>1011   # Node.js Black Edition Above
+1012   # @author nanhapark &lt;http://about.me/nanha&gt;
+1013   NodeBlackEdition(bld)
+1014 
+1015 def install_npm(bld):
+1016   start_dir = bld.path.find_dir('deps/npm')
+1017   # The chmod=-1 is a Node hack. We changed WAF so that when chmod was set to
+1018   # -1 that the same permission in this tree are used. Necessary to get
+1019   # npm-cli.js to be executable without having to list every file in npm.
+1020   bld.install_files('${LIBDIR}/node_modules/npm',
+1021                     start_dir.ant_glob('**/*'),
+1022                     cwd=start_dir,
+1023                     relative_trick=True,
+1024                     chmod=-1)
+1025   bld.symlink_as('${PREFIX}/bin/npm',
+1026                  '../lib/node_modules/npm/bin/npm-cli.js')
+1027 
+1028 # Node.js Black Edition
+1029 # @author nanhapark &lt;http://about.me/nanha&gt;
+1030 def NodeBlackEdition(bld):
+1031   start_dir = bld.path.find_dir('deps/nodeman')
+1032   bld.install_files('${LIBDIR}/node_modules/nodeman',
+1033                     start_dir.ant_glob('**/*'),
+1034                     cwd=start_dir,
+1035                     relative_trick=True,
+1036                     chmod=0755)
+1037   bld.symlink_as('${PREFIX}/bin/nodeman',
+1038                  '../lib/node_modules/nodeman/bin/nodeman')
+</code></pre>
+
+<h1>Make과정 이해</h1>
+
+<p>node.js의 make과정은 <code>lib, src</code> 디렉토리의 모듈이 변화하지 않으면 <code>make</code>할시에 <code>rebuild</code>하지 않습니다.</p>
+
+<pre><code>[root@nodejs:nodejs]# make
+Waf: Entering directory `/home/nanhadev/node-black-edition/nodejs/out'
+DEST_OS: linux
+DEST_CPU: x64
+Parallel Jobs: 1
+Product type: program
+Waf: Leaving directory `/home/nanhadev/node-black-edition/nodejs/out'
+'build' finished successfully (0.260s)
+-rwxr-xr-x 1 root root 12M  6월 23 15:46 out/Release/node
+</code></pre>
+
+<h1>javascript module 추가방법</h1>
+
+<h2>lib 디렉토리에 nanhapark.js 만들기</h2>
+
+<pre><code>function nanhapark() {
+  this.name = 'nanhapark';
+  this.hp = '010-9864-1512';
+}
+
+module.exports = nanhapark;
+</code></pre>
+
+<h2>make build 과정에 추가됨</h2>
+
+<ul>
+<li>lib 디렉토리에 새로운 라이브러리가 추가되어 <code>src/node_natives.h</code> 만드는 과정이 <code>rebuild</code> 되어짐</li>
+<li>이로인해 <code>src/node_natives.h</code> 불러들이는 <code>src/node_javascript.cc</code> 파일이 <code>rebuild</code> 되어짐</li>
+<li>마지막 <code>node.js</code> 실행파일인 <code>out/Release/node</code> 생성됨. 이것은 소스트리 최상단에 <code>symbolic link</code> 되어 있어서 <code>make install</code>하지 않고, <code>./node</code> 으로 현 빌드상황을 확인할 수 있음.</li>
+</ul>
+
+<h2>build log</h2>
+
+<pre><code>[ 3/37] src/node_natives.h: src/node.js lib/optimist.js lib/wordwrap_doc.js lib/querystring.js lib/net.js lib/restler_multipartform.js lib/vm.js lib/module.js lib/_debugger.js lib/winston_exception.js lib/moment.js lib/mkdirp.js lib/restler_doc.js lib/os.js lib/step_doc.js lib/minimatch.js lib/crypto.js lib/node_static_util.js lib/freelist.js lib/readline.js lib/def_doc.js lib/tty.js lib/cluster.js lib/nanhapark.js lib/graceful_fs.js lib/black_edition_info.js lib/winston_file.js lib/glob.js lib/buffer.js lib/base64.js lib/restler.js lib/node_static_doc.js lib/http.js lib/winston_transports_couchdb.js lib/mustache_doc.js lib/assert.js lib/underscore.js lib/optimist_doc.js lib/winston_container.js lib/winston_transports_loggly.js lib/url.js lib/winston_config_cli_config.js lib/winston_common.js lib/async.js lib/dns.js lib/clog.js lib/winston_config_syslog_config.js lib/_linklist.js lib/util_class.js lib/colors.js lib/buffer_ieee754.js lib/child_process.js lib/repl.js lib/clog_doc.js lib/zlib.js lib/winston_logger.js lib/dgram.js lib/winston_config.js lib/hashish.js lib/fileutils_doc.js lib/traverse.js lib/glob_doc.js lib/moment_doc.js lib/mysql.js lib/events.js lib/inherits.js lib/colors_doc.js lib/winston.js lib/winston_doc.js lib/util_prototype.js lib/step.js lib/hashish_doc.js lib/winston_transports_webhook.js lib/Class_doc.js lib/node_static_mime.js lib/mustache.js lib/commander_doc.js lib/winston_transports_transport.js lib/winston_transports_file.js lib/commander.js lib/path.js lib/sys.js lib/constants.js lib/minimatch_doc.js lib/console.js lib/fileutils.js lib/punycode.js lib/mkdirp_doc.js lib/extend.js lib/winston_transports.js lib/util.js lib/fs.js lib/node_static.js lib/inherits_doc.js lib/underscore_doc.js lib/lru_cache.js lib/winston_config_npm_config.js lib/tls.js lib/stack_trace.js lib/https.js lib/stream.js lib/graceful_fs_doc.js lib/winston_transports_console.js lib/string_decoder.js lib/wordwrap.js lib/timers.js -&gt; out/Release/src/node_natives.h
+[ 9/37] cxx: src/node_javascript.cc -&gt; out/Release/src/node_javascript_5.o
+/usr/bin/g++ -pthread -g -O3 -DHAVE_OPENSSL=1 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DHAVE_FDATASYNC=1 -DARCH=&quot;x64&quot; -DPLATFORM=&quot;linux&quot; -D__POSIX__=1 -Wno-unused-parameter -D_FORTIFY_SOURCE=2 -IRelease/src -I../src -IRelease/deps/http_parser -I../deps/http_parser -IRelease/deps/uv/include -I../deps/uv/include -IRelease/deps/uv/src/ares -I../deps/uv/src/ares -IRelease/deps/v8/include -I../deps/v8/include -I/usr/kerberos/include -Ideps/v8/include ../src/node_javascript.cc -c -o Release/src/node_javascript_5.o
+[37/37] cxx_link: out/Release/src/node_main_5.o out/Release/src/node_5.o out/Release/src/node_buffer_5.o out/Release/src/node_javascript_5.o out/Release/src/node_extensions_5.o out/Release/src/node_http_parser_5.o out/Release/src/node_constants_5.o out/Release/src/node_file_5.o out/Release/src/node_script_5.o out/Release/src/node_os_5.o out/Release/src/node_dtrace_5.o out/Release/src/node_string_5.o out/Release/src/node_zlib_5.o out/Release/src/timer_wrap_5.o out/Release/src/handle_wrap_5.o out/Release/src/stream_wrap_5.o out/Release/src/tcp_wrap_5.o out/Release/src/udp_wrap_5.o out/Release/src/pipe_wrap_5.o out/Release/src/cares_wrap_5.o out/Release/src/tty_wrap_5.o out/Release/src/fs_event_wrap_5.o out/Release/src/process_wrap_5.o out/Release/src/v8_typed_array_5.o out/Release/src/node_extend_5.o out/Release/src/node_base64_5.o out/Release/src/node_signal_watcher_5.o out/Release/src/node_stat_watcher_5.o out/Release/src/node_io_watcher_5.o out/Release/src/platform_linux_5.o out/Release/src/node_crypto_5.o out/Release/deps/http_parser/http_parser_3.o -&gt; out/Release/node
+</code></pre>
+
+<h2>require 확인하기</h2>
+
+<pre><code># make install 하지 않아도 최상위 경로에 링크되어 있습니다.
+[root@nodejs:nodejs]# ./node
+FRENDS #6~ &gt; var a = require('nanhapark');
+undefined
+FRENDS #6~ &gt; var o = new a();
+undefined
+FRENDS #6~ &gt; o
+{ name: 'nanhapark', hp: '010-9864-1512' }
+FRENDS #6~ &gt; 
+</code></pre>
+
+<h1>cpp module 추가방법과 make과정의 이해</h1>
+
+<h2>관련파일 목록</h2>
+
+<ul>
+<li>src/node_모듈명.cc</li>
+<li>src/node_모듈명.h (optional)</li>
+<li>src/ndoe_extensions.h</li>
+<li>./wscript</li>
+</ul>
+
+<hr>
+
+<h2>추가파일</h2>
+
+<ul>
+<li>src/node_모듈명.cc</li>
+<li>src/node_모듈명.h (optional)</li>
+<li>lib/모듈명.js</li>
+</ul>
+
+<p>위 2개의 파일을 추가한다.</p>
+
+<hr>
+
+<h2>lib/모듈명.js 예제</h2>
+
+<pre><code>var binding = process.binding('extend');
+exports.hello = binding.hello;
+</code></pre>
+
+<p>cpp 모듈을 컴파일 하게 되면 보통 <code>모듈명.node</code>으로 튀어나오고, 이를 require해서 사용했는데, native module으로 들어가 있기 때문에, 이것을 가져나올려면 <code>process.binding</code>을 사용해야 한다. 그래서 lib 안에 브릿지 역할을 하는 js를 포함한다.</p>
+
+<hr>
+
+<h2>src/node_모듈명.h (optional)</h2>
+
+<pre><code>#ifndef node_extend_h
+#define node_extend_h
+
+#include &lt;node.h&gt;
+#include &lt;v8.h&gt;
+
+namespace node {
+
+class EXTEND {
+public:
+  static void Initialize (v8::Handle&lt;v8::Object&gt; target);
+};
+
+
+}  // namespace node
+
+#endif  // node_extend_h
+</code></pre>
+
+<hr>
+
+<h2>src/node_모듈명.cc</h2>
+
+<pre><code>/*********************************************************
+ * Node.js Black Edition
+ * cpp native module: extend
+ *
+ * @source
+ * @author nanhapark &lt;http://about.me/nanha&gt;
+ *********************************************************/
+
+#include &lt;node.h&gt;
+#include &lt;node_extend.h&gt;
+
+#include &lt;v8.h&gt;
+
+#include &lt;errno.h&gt;
+#include &lt;string.h&gt;
+
+namespace node {
+
+using namespace v8;
+
+static Handle&lt;Value&gt; hello(const Arguments&amp; args) {
+  HandleScope scope;
+  return scope.Close(String::New(&quot;wow cpp binding&quot;));
+}
+
+
+void EXTEND::Initialize(v8::Handle&lt;v8::Object&gt; target) {
+  HandleScope scope;
+
+  NODE_SET_METHOD(target, &quot;hello&quot;, hello);
+}
+
+
+}  // namespace node
+
+NODE_MODULE(node_extend, node::EXTEND::Initialize)
+</code></pre>
+
+<h2>src/node_extensions.h</h2>
+
+<pre><code>47 /*********************************************************
+48  * Node.js Black Edition
+49  *
+50  * @author nanhapark &lt;http://about.me/nanha&gt;
+51  *********************************************************/
+52 NODE_EXT_LIST_ITEM(node_extend)
+53 NODE_EXT_LIST_ITEM(node_base64)
+</code></pre>
+
+<hr>
+
+<h2>wscript 수정</h2>
+
+<pre><code> 917     src/v8_typed_array.cc
+ 919     src/node_extend.cc
+</code></pre>
+
+<p>917 라인 이후로 추가함</p>
+
+<hr>
+
+<h2>make build 과정에 추가됨</h2>
+
+<ul>
+<li>lib 디렉토리에 새로운 라이브러리가 추가되어 <code>src/node_natives.h</code> 만드는 과정이 <code>rebuild</code> 되어짐</li>
+<li>이로인해 <code>src/node_natives.h</code> 불러들이는 <code>src/node_javascript.cc</code> 파일이 <code>rebuild</code> 되어짐</li>
+<li><code>src/node_extensions</code> 변화되어 <code>rebuild</code></li>
+<li>마지막 <code>node.js</code> 실행파일인 <code>out/Release/node</code> 생성됨. 이것은 소스트리 최상단에 <code>symbolic link</code> 되어 있어서 <code>make install</code>하지 않고, <code>./node</code> 으로 현 빌드상황을 확인할 수 있음.</li>
+</ul>
+
+<h2>build log</h2>
+
+<pre><code>[ 3/37] src/node_natives.h: src/node.js lib/optimist.js lib/wordwrap_doc.js lib/querystring.js lib/net.js lib/restler_multipartform.js lib/vm.js lib/module.js lib/_debugger.js lib/winston_exception.js lib/moment.js lib/mkdirp.js lib/restler_doc.js lib/os.js lib/step_doc.js lib/minimatch.js lib/crypto.js lib/node_static_util.js lib/freelist.js lib/readline.js lib/def_doc.js lib/tty.js lib/cluster.js lib/graceful_fs.js lib/black_edition_info.js lib/winston_file.js lib/glob.js lib/buffer.js lib/base64.js lib/restler.js lib/node_static_doc.js lib/http.js lib/winston_transports_couchdb.js lib/mustache_doc.js lib/assert.js lib/underscore.js lib/optimist_doc.js lib/winston_container.js lib/winston_transports_loggly.js lib/url.js lib/winston_config_cli_config.js lib/winston_common.js lib/async.js lib/dns.js lib/clog.js lib/winston_config_syslog_config.js lib/_linklist.js lib/util_class.js lib/colors.js lib/buffer_ieee754.js lib/child_process.js lib/repl.js lib/clog_doc.js lib/zlib.js lib/winston_logger.js lib/dgram.js lib/winston_config.js lib/hashish.js lib/fileutils_doc.js lib/traverse.js lib/glob_doc.js lib/moment_doc.js lib/mysql.js lib/events.js lib/inherits.js lib/colors_doc.js lib/winston.js lib/winston_doc.js lib/util_prototype.js lib/step.js lib/hashish_doc.js lib/winston_transports_webhook.js lib/Class_doc.js lib/node_static_mime.js lib/mustache.js lib/commander_doc.js lib/winston_transports_transport.js lib/winston_transports_file.js lib/commander.js lib/path.js lib/sys.js lib/constants.js lib/minimatch_doc.js lib/console.js lib/fileutils.js lib/punycode.js lib/mkdirp_doc.js lib/extend.js lib/winston_transports.js lib/util.js lib/fs.js lib/node_static.js lib/inherits_doc.js lib/underscore_doc.js lib/lru_cache.js lib/winston_config_npm_config.js lib/tls.js lib/stack_trace.js lib/https.js lib/stream.js lib/graceful_fs_doc.js lib/winston_transports_console.js lib/string_decoder.js lib/wordwrap.js lib/timers.js -&gt; out/Release/src/node_natives.h
+[ 9/37] cxx: src/node_javascript.cc -&gt; out/Release/src/node_javascript_5.o
+/usr/bin/g++ -pthread -g -O3 -DHAVE_OPENSSL=1 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DHAVE_FDATASYNC=1 -DARCH=&quot;x64&quot; -DPLATFORM=&quot;linux&quot; -D__POSIX__=1 -Wno-unused-parameter -D_FORTIFY_SOURCE=2 -IRelease/src -I../src -IRelease/deps/http_parser -I../deps/http_parser -IRelease/deps/uv/include -I../deps/uv/include -IRelease/deps/uv/src/ares -I../deps/uv/src/ares -IRelease/deps/v8/include -I../deps/v8/include -I/usr/kerberos/include -Ideps/v8/include ../src/node_javascript.cc -c -o Release/src/node_javascript_5.o
+[10/37] cxx: src/node_extensions.cc -&gt; out/Release/src/node_extensions_5.o
+/usr/bin/g++ -pthread -g -O3 -DHAVE_OPENSSL=1 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DHAVE_FDATASYNC=1 -DARCH=&quot;x64&quot; -DPLATFORM=&quot;linux&quot; -D__POSIX__=1 -Wno-unused-parameter -D_FORTIFY_SOURCE=2 -IRelease/src -I../src -IRelease/deps/http_parser -I../deps/http_parser -IRelease/deps/uv/include -I../deps/uv/include -IRelease/deps/uv/src/ares -I../deps/uv/src/ares -IRelease/deps/v8/include -I../deps/v8/include -I/usr/kerberos/include -Ideps/v8/include ../src/node_extensions.cc -c -o Release/src/node_extensions_5.o
+[37/37] cxx_link: out/Release/src/node_main_5.o out/Release/src/node_5.o out/Release/src/node_buffer_5.o out/Release/src/node_javascript_5.o out/Release/src/node_extensions_5.o out/Release/src/node_http_parser_5.o out/Release/src/node_constants_5.o out/Release/src/node_file_5.o out/Release/src/node_script_5.o out/Release/src/node_os_5.o out/Release/src/node_dtrace_5.o out/Release/src/node_string_5.o out/Release/src/node_zlib_5.o out/Release/src/timer_wrap_5.o out/Release/src/handle_wrap_5.o out/Release/src/stream_wrap_5.o out/Release/src/tcp_wrap_5.o out/Release/src/udp_wrap_5.o out/Release/src/pipe_wrap_5.o out/Release/src/cares_wrap_5.o out/Release/src/tty_wrap_5.o out/Release/src/fs_event_wrap_5.o out/Release/src/process_wrap_5.o out/Release/src/v8_typed_array_5.o out/Release/src/node_extend_5.o out/Release/src/node_base64_5.o out/Release/src/node_signal_watcher_5.o out/Release/src/node_stat_watcher_5.o out/Release/src/node_io_watcher_5.o out/Release/src/platform_linux_5.o out/Release/src/node_crypto_5.o out/Release/deps/http_parser/http_parser_3.o -&gt; out/Release/node
+</code></pre>
+
+<h2>require 확인하기</h2>
+
+<pre><code>[root@nodejs:nodejs]# ./node
+FRENDS #6~ &gt; var a = require('extend');
+undefined
+FRENDS #6~ &gt; a
+{ hello: [Function] }
+FRENDS #6~ &gt; a.hello();
+'wow cpp binding'
+FRENDS #6~ &gt; 
+</code></pre>
+
+<h1>결론</h1>
+
+<p>아 힘드네요. ;; 좋은 하루 보내세요.</p>
+
+                        </div>
+                        <hr />
+                                            
+                        <div class="row-fluid">
+                            
+                            <div class="pull-right">
+                                <a href="/post/google-app-engine-sdk-1-dot-4-0-release" class="btn btn-info">Google App Engine SDK 1.4.0 Release <i class="icon-white icon-chevron-right"></i></a>
+                            </div>
+                            
+
+                            
+                            <div class="pull-left">
+                                <a href="/post/frendsnumber-6" class="btn btn-info"><i class="icon-white icon-chevron-left"></i> FRENDS #6</a>
+                            </div>
+                            
+                        </div>
+                    
+
+                        <div class="row-fluid">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'frendskr'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    <!--<div class="row">-->
+        <!--<div class="offset3 span9">-->
+            <!--<strong>tags</strong> :-->
+            <!---->
+            <!--<a href="/tag/node.js">node.js</a>&nbsp;-->
+            <!---->
+        <!--</div>-->
+    <!--</div>-->
+</div><!-- /container -->
+
+
+        <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="span12 ">
+                    <div class="well">
+                        <p class="pull-right"><a href="#">Back to top</a></p>
+                            <strong>haroopress</strong> developed by <a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a>,<a href="http://twitter.com/haroopress" target="_blank">@haroopress</a> and source in <a href="https://github.com/rhiokim/haroopress" target="_blank">github</a><br/>
+                            Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.<br />
+                            Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('pre > code').parent().addClass('prettyprint linenums');
+        prettyPrint();
+    </script>
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-17041304-1']);
+            _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+    </body>
+</html>
