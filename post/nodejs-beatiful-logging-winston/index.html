@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>beautiful logging winston (nodejs 프로그래밍에 필수적인 프로그래밍 과정 logging) |  프론트앤드 개발자들의 모루! 프랜즈(frends)</title>
+    <meta name="description" content="프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 &gt;    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.">
+    <meta name="author" content="frends">
+    <meta name="keywords" content="javascript,node.js,html5,css3,git,jQuery" />
+    <meta name="generator" content="haroopress v0.8.4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루! 프랜즈(frends)" type="application/rss+xml">
+
+    <!-- Le styles -->
+    <link rel="canonical" href="http://frends.kr">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/prettify.css" rel="stylesheet">
+    <link href="/css/haroopress.css" rel="stylesheet">
+    <link href="/css/archives.css" rel="stylesheet">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <!--<link rel="apple-touch-icon" href="assets/ico/bootstrap-apple-57x57.png">-->
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-64.png">
+    <!--<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/bootstrap-apple-114x114.png">-->
+
+    <!-- Le javascript -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/prettify.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.jsonp.js"></script>
+    <script src="/js/mustache.js"></script>
+    <script src="/js/apps/github.js"></script>
+    <script src="/js/apps/twitter.js"></script>
+</head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+        <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+          <a class="pull-right" href="/rss.xml"><img src="/img/buttons/rss.png" /></a>
+          
+            <a class="pull-right" href="http://twitter.com/frends_kr" target="_blank"><img src="/img/buttons/twitter.png" /></a>
+          
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/archives">Archives</a>
+              </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container page-archive">
+    <div class="row">
+        <div class="span3">
+            <div id="author" class="well">
+                <div>
+                    <h3>About Author</h3>
+                    <ul class="thumbnails">
+                        <li>
+                            <a class="thumbnail">
+                                <img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon" />
+                            </a>
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>nanhapark</strong><br/>
+                        blog: <a href="undefined" target="_blank">http://nodeqa.com</a><br/>
+                        twitter: <a href="http://twitter.com/undefined" target="_blank">@nanhapark</a><br/>
+                        github: <a href="https://github.com/undefined" target="_blank">nanha</a>
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/nanhapark" class="twitter-follow-button" data-show-count="true">Follow @nanhapark</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </p>
+                    <p>
+                        <p>:) Javascript(Node.JS), python, bash, php
+:) company: KTH , part: DevOps. <a href="http://about.me/nanha">http://about.me/nanha</a>
+Seoul, Korea · <a href="http://nodeqa.com">http://nodeqa.com</a></p>
+
+                    </p>
+                </div>
+                <div>
+                    <h3>About this Article</h3>
+                    <p>
+                        <h5>Date Released:</h5>
+                        <span>Sunday, July 1 2012 12:13 AM</span>
+                    </p>
+                </div>
+            </div>
+                        <div class="well">
+                <ul class="nav nav-list">
+                    <li class="nav-header">Categories</li>
+                    <li class=""><a href="/category"><i class="icon-home"></i> Home</a></li>
+                    
+                    <li><a href="/category/javascript"><i class="icon-book"></i> javascript</a></li>
+                    
+                    <li><a href="/category/javascript core"><i class="icon-book"></i> javascript core</a></li>
+                    
+                    <li><a href="/category/couchdb"><i class="icon-book"></i> couchdb</a></li>
+                    
+                    <li><a href="/category/conference"><i class="icon-book"></i> conference</a></li>
+                    
+                    <li><a href="/category/frends"><i class="icon-book"></i> frends</a></li>
+                    
+                    <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
+                    
+                    <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
+                    
+                    <li><a href="/category/google"><i class="icon-book"></i> google</a></li>
+                    
+                    <li><a href="/category/html5"><i class="icon-book"></i> html5</a></li>
+                    
+                    <li><a href="/category/jquery"><i class="icon-book"></i> jquery</a></li>
+                    
+                    <li><a href="/category/java"><i class="icon-book"></i> java</a></li>
+                    
+                    <li><a href="/category/news"><i class="icon-book"></i> news</a></li>
+                    
+                    <li><a href="/category/rhino"><i class="icon-book"></i> rhino</a></li>
+                    
+                    <li><a href="/category/css3"><i class="icon-book"></i> css3</a></li>
+                    
+                    <li><a href="/category/tech"><i class="icon-book"></i> tech</a></li>
+                    
+                </ul>
+            </div>
+
+            
+<div class="well">
+    <ul class="nav nav-list">
+        <li class="nav-header">Recent Articles</li>
+    
+        <li>
+            <a href="/post/nodejs-beatiful-logging-winston" target="_blank">beautiful logging winston (nodejs 프로그래밍에 필수적인 프로그래밍 과정 logging)
+            <span class="label">nanhapark</span></a>
+        </li>
+    
+        <li>
+            <a href="/post/go-together-nodejs" target="_blank">Go together nodejs
+            <span class="label">nanhapark</span></a>
+        </li>
+    
+        <li>
+            <a href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog" target="_blank">Node.js v0.8 발표요약
+            <span class="label">Rhio Kim</span></a>
+        </li>
+    
+        <li>
+            <a href="/post/frends-6ca-moim-hugi" target="_blank">FRENDS 6차 모임 후기
+            <span class="label">frends</span></a>
+        </li>
+    
+        <li>
+            <a href="/post/frendsnumber-6" target="_blank">FRENDS #6
+            <span class="label">frends</span></a>
+        </li>
+    
+    </ul>
+</div>
+
+        </div>
+        <div class="span9">
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1>beautiful logging winston (nodejs 프로그래밍에 필수적인 프로그래밍 과정 logging)</h1>
+                        </div>
+
+                        
+
+                        <div class="pull-right">
+                            <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) return;
+                              js = d.createElement(s); js.id = id;
+                              js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId=246177242115486";
+                              fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                        </div>
+
+                                            
+                        <div class="pull-right">
+                            <!-- Place this tag where you want the +1 button to render -->
+                            <g:plusone href="/post/nodejs-beatiful-logging-winston" size="medium"></g:plusone>
+
+                            <!-- Place this render call where appropriate -->
+                            <script type="text/javascript">
+                              (function() {
+                                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                po.src = 'https://apis.google.com/js/plusone.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                              })();
+                            </script>
+                        </div>
+                    
+
+                                            
+                        <div class="pull-right">
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-text="beautiful logging winston (nodejs 프로그래밍에 필수적인 프로그래밍 과정 logging) -" data-url="http://frends.kr/post/nodejs-beatiful-logging-winston" data-via="nanhapark">Tweet</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>
+                    
+
+                        <div class="markdown">
+                            <h1>소개</h1>
+
+<p>이번 cookbook은 <code>logging</code>에 대한 내용입니다. node는 독립적인 어플리케이션 혹은 웹서버가 될 수 있습니다. apache, nginx등 모든 솔루션에는 기본적으로 logging  을 하고 있습니다. 이것이 귀찮아서 console.log으로 남기고, stdout + logrotate 으로 땜방하는 형식으로 logging 하는 경우를 저도 처음에 겪어 보았습니다. 하지만, 이래서는 안되겠더군요.</p>
+
+<p>자 그럼 <code>multiple transport (Console, File, remote...)</code>를 지원하는 <code>winston</code> 에 대해서 알아보겠습니다. 참고로 <a href="https://github.com/flatiron/winston" target="_blank">winston wiki</a>에서 실무에 실제 사용중인 부분과 부가적으로 유용한 부분을 추출하여 설명하겠습니다.</p>
+
+<h1>설치</h1>
+
+<p><code>npm install winston</code></p>
+
+<h1>사용방법 미리보기</h1>
+
+<p>사용방법에는 일반적으로 console.log 와 같이 사용하는 방법과 winston.Logger 를 사용한 인스턴스화한 후 확장적인 방법으로 사용할 수 있는 2가지가 있습니다.</p>
+
+<h2>일반적인 방법</h2>
+
+<pre><code>var winston = require('winston');
+
+winston.log('info', 'Hello from Winston!');
+winston.info('This also works');
+
+// 마지막값으로 meta object 를 넘길 수 있고
+// 마지막값으로 meta object 를 넘길 수 있고
+// 확장적인 logging 을 할 수 있습니다.
+winston.log('info', 'Test Log Message', { anything: 'This is metadata' });
+</code></pre>
+
+<h2>인스턴스화 방법</h2>
+
+<pre><code>winston.Logger(Object options);
+
+// winston.Logger 객체를 생성
+var logger = new (winston.Logger)({
+    // 아래에서 설명할 여러개의 transport를 추가할 수 있다.
+    transports: [
+        // Console transport 추가
+        new (winston.transports.Console)(),
+
+       // File transport 추가
+       new (winston.transports.File)({
+           // filename property 지정
+           filename: 'somefile.log'
+       })
+    ]
+});
+
+// 생성한 객체를 사용하여 일반적인 방법과 동일하게 사용
+logger.log('info', 'Hello distributed log files!');
+logger.info('Hello again distributed logs');
+</code></pre>
+
+<h1>Transport</h1>
+
+<p>logging하는 방식을 <code>transport</code>라고 칭하고 있으며, 우리가 많이 사용하는 Console, File 그리고 외부 db,mail을 사용할 수 있도록 지원하고 있습니다.</p>
+
+<h2>Console</h2>
+
+<p>console.log 과 동일하며 사용방법은 아래와 같습니다.</p>
+
+<h3>winston.add</h3>
+
+<pre><code>winston.add(winston.transports.Console, options)
+</code></pre>
+
+<h3>인스턴스화</h3>
+
+<pre><code>var logger = new (winston.Logger)({
+    transports: [
+        // Console transport 추가
+    transports: [
+        // Console transport 추가
+        new (winston.transports.Console)(options)
+    ]
+});
+</code></pre>
+
+<p>options 값으로 여러가지 환경설정을 할 수 있다.</p>
+
+<ul>
+<li>level
+로그 메세지의 level (debug, info...) 을 지정하여 원하는 level 이상만 logging 할 수 있는 환경설정입니다. (default debug)</li>
+<li>colorize
+terminal화면에 비추어질때 각 로그의 level 을 표시하는 부분을 색상을 입힐것이냐? (default false)</li>
+<li>timestamp
+logging prefix으로 시간값을 첨부하느냐 입니다. (default false)</li>
+</ul>
+
+<p>저는 colorize 만 true으로 사용중입니다. console.log 같은경우는 timestamp가 굳이 필요하진 않겠죠.</p>
+
+<h2>File</h2>
+
+<p>fs.createWriteStream 방법을 지원하는 transport입니다.</p>
+
+<p>사용법은 아래와 같습니다.</p>
+
+<h3>winston.add</h3>
+
+<pre><code>winston.add(winston.transports.File, options) 
+</code></pre>
+
+<h3>인스턴스화</h3>
+
+<pre><code>var logger = new (winston.Logger)({
+  transports: [
+    // file transport add
+    new (winston.transports.File)(options)
+  ]
+});
+</code></pre>
+
+<p>options 값으로 여러가지 환경설정을 할 수 있는 기능이 있습니다.</p>
+
+<ul>
+<li>level: 위와 상동</li>
+<li>colorize: 위와 상동</li>
+<li>filename: log filename 입니다.</li>
+<li>maxsize: logrotate기능을 대신할 수 있고, 파일당 최대 size 입니다. 이것이 초과되면 새로운 파일을 생성합니다.</li>
+<li>maxFiles: maxsize를 초과할 때 생성되는 파일의 갯수입니다. 이 부분은 정확히 파일 갯수가 유지되지 않고, 5개라 설정하면 7개정도 logrotate되는데 뭔가 문제가 있어보입니다.</li>
+</ul>
+
+<h2>Remote Webhook</h2>
+
+<p>외부 web server으로 logging 을 POST 방식으로 전송할 수 있습니다.</p>
+
+<p>사용방법은 아래와 같습니다.</p>
+
+<pre><code>var logger = new (winston.Logger)({
+   transports: [
+       // console transport
+       new (winston.transports.Console)(),
+
+       // webhook transport
+       new (winston.transports.Webhook)({
+           host: 'localhost',
+           port: 8081,
+           // 기본적으로 지정하지 않으면 /winston-log route되어짐
+           path: '/collectdata'
+       })
+   ]
+});
+
+logger.log('info', 'Hello webhook log files!', { 'foo': 'bar' });
+</code></pre>
+
+<p>express에서 request.body 값을 찍어본 실제 결과</p>
+
+<pre><code>express server listening on port 8081 in development mode
+{ method: 'log',
+   params:
+       { timestamp: '2012-01-29T05:14:10.415Z',
+           msg: 'Hello webhook log files!',
+           level: 'info',
+   meta: { foo: 'bar' } } }
+</code></pre>
+
+<p>참고로 winston transport기능중 webhook.js에 대한 constructor 첨부합니다.</p>
+
+<pre><code>source path: winston/lib/winston/transports/webhook.js
+
+var Webhook = exports.Webhook = function (options) {
+    Transport.call(this, options);
+var Webhook = exports.Webhook = function (options) {
+    Transport.call(this, options);
+    this.name   = 'webhook';
+    // 기본설정
+    this.host   = options.host   || 'localhost';
+    this.port   = options.port   || 8080;
+    this.method = options.method || 'POST';
+    this.path   = options.path   || '/winston-log';
+
+    if (options.auth) {
+        this.auth = {};
+        this.auth.username = options.auth.username || '';
+        this.auth.password = options.auth.password || '';
+    }  
+
+    if (options.ssl) {
+        this.ssl      = {};
+        this.ssl.key  = options.ssl.key  || null;
+        this.ssl.cert = options.ssl.cert || null;
+        this.ssl.ca   = options.ssl.ca;
+    }
+};
+</code></pre>
+
+<h2>Remote (CouchDB)</h2>
+
+<p><code>couchdb</code>으로 logging하는 방법입니다. <a href="http://iriscouch.com">http://iriscouch.com</a> 에 무료계정을 생성하여 테스트하였습니다.</p>
+
+<p>사용방법은 아래와 같습니다.</p>
+
+<pre><code>var logger = new (winston.Logger)({ 
+    transports: [ 
+       new (winston.transports.Console)(),
+       new (winston.transports.Couchdb)({
+           // host
+           host: 'nanha.iriscouch.com', 
+           // db name
+           db: 'log' 
+           // 아직 인증부분은 TODO으로 남겨져 있습니다.
+       }) 
+    ] 
+       })
+    ]
+});
+
+logger.log('info', 'Hello webhook log files!', { 'foo': 'bar' });
+</code></pre>
+
+<p>이외 mongodb, loggly, simpledb, mail관련 transport도 있습니다.</p>
+
+<h1>Exception</h1>
+
+<p>node에서 필수적인 exception handler 추가하는 방법입니다. 일반적으로 process.on('uncaughtException', function) 을 사용하는데, 이를 사용하지 않아도, winston안에 위 구문이 처리가 되어 있어서 사용하기 수월합니다.</p>
+
+<p>사용방법은 아래와 같습니다.</p>
+
+<h2>일반적인 방법</h2>
+
+<pre><code>winston.handleExceptions(new winston.transports.File({
+    filename: 'exceptions2.log'
+}));
+winston.log('에러');
+</code></pre>
+
+<h2>인스턴스 추가하여 사용하는 방법</h2>
+
+<pre><code>var logger = new (winston.Logger)({
+    transports: [
+        new (winston.transports.Console)(),
+    ],
+    // 기존 위와 같이 transports property를 설정했듯이
+    // exceptionHandlers Property를 설정하시고
+    // 기존과 같이 transports를 추가하면 됩니다.
+    exceptionHandlers: [
+        new winston.transports.File({
+            filename: 'exceptions.log'
+        })
+    ]
+});
+
+logger.info('에러');
+</code></pre>
+
+<p>그러나 이게 단점이 있습니다. 에러 stack 이 한줄로 표시됩니다. 이런 쒸지브이....</p>
+
+<pre><code>error: uncaughtException pid=42365, uid=501, gid=20, cwd=/Users/nanhap/Sites/test, execPath=/usr/local/bin/node, version=v0.6.6, argv=[node, /usr/local/lib/node_modules/mocha/bin/_mocha, -R, list, winston.test.js], rss=21655552, heapTotal=15324160, heapUsed=6706944, loadavg=[1.33349609375, 1.322265625, 1.3095703125], uptime=597669, trace=
+............
+............
+[column=5, file=/Users/nanhap/Sites/test/winston.test.js, function=,
+function=Function._load, line=310, method=_load, native=false, column=10, file=module.js, function=Array.0, line=470, method=0, native=false, column=40, file=node.js, function=EventEmitter._tickCallback, line=192, method=_tickCallback, native=false], stack=[ReferenceError: non is not defined,     at Object.&lt;anonymous&gt; (/Users/nanhap/Sites/test/winston.test.js:26:5),     at Module._compile (module.js:432:26),     at Object..js (module.js:450:10),     at Module.load (module.js:351:31),     at Function._load (module.js:310:12),     at Module.require (module.js:357:17),     at require (module.js:368:17),     at /usr/local/lib/node_modules/mocha/bin/_mocha:226:27,     at Array.forEach (native),     at load (/usr/local/lib/node_modules/mocha/bin/_mocha:223:9),     at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/mocha/bin/_mocha:214:1),     at Module._compile (module.js:432:26),     at Object..js (module.js:450:10),     at Module.load (module.js:351:31),     at Function._load (module.js:310:12),     at Array.0 (module.js:470:10),     at EventEmitter._tickCallback (node.js:192:40)]
+</code></pre>
+
+<p>제일 필요한 아래 stack 구문이 보이긴 하는데 가독성이 떨어져서 이를 해결하기 위해 winston 모듈을 수정해도 되겠지만, 저는 실무에 기존 방법인 oncaughtException 핸들러를 사용하여 console.log으로 남기고, transport에 exception용도로 지정한 File transport 으로 logging 되도록 사용하고 있습니다.</p>
+
+<h1>Custom log level</h1>
+
+<p>기본적인 debug, info, warn 인 log level 말고 더 세분화하여 syslog의 log level도 간단하게 지원하고 있습니다. 저는 syslog level를 강추합니다.</p>
+
+<p>사용방법은 아래와 같습니다.</p>
+
+<pre><code>winston.setLevels(winston.config.syslog.levels);
+logger.setLevels(winston.config.syslog.levels);
+</code></pre>
+
+<p>위와 같이 선업해주면 syslog 는 다음과 같은 심각도 레벨을 가집니다. 따라서 값이 낮을수록 중요한 메시지라고 보시면 됩니다.</p>
+
+<pre><code>0 Emergency
+1 Alert 
+2 Critical  
+3 Error 
+4 Warning
+5 Notice
+6 Informational
+7 Debug
+</code></pre>
+
+<p>위와 같은 함수를 모두 사용할 수 있습니다. 대문자에 혼동이 있을 수 있는데, 아래 키값을 사용하시면 됩니다.</p>
+
+<h2>winston 모듈내에 syslog 환경설정부분</h2>
+
+<pre><code>var syslogConfig = exports;
+
+syslogConfig.levels = {
+  debug: 0,
+  info: 1,
+  notice: 2,
+  warning: 3,
+  error: 4,
+  crit: 5,
+  alert: 6,
+  emerg: 7
+};
+
+syslogConfig.colors = {
+  debug: 'blue',
+  info: 'green',
+  notice: 'yellow',
+  warning: 'red',
+  error: 'red',
+  crit: 'red',
+  alert: 'yellow',
+  emerg: 'red'
+};
+</code></pre>
+
+<h2>사용방법</h2>
+
+<pre><code>winston.debug('log');
+winston.crit('log');
+winston.alert('log');
+winston.emerg('log');
+</code></pre>
+
+<h1>Async Callback style</h1>
+
+<p>참고로 console 명령어는 sync 한 모델입니다. winston에서는 이것까지 생각하여 transport를 생략하고, 이와같이 event emitter의 영향을 받아 별도로 logging을 사용자가 처리할 수 있도록 event listener를 지원합니다.</p>
+
+<pre><code>logger.on('logging', function (transport, level, msg, meta) {
+    // [msg] and [meta] have now been logged at [level] to [transport]
+});
+});
+
+logger.on('error', function (err) {
+    // handle an error
+});
+
+logger.info('CHILL WINSTON!', { seriously: true });
+</code></pre>
+
+<h1>결론</h1>
+
+<p>winston 은 굉장히 구조적이고 확장적인 logging module 입니다. 필히 node로 제작된 어플리케이션이 production level에 배포하는 서비스라면 logging과정은 필수이니 필히 winston을 사용하여 아름다운 logging을 하시
+기 바랍니다. </p>
+
+<p>KIN 플~</p>
+
+                        </div>
+                        <hr />
+                                            
+                        <div class="row-fluid">
+                            
+                            <div class="pull-right">
+                                <a href="/post/open-class---be-the-javascript-ninja" class="btn btn-info">Open Class - Be the JavaScript Ninja <i class="icon-white icon-chevron-right"></i></a>
+                            </div>
+                            
+
+                            
+                            <div class="pull-left">
+                                <a href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog" class="btn btn-info"><i class="icon-white icon-chevron-left"></i> Node.js v0.8 발표요약</a>
+                            </div>
+                            
+                        </div>
+                    
+
+                        <div class="row-fluid">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'frendskr'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    <!--<div class="row">-->
+        <!--<div class="offset3 span9">-->
+            <!--<strong>tags</strong> :-->
+            <!---->
+        <!--</div>-->
+    <!--</div>-->
+</div><!-- /container -->
+
+
+        <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="span12 ">
+                    <div class="well">
+                        <p class="pull-right"><a href="#">Back to top</a></p>
+                            <strong>haroopress</strong> developed by <a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a>,<a href="http://twitter.com/haroopress" target="_blank">@haroopress</a> and source in <a href="https://github.com/rhiokim/haroopress" target="_blank">github</a><br/>
+                            Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.<br />
+                            Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('pre > code').parent().addClass('prettyprint linenums');
+        prettyPrint();
+    </script>
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-17041304-1']);
+            _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+    </body>
+</html>

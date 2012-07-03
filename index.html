@@ -262,6 +262,38 @@
             <div class="well">
                 
                 <div class="page-header">
+                    <h1><a href="/post/nodejs-beatiful-logging-winston">beautiful logging winston (nodejs 프로그래밍에 필수적인 프로그래밍 과정 logging)</a></h1>
+                    <span class="pull-right">Sunday, July 1 2012 12:13 AM</span>
+                </div>
+                <div class="pull-right">
+                    <ul class="thumbnails">
+                        <li class="thumbnail">
+                            <img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon"/>
+                        </li>
+                    </ul>
+                </div>
+                <div class="markdown">
+                    <h1>소개</h1>
+
+<p>이번 cookbook은 <code>logging</code>에 대한 내용입니다. node는 독립적인 어플리케이션 혹은 웹서버가 될 수 있습니다. apache, nginx등 모든 솔루션에는 기본적으로 logging  을 하고 있습니다. 이것이 귀찮아서 console.log으로 남기고, stdout + logrotate 으로 땜방하는 형식으로 logging 하는 경우를 저도 처음에 겪어 보았습니다. 하지만, 이래서는 안되겠더군요.</p>
+
+<p>자 그럼 <code>multiple transport (Console, File, remote...)</code>를 지원하는 <code>winston</code> 에 대해서 알아보겠습니다. 참고로 <a href="https://github.com/flatiron/winston" target="_blank">winston wiki</a>에서 실무에 실제 사용중인 부분과 부가적으로 유용한 부분을 추출하여 설명하겠습니다.</p>
+
+<h1>설치</h1>
+
+<p><code>npm install winston</code></p>
+
+                </div>
+                <hr/>
+                <a class="pull-right" href="/post/nodejs-beatiful-logging-winston#disqus_thread" data-disqus-identifier="0"></a>
+                <p>
+                    <a href="/post/nodejs-beatiful-logging-winston" class="btn btn-info">Read more...</a>
+                </p>
+            </div>
+            
+            <div class="well">
+                
+                <div class="page-header">
                     <h1><a href="/post/go-together-nodejs">Go together nodejs</a></h1>
                     <span class="pull-right">Wednesday, June 27 2012 11:20 PM</span>
                 </div>
@@ -285,7 +317,7 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/go-together-nodejs#disqus_thread" data-disqus-identifier="0"></a>
+                <a class="pull-right" href="/post/go-together-nodejs#disqus_thread" data-disqus-identifier="1"></a>
                 <p>
                     <a href="/post/go-together-nodejs" class="btn btn-info">Read more...</a>
                 </p>
@@ -317,7 +349,7 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog#disqus_thread" data-disqus-identifier="1"></a>
+                <a class="pull-right" href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog#disqus_thread" data-disqus-identifier="2"></a>
                 <p>
                     <a href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog" class="btn btn-info">Read more...</a>
                 </p>
@@ -407,7 +439,7 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/frends-6ca-moim-hugi#disqus_thread" data-disqus-identifier="2"></a>
+                <a class="pull-right" href="/post/frends-6ca-moim-hugi#disqus_thread" data-disqus-identifier="3"></a>
                 <p>
                     <a href="/post/frends-6ca-moim-hugi" class="btn btn-info">Read more...</a>
                 </p>
@@ -462,50 +494,9 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/frendsnumber-6#disqus_thread" data-disqus-identifier="3"></a>
+                <a class="pull-right" href="/post/frendsnumber-6#disqus_thread" data-disqus-identifier="4"></a>
                 <p>
                     <a href="/post/frendsnumber-6" class="btn btn-info">Read more...</a>
-                </p>
-            </div>
-            
-            <div class="well">
-                
-                <div class="page-header">
-                    <h1><a href="/post/fluent-conference-31-may">Fluent Conference 31 May</a></h1>
-                    <span class="pull-right">Tuesday, June 12 2012 10:50 AM</span>
-                </div>
-                <div class="pull-right">
-                    <ul class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon"/>
-                        </li>
-                    </ul>
-                </div>
-                <div class="markdown">
-                    <h3>Javascript Development Workflow of 2013</h3>
-
-<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24847">세션 소개 페이지</a></p>
-
-<p>발표자 : Paul Irish (Google)</p>
-
-<ul>
-<li>지난 2년 동안 툴과 에디터의 혁명은 계속되어 왔고 더 재미있어졌고 정확히 말하면 좀더 나은 생산성을 보장하려 노력</li>
-<li>에디터와 플러그인, 인증 추상화, 테스팅과 DVCS 통합을 통해 현대적인 개발 워크플로우에 대해서 다룸</li>
-</ul>
-
-<iframe width="825" height="464" src="http://www.youtube.com/embed/f7AU2Ozu8eo" frameborder="0" allowfullscreen></iframe>
-
-<h3>Improving JavaScript</h3>
-
-<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/25048">세션 소개 페이지</a></p>
-
-<p>발표자 : Axel Rauschmayer (2ality consulting)</p>
-
-                </div>
-                <hr/>
-                <a class="pull-right" href="/post/fluent-conference-31-may#disqus_thread" data-disqus-identifier="4"></a>
-                <p>
-                    <a href="/post/fluent-conference-31-may" class="btn btn-info">Read more...</a>
                 </p>
             </div>
             
@@ -551,8 +542,8 @@
             <div class="well">
                 
                 <div class="page-header">
-                    <h1><a href="/post/fluent-conference-29-may">Fluent Conference 29 May</a></h1>
-                    <span class="pull-right">Tuesday, June 12 2012 10:49 AM</span>
+                    <h1><a href="/post/fluent-conference-31-may">Fluent Conference 31 May</a></h1>
+                    <span class="pull-right">Tuesday, June 12 2012 10:50 AM</span>
                 </div>
                 <div class="pull-right">
                     <ul class="thumbnails">
@@ -562,28 +553,30 @@
                     </ul>
                 </div>
                 <div class="markdown">
-                    <h3>A Sip of CoffeeScript</h3>
+                    <h3>Javascript Development Workflow of 2013</h3>
 
-<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24421">세션 소개 페이지</a></p>
+<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24847">세션 소개 페이지</a></p>
 
-<p>발표자 : Caike Souza (Envy Labs), Gregg Pollack (Envy Labs)</p>
+<p>발표자 : Paul Irish (Google)</p>
 
 <ul>
-<li>커피스크립트의 기본적인 것들에 대해 다룸</li>
-<li>자바스크립트 코드 작성을 즐겨하고 있다면 이미 커피스크립트 코드를 즐기고 있다는 내용.</li>
+<li>지난 2년 동안 툴과 에디터의 혁명은 계속되어 왔고 더 재미있어졌고 정확히 말하면 좀더 나은 생산성을 보장하려 노력</li>
+<li>에디터와 플러그인, 인증 추상화, 테스팅과 DVCS 통합을 통해 현대적인 개발 워크플로우에 대해서 다룸</li>
 </ul>
 
-<h3>Writing robust Node.js applications</h3>
+<iframe width="825" height="464" src="http://www.youtube.com/embed/f7AU2Ozu8eo" frameborder="0" allowfullscreen></iframe>
 
-<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24856">세션 소개 페이지</a></p>
+<h3>Improving JavaScript</h3>
 
-<p>발표자 : Tom Hughes-Croucher (Jetpacks for Dinosaurs)</p>
+<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/25048">세션 소개 페이지</a></p>
+
+<p>발표자 : Axel Rauschmayer (2ality consulting)</p>
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/fluent-conference-29-may#disqus_thread" data-disqus-identifier="6"></a>
+                <a class="pull-right" href="/post/fluent-conference-31-may#disqus_thread" data-disqus-identifier="6"></a>
                 <p>
-                    <a href="/post/fluent-conference-29-may" class="btn btn-info">Read more...</a>
+                    <a href="/post/fluent-conference-31-may" class="btn btn-info">Read more...</a>
                 </p>
             </div>
             
