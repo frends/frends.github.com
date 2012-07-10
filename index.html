@@ -17,12 +17,12 @@
     <link href="/rss.xml" rel="alternate" title="프론트앤드 개발자들의 모루! 프랜즈(frends)" type="application/rss+xml">
 
     <!-- Le styles -->
-    <link rel="canonical" href="http://frends.kr">
+    <link rel="canonical" href="http://blog.frends.kr">
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/haroo.css" rel="stylesheet">
     <link href="/css/prettify.css" rel="stylesheet">
-    <link href="/css/haroopress.css" rel="stylesheet">
     <link href="/css/archives.css" rel="stylesheet">
 
     <!-- Le fav and touch icons -->
@@ -32,6 +32,7 @@
     <!--<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/bootstrap-apple-114x114.png">-->
 
     <!-- Le javascript -->
+    <!--<script src="/js/lib/require.1.0.4.js"></script>-->
     <script src="/js/jquery.min.js"></script>
     <script src="/js/prettify.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -43,7 +44,8 @@
 
   <body data-spy="scroll" data-target=".subnav" data-offset="50">
 
-        <div class="navbar navbar-fixed-top">
+    
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -72,15 +74,20 @@
       </div>
     </div>
 
-    <div class="container page-main">
+    <header class="jumbotron masthead" id="overview">
+    <div class="inner">
+    </div>
+</header>
+
+<div class="container">
     <div class="row">
-        <div class="span3">
+        <div class="span3 _side">
             
             <div id="author" class="well">
                 <div>
                     <h3>About This Site</h3>
                     <p>
-                        이 사이트는 <a href="http://github.com/rhiokim/haroopress" target="_target">haroopress</a> 엔진으로 생성된 정적 페이지 기반의 웹 사이트입니다.
+                        이 사이트는 <a href="http://github.com/rhiokim/haroopress" target="_target">haroopress</a> 엔진으로 구축되어진 사이트입니다.
                     </p>
                 </div>
             </div>
@@ -124,62 +131,52 @@
 
                 
     <div class="well contributors">
-		<div class="pull-right">
-			<a href="/authors"><i class=" icon-info-sign"></i></a>
-		</div>
+        <div class="pull-right">
+            <a href="/authors"><i class=" icon-info-sign"></i></a>
+        </div>
         <h6>contributors</h6>
         
         <div class="row-fluid">
-            <a class="pull-left" href="/authors/Dani Kim" title="undefined">
-				<img src="http://www.gravatar.com/avatar/ae64f6c7eb207e940a8e68d1c6f21f03?r=pg&amp;s=128.jpg&amp;d=identicon" />
-			</a>
-            <p>
-                <strong>Dani Kim</strong><br/>
-                <a href="https://twitter.com/#!/GeekDani" target="_blank">@GeekDani</a>
-            </p>
-        </div>
-        <hr>
-        
-        <div class="row-fluid">
-            <a class="pull-left" href="/authors/frends" title="undefined">
-				<img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
-			</a>
+            <a class="pull-left" href="/authors/frends" title=""><img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
             <p>
                 <strong>frends</strong><br/>
-                <a href="https://twitter.com/#!/frends_kr" target="_blank">@frends_kr</a>
+                <span>@frends_kr</span>
             </p>
         </div>
         <hr>
         
         <div class="row-fluid">
-            <a class="pull-left" href="/authors/J2P" title="undefined">
-				<img src="http://www.gravatar.com/avatar/102c3a9f2b6e3882625ca38445179fe8?r=pg&amp;s=128.jpg&amp;d=identicon" />
-			</a>
-            <p>
-                <strong>J2P</strong><br/>
-                <a href="https://twitter.com/#!/J2P_" target="_blank">@J2P_</a>
-            </p>
-        </div>
-        <hr>
-        
-        <div class="row-fluid">
-            <a class="pull-left" href="/authors/nanhapark" title="undefined">
-				<img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon" />
-			</a>
-            <p>
-                <strong>nanhapark</strong><br/>
-                <a href="https://twitter.com/#!/nanhapark" target="_blank">@nanhapark</a>
-            </p>
-        </div>
-        <hr>
-        
-        <div class="row-fluid">
-            <a class="pull-left" href="/authors/Rhio Kim" title="undefined">
-				<img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
-			</a>
+            <a class="pull-left" href="/authors/Rhio Kim" title=""><img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
             <p>
                 <strong>Rhio Kim</strong><br/>
-                <a href="https://twitter.com/#!/rhiokim" target="_blank">@rhiokim</a>
+                <span>@rhiokim</span>
+            </p>
+        </div>
+        <hr>
+        
+        <div class="row-fluid">
+            <a class="pull-left" href="/authors/nanhapark" title=""><img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
+            <p>
+                <strong>nanhapark</strong><br/>
+                <span>@nanhapark</span>
+            </p>
+        </div>
+        <hr>
+        
+        <div class="row-fluid">
+            <a class="pull-left" href="/authors/J2P" title=""><img src="http://www.gravatar.com/avatar/102c3a9f2b6e3882625ca38445179fe8?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
+            <p>
+                <strong>J2P</strong><br/>
+                <span>@J2P_</span>
+            </p>
+        </div>
+        <hr>
+        
+        <div class="row-fluid">
+            <a class="pull-left" href="/authors/Dani Kim" title=""><img src="http://www.gravatar.com/avatar/ae64f6c7eb207e940a8e68d1c6f21f03?r=pg&amp;s=128.jpg&amp;d=identicon" /></a>
+            <p>
+                <strong>Dani Kim</strong><br/>
+                <span>@GeekDani</span>
             </p>
         </div>
         <hr>
@@ -259,21 +256,25 @@
         </div>
         <div class="span9">
             
-            <div class="well">
-                
-                <div class="page-header">
-                    <h1><a href="/post/nodejs-beatiful-logging-winston">beautiful logging winston (nodejs 프로그래밍에 필수적인 프로그래밍 과정 logging)</a></h1>
-                    <span class="pull-right">Sunday, July 1 2012 12:13 AM</span>
-                </div>
-                <div class="pull-right">
-                    <ul class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon"/>
-                        </li>
-                    </ul>
-                </div>
-                <div class="markdown">
-                    <h1>소개</h1>
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/nodejs-beatiful-logging-winston">beautiful logging winston (nodejs 프로그래밍에 필수적인 프로그래밍 과정 logging)</a></h1>
+                            <span class="pull-right">Sunday, July 1 2012 12:13 AM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <h1>소개</h1>
 
 <p>이번 cookbook은 <code>logging</code>에 대한 내용입니다. node는 독립적인 어플리케이션 혹은 웹서버가 될 수 있습니다. apache, nginx등 모든 솔루션에는 기본적으로 logging  을 하고 있습니다. 이것이 귀찮아서 console.log으로 남기고, stdout + logrotate 으로 땜방하는 형식으로 logging 하는 경우를 저도 처음에 겪어 보았습니다. 하지만, 이래서는 안되겠더군요.</p>
 
@@ -283,29 +284,35 @@
 
 <p><code>npm install winston</code></p>
 
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/nodejs-beatiful-logging-winston#disqus_thread" data-disqus-identifier="0"></a>
+                        <p>
+                            <a href="/post/nodejs-beatiful-logging-winston" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
                 </div>
-                <hr/>
-                <a class="pull-right" href="/post/nodejs-beatiful-logging-winston#disqus_thread" data-disqus-identifier="0"></a>
-                <p>
-                    <a href="/post/nodejs-beatiful-logging-winston" class="btn btn-info">Read more...</a>
-                </p>
             </div>
             
-            <div class="well">
-                
-                <div class="page-header">
-                    <h1><a href="/post/go-together-nodejs">Go together nodejs</a></h1>
-                    <span class="pull-right">Wednesday, June 27 2012 11:20 PM</span>
-                </div>
-                <div class="pull-right">
-                    <ul class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon"/>
-                        </li>
-                    </ul>
-                </div>
-                <div class="markdown">
-                    <h1>Go together node.js</h1>
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/go-together-nodejs">Go together nodejs</a></h1>
+                            <span class="pull-right">Wednesday, June 27 2012 11:20 PM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <h1>Go together node.js</h1>
 
 <p><a href="http://blog.frends.kr">FRENDS</a> 6차 모임때 발표한 슬라이드입니다.</p>
 
@@ -315,29 +322,35 @@
 
 <h2>전체순서</h2>
 
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/go-together-nodejs#disqus_thread" data-disqus-identifier="1"></a>
+                        <p>
+                            <a href="/post/go-together-nodejs" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
                 </div>
-                <hr/>
-                <a class="pull-right" href="/post/go-together-nodejs#disqus_thread" data-disqus-identifier="1"></a>
-                <p>
-                    <a href="/post/go-together-nodejs" class="btn btn-info">Read more...</a>
-                </p>
             </div>
             
-            <div class="well">
-                
-                <div class="page-header">
-                    <h1><a href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog">Node.js v0.8 발표요약</a></h1>
-                    <span class="pull-right">Wednesday, June 27 2012 9:46 AM</span>
-                </div>
-                <div class="pull-right">
-                    <ul class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon"/>
-                        </li>
-                    </ul>
-                </div>
-                <div class="markdown">
-                    <p>Node.js 0.8.0 에서는 v8 및 플랫폼 추상화 라이브러리인 &quot;libuv&quot; 에 많은 노력을 기울여 속도가 크게 개선되었다고 합니다. Node.js 블로그에 공개한 테스트 결과에 따르면 파일 I/O 에서 2 ~ 3배 정도의 성능향상을 보이며 웹 서버의 처리량을 향상시키고 있습니다.</p>
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog">Node.js v0.8 발표요약</a></h1>
+                            <span class="pull-right">Wednesday, June 27 2012 9:46 AM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <p>Node.js 0.8.0 에서는 v8 및 플랫폼 추상화 라이브러리인 &quot;libuv&quot; 에 많은 노력을 기울여 속도가 크게 개선되었다고 합니다. Node.js 블로그에 공개한 테스트 결과에 따르면 파일 I/O 에서 2 ~ 3배 정도의 성능향상을 보이며 웹 서버의 처리량을 향상시키고 있습니다.</p>
 
 <p><img src="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog/@img/node_logo.png" class="span2"/> 오픈 소스의 가장 중요한 에코시스템인 모듈 시스템이라고 할 수 있습니다.</p>
 
@@ -347,29 +360,35 @@
 </blockquote>
 <p>이와 더불어 향후 버젼에서는 기존의 [NPM][]]npm]]모듈도 <code>npm install module</code> 이 아닌 <code>node install module</code> 형태로 변경하는 작업 진행중에 있습니다.  이번 릴리즈를 통해 노드는 좀더 쉽고 좀더 빠르고 좀더 넓은 플랫폼에서 기존의 솔루션들과 경쟁할 수 있게 되었습니다.</p>
 
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog#disqus_thread" data-disqus-identifier="2"></a>
+                        <p>
+                            <a href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
                 </div>
-                <hr/>
-                <a class="pull-right" href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog#disqus_thread" data-disqus-identifier="2"></a>
-                <p>
-                    <a href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog" class="btn btn-info">Read more...</a>
-                </p>
             </div>
             
-            <div class="well">
-                
-                <div class="page-header">
-                    <h1><a href="/post/frends-6ca-moim-hugi">FRENDS 6차 모임 후기</a></h1>
-                    <span class="pull-right">Monday, June 25 2012 11:44 AM</span>
-                </div>
-                <div class="pull-right">
-                    <ul class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon"/>
-                        </li>
-                    </ul>
-                </div>
-                <div class="markdown">
-                    <p>FRENDS 6차 공식모임을 지난 6월 23일(토)에 KTH 에서 진행하였습니다. ajaxian.kr 야머그룹 개발자 다섯명, FRENDS 멤버중 초대한 개발자분들이 모여 아래 몇가지 지식과 기술에 대한 공유를 진행하였습니다.
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/frends-6ca-moim-hugi">FRENDS 6차 모임 후기</a></h1>
+                            <span class="pull-right">Monday, June 25 2012 11:44 AM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <p>FRENDS 6차 공식모임을 지난 6월 23일(토)에 KTH 에서 진행하였습니다. ajaxian.kr 야머그룹 개발자 다섯명, FRENDS 멤버중 초대한 개발자분들이 모여 아래 몇가지 지식과 기술에 대한 공유를 진행하였습니다.
 이번 내용 정리는 <a href="http://twitter.com/j2p_">@j2p</a> 님이 수고해주셨습니다.</p>
 
 <h3>자바스크립트 완벽가이드 번역 후기</h3>
@@ -437,29 +456,35 @@
 <img src="/post/frends-6ca-moim-hugi/@img/IMG_1120.jpg" alt="">
 </p>
 
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/frends-6ca-moim-hugi#disqus_thread" data-disqus-identifier="3"></a>
+                        <p>
+                            <a href="/post/frends-6ca-moim-hugi" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
                 </div>
-                <hr/>
-                <a class="pull-right" href="/post/frends-6ca-moim-hugi#disqus_thread" data-disqus-identifier="3"></a>
-                <p>
-                    <a href="/post/frends-6ca-moim-hugi" class="btn btn-info">Read more...</a>
-                </p>
             </div>
             
-            <div class="well">
-                
-                <div class="page-header">
-                    <h1><a href="/post/frendsnumber-6">FRENDS #6</a></h1>
-                    <span class="pull-right">Tuesday, June 12 2012 11:38 AM</span>
-                </div>
-                <div class="pull-right">
-                    <ul class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon"/>
-                        </li>
-                    </ul>
-                </div>
-                <div class="markdown">
-                    <h2>FRENDS 6차 모임 공지</h2>
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/frendsnumber-6">FRENDS #6</a></h1>
+                            <span class="pull-right">Tuesday, June 12 2012 11:38 AM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <h2>FRENDS 6차 모임 공지</h2>
 
 <ul>
 <li>날짜와 시간 : 2012년 6월 23일(토요일) 오후 2시부터</li>
@@ -492,29 +517,35 @@
 
 <h2>장소후원</h2>
 
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/frendsnumber-6#disqus_thread" data-disqus-identifier="4"></a>
+                        <p>
+                            <a href="/post/frendsnumber-6" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
                 </div>
-                <hr/>
-                <a class="pull-right" href="/post/frendsnumber-6#disqus_thread" data-disqus-identifier="4"></a>
-                <p>
-                    <a href="/post/frendsnumber-6" class="btn btn-info">Read more...</a>
-                </p>
             </div>
             
-            <div class="well">
-                
-                <div class="page-header">
-                    <h1><a href="/post/fluent-conference-30-may">Fluent Converence 30 May</a></h1>
-                    <span class="pull-right">Tuesday, June 12 2012 10:50 AM</span>
-                </div>
-                <div class="pull-right">
-                    <ul class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon"/>
-                        </li>
-                    </ul>
-                </div>
-                <div class="markdown">
-                    <h3>JavaScript at 17</h3>
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/fluent-conference-30-may">Fluent Converence 30 May</a></h1>
+                            <span class="pull-right">Tuesday, June 12 2012 10:50 AM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <h3>JavaScript at 17</h3>
 
 <p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24538">세션 소개 페이지</a></p>
 
@@ -531,29 +562,35 @@
 
 <p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24888">세션 소개 페이지</a></p>
 
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/fluent-conference-30-may#disqus_thread" data-disqus-identifier="5"></a>
+                        <p>
+                            <a href="/post/fluent-conference-30-may" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
                 </div>
-                <hr/>
-                <a class="pull-right" href="/post/fluent-conference-30-may#disqus_thread" data-disqus-identifier="5"></a>
-                <p>
-                    <a href="/post/fluent-conference-30-may" class="btn btn-info">Read more...</a>
-                </p>
             </div>
             
-            <div class="well">
-                
-                <div class="page-header">
-                    <h1><a href="/post/fluent-conference-31-may">Fluent Conference 31 May</a></h1>
-                    <span class="pull-right">Tuesday, June 12 2012 10:50 AM</span>
-                </div>
-                <div class="pull-right">
-                    <ul class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon"/>
-                        </li>
-                    </ul>
-                </div>
-                <div class="markdown">
-                    <h3>Javascript Development Workflow of 2013</h3>
+            <div class="row">
+                <div class="span9">
+                    <div class="well bg">
+                        
+                        <div class="page-header">
+                            <h1><a href="/post/fluent-conference-31-may">Fluent Conference 31 May</a></h1>
+                            <span class="pull-right">Tuesday, June 12 2012 10:50 AM</span>
+                        </div>
+                        <div class="pull-right" style="padding: 0 10px 10px 10px;">
+                            <ul class="thumbnails">
+                                <li class="thumbnail">
+                                    <a>
+                                        <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" width="128"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="markdown">
+                            <h3>Javascript Development Workflow of 2013</h3>
 
 <p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24847">세션 소개 페이지</a></p>
 
@@ -572,12 +609,14 @@
 
 <p>발표자 : Axel Rauschmayer (2ality consulting)</p>
 
+                        </div>
+                        <hr/>
+                        <a class="pull-right" href="/post/fluent-conference-31-may#disqus_thread" data-disqus-identifier="6"></a>
+                        <p>
+                            <a href="/post/fluent-conference-31-may" class="btn btn-info">Read more...</a>
+                        </p>
+                    </div>
                 </div>
-                <hr/>
-                <a class="pull-right" href="/post/fluent-conference-31-may#disqus_thread" data-disqus-identifier="6"></a>
-                <p>
-                    <a href="/post/fluent-conference-31-may" class="btn btn-info">Read more...</a>
-                </p>
             </div>
             
         </div>
@@ -622,11 +661,13 @@
 
 
 
-        <footer class="footer">
+    
+
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="span12 ">
-                    <div class="well">
+                    <div class="well-black">
                         <p class="pull-right"><a href="#">Back to top</a></p>
                             <strong>haroopress</strong> developed by <a href="http://twitter.com/rhiokim" target="_blank">@rhiokim</a>,<a href="http://twitter.com/haroopress" target="_blank">@haroopress</a> and source in <a href="https://github.com/rhiokim/haroopress" target="_blank">github</a><br/>
                             Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.<br />
