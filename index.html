@@ -95,13 +95,13 @@
                     
                     <li><a href="/category/couchdb"><i class="icon-book"></i> couchdb</a></li>
                     
+                    <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
+                    
                     <li><a href="/category/conference"><i class="icon-book"></i> conference</a></li>
                     
                     <li><a href="/category/frends"><i class="icon-book"></i> frends</a></li>
                     
                     <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
-                    
-                    <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
                     
                     <li><a href="/category/google"><i class="icon-book"></i> google</a></li>
                     
@@ -240,6 +240,42 @@
             <div class="well">
                 
                 <div class="page-header">
+                    <h1><a href="/post/domain-api">Domain module 소개</a></h1>
+                    <span class="pull-right">Monday, July 16 2012 12:13 AM</span>
+                </div>
+                <div class="pull-right">
+                    <ul class="thumbnails">
+                        <li class="thumbnail">
+                            <img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon"/>
+                        </li>
+                    </ul>
+                </div>
+                <div class="markdown">
+                    <blockquote>
+<p>Domains provide a way to handle multiple different IO operations as a single group. If any of the event emitters or callbacks registered to a domain emit an error event, or throw an error, then the domain object will be notified, rather than losing the context of the error in the process.on('uncaughtException') handler, or causing the program to exit with an error code.</p>
+</blockquote>
+<p>node <code>v0.8</code> 새로운 기능 <a href="http://nodejs.org/api/domain.html">domain api</a>, 뭐라 설명하기가 굉장히 애매한 API입니다. 그냥 에러처리기라고 하기도 그렇고... 위 정의가 굉장히 멋있는데, 실무에서 사용한 결과 제 입장에서는 <code>try ~ catch</code> 의 또다른 형태라고 정의하였습니다. 아래 소스설명 보시고 나름 이해하시고 정의 내리시면 됩니다. 그리고, 저와 다른 정의를 내린 분은 의견 공유 부탁드려요.</p>
+
+<h1>배경</h1>
+
+<p>nodejs의 callback에서 발생하는 <code>throw</code>를 전체 프로세스를 묶은 <code>try</code>로 에러를 제어 할 수 없습니다. 예를 들어봅시다.</p>
+
+<ul>
+<li>다른 언어에서 <code>try~catch</code>는 여러개의 모듈사용 흐름을 하나의 프로세스 흐름으로 생각하고 에러처리를 도와줍니다. 보통 모듈에서 throw를 반환하고 이를 사용하는 로직레벨에서는 <code>try~catch</code>로 제어하여 깔끔한 구문을 만들 수 있죠. 이것이 nodejs에서 된다면 굉장히 편할 것입니다.
+아래 소스는 <code>fs.mkdir</code>를 <code>try~catch</code>로 묶어 보고 싶은 심정의 코드입니다.</li>
+</ul>
+
+                </div>
+                <hr/>
+                <a class="pull-right" href="/post/domain-api#disqus_thread" data-disqus-identifier="0"></a>
+                <p>
+                    <a href="/post/domain-api" class="btn btn-info">Read more...</a>
+                </p>
+            </div>
+            
+            <div class="well">
+                
+                <div class="page-header">
                     <h1><a href="/post/nodejs-beatiful-logging-winston">beautiful logging winston (nodejs 프로그래밍에 필수적인 프로그래밍 과정 logging)</a></h1>
                     <span class="pull-right">Sunday, July 1 2012 12:13 AM</span>
                 </div>
@@ -263,7 +299,7 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/nodejs-beatiful-logging-winston#disqus_thread" data-disqus-identifier="0"></a>
+                <a class="pull-right" href="/post/nodejs-beatiful-logging-winston#disqus_thread" data-disqus-identifier="1"></a>
                 <p>
                     <a href="/post/nodejs-beatiful-logging-winston" class="btn btn-info">Read more...</a>
                 </p>
@@ -295,7 +331,7 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/go-together-nodejs#disqus_thread" data-disqus-identifier="1"></a>
+                <a class="pull-right" href="/post/go-together-nodejs#disqus_thread" data-disqus-identifier="2"></a>
                 <p>
                     <a href="/post/go-together-nodejs" class="btn btn-info">Read more...</a>
                 </p>
@@ -327,7 +363,7 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog#disqus_thread" data-disqus-identifier="2"></a>
+                <a class="pull-right" href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog#disqus_thread" data-disqus-identifier="3"></a>
                 <p>
                     <a href="/post/node-dot-j-s-v0-dot-6-gwa-v0-dot-8-yi-api-byeongyeongiryeog" class="btn btn-info">Read more...</a>
                 </p>
@@ -417,7 +453,7 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/frends-6ca-moim-hugi#disqus_thread" data-disqus-identifier="3"></a>
+                <a class="pull-right" href="/post/frends-6ca-moim-hugi#disqus_thread" data-disqus-identifier="4"></a>
                 <p>
                     <a href="/post/frends-6ca-moim-hugi" class="btn btn-info">Read more...</a>
                 </p>
@@ -472,7 +508,7 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/frendsnumber-6#disqus_thread" data-disqus-identifier="4"></a>
+                <a class="pull-right" href="/post/frendsnumber-6#disqus_thread" data-disqus-identifier="5"></a>
                 <p>
                     <a href="/post/frendsnumber-6" class="btn btn-info">Read more...</a>
                 </p>
@@ -511,50 +547,9 @@
 
                 </div>
                 <hr/>
-                <a class="pull-right" href="/post/fluent-conference-30-may#disqus_thread" data-disqus-identifier="5"></a>
+                <a class="pull-right" href="/post/fluent-conference-30-may#disqus_thread" data-disqus-identifier="6"></a>
                 <p>
                     <a href="/post/fluent-conference-30-may" class="btn btn-info">Read more...</a>
-                </p>
-            </div>
-            
-            <div class="well">
-                
-                <div class="page-header">
-                    <h1><a href="/post/fluent-conference-31-may">Fluent Conference 31 May</a></h1>
-                    <span class="pull-right">Tuesday, June 12 2012 10:50 AM</span>
-                </div>
-                <div class="pull-right">
-                    <ul class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon"/>
-                        </li>
-                    </ul>
-                </div>
-                <div class="markdown">
-                    <h3>Javascript Development Workflow of 2013</h3>
-
-<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/24847">세션 소개 페이지</a></p>
-
-<p>발표자 : Paul Irish (Google)</p>
-
-<ul>
-<li>지난 2년 동안 툴과 에디터의 혁명은 계속되어 왔고 더 재미있어졌고 정확히 말하면 좀더 나은 생산성을 보장하려 노력</li>
-<li>에디터와 플러그인, 인증 추상화, 테스팅과 DVCS 통합을 통해 현대적인 개발 워크플로우에 대해서 다룸</li>
-</ul>
-
-<iframe width="825" height="464" src="http://www.youtube.com/embed/f7AU2Ozu8eo" frameborder="0" allowfullscreen></iframe>
-
-<h3>Improving JavaScript</h3>
-
-<p><a href="http://fluentconf.com/fluent2012/public/schedule/detail/25048">세션 소개 페이지</a></p>
-
-<p>발표자 : Axel Rauschmayer (2ality consulting)</p>
-
-                </div>
-                <hr/>
-                <a class="pull-right" href="/post/fluent-conference-31-may#disqus_thread" data-disqus-identifier="6"></a>
-                <p>
-                    <a href="/post/fluent-conference-31-may" class="btn btn-info">Read more...</a>
                 </p>
             </div>
             
