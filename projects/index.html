@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Kinds of tech |  프론트앤드 개발자들의 모루! 프랜즈(frends)</title>
+    <title>Projects 프론트앤드 개발자들의 모루! 프랜즈(frends)</title>
     <meta name="description" content="프론트앤드 개발자들이 모여서 노는 놀이터이자 작업공간입니다. 기본 바탕은 서로에게 공유하고 그만큼 얻어가자라는 &gt;    취지와 프로그래밍을 통해 창조를 취미로 하는 사람들이 모인 공간입니다.">
     <meta name="author" content="frends">
     <meta name="keywords" content="javascript,node.js,html5,css3,git,jQuery" />
@@ -23,7 +23,7 @@
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/css/prettify.css" rel="stylesheet">
     <link href="/css/haroopress.css" rel="stylesheet">
-    <link href="/css/archives.css" rel="stylesheet">
+    <link href="/css/page.css" rel="stylesheet">
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -32,13 +32,11 @@
     <!--<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/bootstrap-apple-114x114.png">-->
 
     <!-- Le javascript -->
+    <!--<script src="/js/lib/require.1.0.4.js"></script>-->
     <script src="/js/jquery.min.js"></script>
     <script src="/js/prettify.js"></script>
+    <script src="/js/toc.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/jquery.jsonp.js"></script>
-    <script src="/js/mustache.js"></script>
-    <script src="/js/apps/github.js"></script>
-    <script src="/js/apps/twitter.js"></script>
 </head>
 
   <body data-spy="scroll" data-target=".subnav" data-offset="50">
@@ -77,108 +75,73 @@
     </div>
 
 
-    <div class="container page-category">
+    <div class="container page-page">
+    <!--<div class="row">-->
+        <!--<div class="span12">-->
+            <!--<div class="subnav">-->
+                <!--<ul class="nav nav-pills">-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
     <div class="row">
-        <div class="span3">
-                        <div class="well">
-                <ul class="nav nav-list">
-                    <li class="nav-header">Categories</li>
-                    <li class=""><a href="/category"><i class="icon-home"></i> Home</a></li>
-                    
-                    <li><a href="/category/javascript"><i class="icon-book"></i> javascript</a></li>
-                    
-                    <li><a href="/category/javascript core"><i class="icon-book"></i> javascript core</a></li>
-                    
-                    <li><a href="/category/couchdb"><i class="icon-book"></i> couchdb</a></li>
-                    
-                    <li><a href="/category/node.js"><i class="icon-book"></i> node.js</a></li>
-                    
-                    <li><a href="/category/conference"><i class="icon-book"></i> conference</a></li>
-                    
-                    <li><a href="/category/frends"><i class="icon-book"></i> frends</a></li>
-                    
-                    <li><a href="/category/notice"><i class="icon-book"></i> notice</a></li>
-                    
-                    <li><a href="/category/google"><i class="icon-book"></i> google</a></li>
-                    
-                    <li><a href="/category/html5"><i class="icon-book"></i> html5</a></li>
-                    
-                    <li><a href="/category/jquery"><i class="icon-book"></i> jquery</a></li>
-                    
-                    <li><a href="/category/java"><i class="icon-book"></i> java</a></li>
-                    
-                    <li><a href="/category/news"><i class="icon-book"></i> news</a></li>
-                    
-                    <li><a href="/category/rhino"><i class="icon-book"></i> rhino</a></li>
-                    
-                    <li><a href="/category/css3"><i class="icon-book"></i> css3</a></li>
-                    
-                    <li><a href="/category/tech"><i class="icon-book"></i> tech</a></li>
-                    
+        <div class="span12">
+            <div class="well markdown">
+                <ul class="unstyled share pull-right">
+                    <li class="twitter">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://frends.kr/projects/" data-via="haroopress" data-hashtags="haroopress">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        <!--a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                        <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script-->
+                    </li>
+                    <li class="facebook">
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) {return;}
+                          js = d.createElement(s); js.id = id;
+                          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                        <div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+                    </li>
+                    <li class="google">
+                        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+                        <g:plusone size="medium"></g:plusone>
+                    </li>
                 </ul>
-            </div>
+                <h2>FRENDS Projects</h2>
 
-                
-    <div class="well contributors">
-        <div class="pull-right">
-            <a href="/authors"><i class=" icon-info-sign"></i></a>
-        </div>
-        <h6>contributors</h6>
-        
-        <div class="row-fluid">
-            <a class="pull-left" href="/authors/frends" title="undefined">
-                <img src="http://www.gravatar.com/avatar/530bec4a6751956e844e9de52cc75f0a?r=pg&amp;s=128.jpg&amp;d=identicon" />
-            </a>
-            <p>
-                <strong>frends</strong><br/>
-                <a href="https://twitter.com/#!/frends_kr" target="_blank">@frends_kr</a>
-            </p>
-        </div>
-        <hr>
-        
-        <div class="row-fluid">
-            <a class="pull-left" href="/authors/Rhio Kim" title="undefined">
-                <img src="http://www.gravatar.com/avatar/0764d73c228492e36b339d8b6d7293ad?r=pg&amp;s=128.jpg&amp;d=identicon" />
-            </a>
-            <p>
-                <strong>Rhio Kim</strong><br/>
-                <a href="https://twitter.com/#!/rhiokim" target="_blank">@rhiokim</a>
-            </p>
-        </div>
-        <hr>
-        
-        <div class="row-fluid">
-            <a class="pull-left" href="/authors/nanhapark" title="undefined">
-                <img src="http://www.gravatar.com/avatar/2742e7d0ee5074de9ead238db2462f4d?r=pg&amp;s=128.jpg&amp;d=identicon" />
-            </a>
-            <p>
-                <strong>nanhapark</strong><br/>
-                <a href="https://twitter.com/#!/nanhapark" target="_blank">@nanhapark</a>
-            </p>
-        </div>
-        <hr>
-        
-    </div>
-    
-        </div>
-        <div class="span9">
-            <div class="well">
-                <div class="page-header">
-                    <h1>Topic : tech</h1>
-                </div>
-                <div class="row">
-                    <div class="span9">
-                        <ul>
-                    
-                            <li>
-                                <h3>
-                                    <a href="/post/web-risoseu-coejeoghwa-gibeob-gonggae-mozilla">JavaScript/CSS 압축 최적화 80초에서 6초로 단축 기법 공개 – Mozilla</a> <small>by Rhio Kim</small>
-                                </h3>
-                            </li>
-                    
-                        </ul>
-                    </div>
-                </div>
+<p>FRENDS 멤버들이 진행하고 있는 오픈소스 프로젝트</p>
+
+<h3>FRENDS Monthly Hackathon</h3>
+
+<p>FRENDS 해카톤은 매달 2째주 목요일에 진행되며 특정 소재를 정하고 이를 바탕으로 아이디어를 구현하는 행사입니다.</p>
+
+<h4>HTML5 - Storage</h4>
+
+<ul>
+<li>date : 2012.08.09</li>
+<li>repository : <a href="https://github.com/frends/FRENDS_Monthly_Hackathon"><a href="https://github.com/frends/FRENDS_Monthly_Hackathon">https://github.com/frends/FRENDS_Monthly_Hackathon</a></a></li>
+</ul>
+
+<h4>Ideas</h4>
+
+<ul>
+<li><p>rhiokim</p>
+
+<ul>
+<li>idea : idea 설명</li>
+<li>repository : <a href="https://github.com/frends"><a href="https://github.com/frends">https://github.com/frends</a></a></li>
+</ul></li>
+<li><p>zziuni</p>
+
+<ul>
+<li>idea : idea 설명</li>
+<li>repository : <a href="https://github.com/frends"><a href="https://github.com/frends">https://github.com/frends</a></a></li>
+</ul></li>
+</ul>
+
             </div>
         </div>
     </div>
@@ -200,9 +163,38 @@
         </div>
     </footer>
 
+    <!-- Le javascript -->
+    <!--<script src="/js/lib/require.1.0.4.js"></script>-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/prettify.js"></script>
+    <script src="/js/apps/toc.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script>
         $('pre > code').parent().addClass('prettyprint linenums');
         prettyPrint();
+
+        // fix sub nav on scroll
+        var $win = $(window)
+          , $nav = $('.subnav')
+          , navTop = $('.subnav').length && $('.subnav').offset().top - 40
+          , isFixed = 0
+
+        processScroll()
+
+        $win.on('scroll', processScroll)
+
+        function processScroll() {
+          var i, scrollTop = $win.scrollTop()
+          if (scrollTop >= navTop && !isFixed) {
+            isFixed = 1
+            $nav.addClass('subnav-fixed')
+          } else if (scrollTop <= navTop && isFixed) {
+            isFixed = 0
+            $nav.removeClass('subnav-fixed')
+          }
+        }
+
+
     </script>
     
     <script type="text/javascript">
